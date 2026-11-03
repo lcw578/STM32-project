@@ -40,6 +40,8 @@
 
 ## 二、组员如何用 AI 接手进度（核心）
 
+> **工程链接**：[开源主页（oshwhub）](https://oshwhub.com/licw0615/project_fbaspzcp) · [编辑器直开](https://pro.lceda.cn/editor#id=35d238ebf1a643c5b3bafc39cbf5699f)
+
 ### 1. 环境准备（每人）
 
 1. **嘉立创 EDA 专业版**：官网下载；工程主人（lcw578）在 EDA 内把项目分享给你（见下方"工程分享"）。
