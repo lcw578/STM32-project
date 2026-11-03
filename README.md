@@ -42,6 +42,17 @@
 
 > **工程链接**：[开源主页（oshwhub）](https://oshwhub.com/licw0615/project_fbaspzcp) · [编辑器直开](https://pro.lceda.cn/editor#id=35d238ebf1a643c5b3bafc39cbf5699f)
 
+### 调试接口线序（J3/J4，接线必读）
+
+| 口 | 用途 | pin1 | pin2 | pin3 | pin4 | 对接规则 |
+|---|---|---|---|---|---|---|
+| **J3** | SWD 烧录（ST-Link） | 3V3 | SWDIO | SWCLK | GND | 同名直连；杜邦线一根根接 |
+| **J4** | 串口台（USB-TTL） | UART_TX | UART_RX | 3V3 | GND | **TX/RX 交叉**：板 TX → TTL 的 RX，板 RX → TTL 的 TX |
+
+- 两个口的 GND 都在 pin4，即使拿错线序也不会电源反接；但 J4 的 3V3 在 pin3（与 J3 不同），插错位置串口会不通，照上表接线即可。
+- 两个插头**物理上不能同时插**（间距冲突），一次只用一个。
+- 板未上电时先接 J3 烧录，再上电；串口台随时可接。
+
 ### 1. 环境准备（每人）
 
 1. **嘉立创 EDA 专业版**：官网下载；工程主人（lcw578）在 EDA 内把项目分享给你（见下方"工程分享"）。
