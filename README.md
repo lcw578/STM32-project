@@ -31,7 +31,7 @@
 | — | `sim/` | Python 开关级仿真（ctrl/）+ ngspice 网表（ltspice/） |
 | — | `firmware/` | STM32 固件源码（CubeIDE 工程的 Core 部分） |
 | — | `sch_work/` | 全过程证据：网表快照、DRC 报告、BOM、3D 导出、布局图 |
-| — | `嘉立创打样文件_v2_final.zip` | **发板用的 Gerber（终版）** |
+| — | `嘉立创打样文件_v2.1_teardrop.zip` | **发板用的 Gerber（v2.1，含泪滴）** |
 | — | `easyeda-agent-connector-1.16.0.eext` | EasyEDA AI 协作连接器（组员装同款） |
 
 `tools/`（ngspice 免装版二进制）与 `sim/ltspice/*.raw`（波形原始数据，可由 `.cir` 重跑再生）未入库。
@@ -107,7 +107,7 @@ EOF
 
 | 用途 | 文件 |
 |---|---|
-| PCB 打样 | `嘉立创打样文件_v2_final.zip`（2 层 70×50，5 片） |
+| PCB 打样 | `嘉立创打样文件_v2.1_teardrop.zip`（2 层 70×50，5 片，**含补泪滴**——焊盘结合强度更好） |
 | SMT 贴片 | `sch_work/BOM_v2.csv` + `sch_work/placement_v2_final.csv` |
 | 结构件（另购） | `sch_work/BOM_结构件.csv`（**M3 15mm 铜柱×4**——C5 底面凸出 12.64mm，10mm 会顶桌面） |
 
@@ -117,7 +117,7 @@ EOF
 
 | ⬜ | 事项 | 说明 |
 |---|---|---|
-| ⬜ | **下单打板** | 上传 `嘉立创打样文件_v2_final.zip`（2 层 70×50，5 片）；走 SMT 加传 `BOM_v2.csv`+`placement_v2_final.csv` |
+| ⬜ | **下单打板** | 上传 `嘉立创打样文件_v2.1_teardrop.zip`（2 层 70×50，5 片）；走 SMT 加传 `BOM_v2.csv`+`placement_v2_final.csv` |
 | ⬜ | **分享 EDA 工程** | 工程主人从嘉立创 EDA 内把 `boost-cccv-psu` 分享给组员（见 §二.1），组员才能用 AI 协作改图 |
 | ⬜ | **建立 CubeIDE 工程** | 按 §四 导入固件源码并编译通过（上板前完成） |
 | ⬜ | **复核 L1 数据手册** | 打开立创 C41384377 详情页，对照 FSA1365 手册确认 **Isat 4A / DCR 170mΩ** 两个数 |
