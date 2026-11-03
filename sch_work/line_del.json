@@ -1,0 +1,12 @@
+{
+  "id": "req_4951",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-11-03T16:29:46.7877057Z",
+  "ok": false,
+  "error": {
+    "code": "UNKNOWN_ACTION",
+    "message": "unknown action: pcb.line.delete",
+    "detail": "run `easyeda actions` for the supported set"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "req_4918",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-11-03T16:03:15.617266Z",
+  "ok": false,
+  "error": {
+    "code": "CONNECTOR_QUEUE_BLOCKED",
+    "message": "the connector's action queue is blocked by schematic.component.place (req_4916) for 3s — this action was NOT sent; do NOT re-issue the write (the wedged handler is still running and its effect may land later)",
+    "detail": "proof: a light QUEUED read (project.current, normally ~3ms) has been unanswered for 3.4s, while a recent BYPASS read document.current succeeded. Queued reads remain stalled after schematic.component.place (req_4916). Next step: wait — the daemon re-checks by itself and this refusal stops the moment the queue drains. If it never drains, bring the EasyEDA window to the FOREGROUND (background windows are where handlers wedge) and restart EasyEDA; then verify what actually landed with a read before re-issuing anything."
+  }
+}

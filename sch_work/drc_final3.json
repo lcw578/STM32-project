@@ -1,0 +1,43 @@
+{
+  "id": "req_4980",
+  "type": "response",
+  "version": "v1",
+  "windowId": "1912acf3-30c8-43ab-910d-8b45526cc564",
+  "createdAt": "2026-11-03T16:35:47.5020988Z",
+  "ok": true,
+  "result": {
+    "value": "[{\"name\":\"Connection Error\",\"list\":[{\"name\":\"VIN_RAW\",\"list\":[{\"visible\":true,\"errorType\":\"Connection Error\",\"errorObjType\":\"SMD Pad\",\"ruleName\":\"Common\",\"obj1\":{\"typeName\":\"SMD Pad\",\"suffix\":\"(VIN_RAW): F1_1\"},\"isFree\":false,\"net\":\"VIN_RAW\",\"explanation\":{\"str\":\"{obj1} is disconnected from other objects of the same network\",\"param\":{\"obj1\":\"Object 1\",\"type\":\"ConnectError\"},\"errData\":{\"globalIndex\":\"err192\",\"position\":{\"x\":3.0429000000000013,\"y\":-24.78663999999992},\"name\":\"Common\",\"obj1\":\"323c2b86c869539de3\",\"obj1Type\":\"SMD Pad\",\"net\":\"VIN_RAW\",\"isFree\":false,\"layerIds\":[1],\"errorType\":\"No Connection\",\"obj1Suffix\":\"(VIN_RAW): F1_1\"}},\"objs\":[\"323c2b86c869539de3\"],\"globalIndex\":\"err192\",\"pos\":{\"x\":3.0429000000000013,\"y\":-24.78663999999992},\"parentId\":\"DRCTab|_|Errors|_|Connection Error|_|VIN_RAW\"},{\"visible\":true,\"errorType\":\"Connection Error\",\"errorObjType\":\"TH Pad\",\"ruleName\":\"Common\",\"obj1\":{\"typeName\":\"TH Pad\",\"suffix\":\"(VIN_RAW): J1_1\"},\"isFree\":false,\"net\":\"VIN_RAW\",\"explanation\":{\"str\":\"{obj1} is disconnected from other objects of the same network\",\"param\":{\"obj1\":\"Object 1\",\"type\":\"ConnectError\"},\"errData\":{\"globalIndex\":\"err193\",\"position\":{\"x\":13.887099999999997,\"y\":147.53255},\"name\":\"Common\",\"obj1\":\"52be3ecb5a7a6ae2e21\",\"obj1Type\":\"TH Pad\",\"net\":\"VIN_RAW\",\"isFree\":false,\"layerIds\":[12],\"errorType\":\"No Connection\",\"obj1Suffix\":\"(VIN_RAW): J1_1\"}},\"objs\":[\"52be3ecb5a7a6ae2e21\"],\"globalIndex\":\"err193\",\"pos\":{\"x\":13.887099999999997,\"y\":147.53255},\"parentId\":\"DRCTab|_|Errors|_|Connection Error|_|VIN_RAW\"}],\"doNotTranslate\":true,\"count\":2,\"title\":\"VIN_RAW (2)\",\"visible\":true},{\"name\":\"VIN_5V\",\"list\":[{\"visible\":true,\"errorType\":\"Connection Error\",\"errorObjType\":\"SMD Pad\",\"ruleName\":\"Common\",\"obj1\":{\"typeName\":\"SMD Pad\",\"suffix\":\"(VIN_5V): C3_1\"},\"isFree\":false,\"net\":\"VIN_5V\",\"explanation\":{\"str\":\"{obj1} is disconnected from other objects of the same network\",\"param\":{\"obj1\":\"Object 1\",\"type\":\"ConnectError\"},\"errData\":{\"globalIndex\":\"err194\",\"position\":{\"x\":10.73,\"y\":39},\"name\":\"Common\",\"obj1\":\"7ddbedcd4e7def27e8\",\"obj1Type\":\"SMD Pad\",\"net\":\"VIN_5V\",\"isFree\":false,\"layerIds\":[1],\"errorType\":\"No Connection\",\"obj1Suffix\":\"(VIN_5V): C3_1\"}},\"objs\":[\"7ddbedcd4e7def27e8\"],\"globalIndex\":\"err194\",\"pos\":{\"x\":10.73,\"y\":39},\"parentId\":\"DRCTab|_|Errors|_|Connection Error|_|VIN_5V\"},{\"visible\":true,\"errorType\":\"Connection Error\",\"errorObjType\":\"SMD Pad\",\"ruleName\":\"Common\",\"obj1\":{\"typeName\":\"SMD Pad\",\"suffix\":\"(VIN_5V): F1_2\"},\"isFree\":false,\"net\":\"VIN_5V\",\"explanation\":{\"str\":\"{obj1} is disconnected from other objects of the same network\",\"param\":{\"obj1\":\"Object 1\",\"type\":\"ConnectError\"},\"errData\":{\"globalIndex\":\"err195\",\"position\":{\"x\":14.420900000000001,\"y\":-24.78663999999992},\"name\":\"Common\",\"obj1\":\"323c2b86c869539de4\",\"obj1Type\":\"SMD Pad\",\"net\":\"VIN_5V\",\"isFree\":false,\"layerIds\":[1],\"errorType\":\"No Connection\",\"obj1Suffix\":\"(VIN_5V): F1_2\"}},\"objs\":[\"323c2b86c869539de4\"],\"globalIndex\":\"err195\",\"pos\":{\"x\":14.420900000000001,\"y\":-24.78663999999992},\"parentId\":\"DRCTab|_|Errors|_|Connection Error|_|VIN_5V\"}],\"doNotTranslate\":true,\"count\":2,\"title\":\"VIN_5V (2)\",\"visible\":true}],\"visible\":true,\"count\":4,\"title\":[\"Connection Error\",\"(4)\"]}]"
+  },
+  "context": {
+    "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+    "projectName": "boost-cccv-psu",
+    "documentUuid": "b31183190bec91b8",
+    "documentType": "pcb",
+    "tabId": "b31183190bec91b8@35d238ebf1a643c5b3bafc39cbf5699f",
+    "pageVisibility": "hidden"
+  },
+  "mutationContext": {
+    "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+    "projectName": "boost-cccv-psu",
+    "documentUuid": "b31183190bec91b8",
+    "documentType": "pcb",
+    "tabId": "b31183190bec91b8@35d238ebf1a643c5b3bafc39cbf5699f",
+    "pageVisibility": "hidden"
+  },
+  "mutationContextAvailable": true,
+  "seq": 3153,
+  "seqAbandoned": 11,
+  "abandonedIds": [
+    "req_765",
+    "req_766",
+    "req_831",
+    "req_2972",
+    "req_3131",
+    "req_3133",
+    "req_3218",
+    "req_4910",
+    "req_4916",
+    "req_4922",
+    "req_4965"
+  ]
+}

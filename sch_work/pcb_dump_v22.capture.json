@@ -1,0 +1,248 @@
+{
+  "availability": {
+    "components": "available",
+    "copper": "not-requested",
+    "layers": "available",
+    "outline": "available",
+    "routedLines": "available",
+    "rules": "available",
+    "silk": "available"
+  },
+  "bytes": 246955,
+  "capture": {
+    "windowId": "1912acf3-30c8-43ab-910d-8b45526cc564",
+    "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+    "projectName": "boost-cccv-psu",
+    "documentUuid": "b31183190bec91b8",
+    "documentType": "pcb",
+    "tabId": "b31183190bec91b8@35d238ebf1a643c5b3bafc39cbf5699f",
+    "startedAt": "2026-11-03T16:38:36.2324161Z",
+    "completedAt": "2026-11-03T16:38:37.0487185Z",
+    "consistency": "sequential-response-boundaries",
+    "identityVerified": true,
+    "requests": [
+      {
+        "action": "pcb.components.list",
+        "requestId": "req_4984",
+        "windowId": "1912acf3-30c8-43ab-910d-8b45526cc564",
+        "startedAt": "2026-11-03T16:38:36.2324161Z",
+        "completedAt": "2026-11-03T16:38:36.5400992Z",
+        "responseCreatedAt": "2026-11-03T16:38:36.5212643Z",
+        "resultSha256": "b0b6b294021ccfa26c995fb8b9c23e6de5fb1ec60d0743d63e1e86cbb35ae53e",
+        "context": {
+          "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+          "projectName": "boost-cccv-psu",
+          "documentUuid": "b31183190bec91b8",
+          "documentType": "pcb",
+          "tabId": "b31183190bec91b8@35d238ebf1a643c5b3bafc39cbf5699f"
+        },
+        "sequence": {
+          "Known": true,
+          "Seq": 3155,
+          "SeqAbandoned": 11,
+          "Unordered": false,
+          "AbandonedIDs": [
+            "req_765",
+            "req_766",
+            "req_831",
+            "req_2972",
+            "req_3131",
+            "req_3133",
+            "req_3218",
+            "req_4910",
+            "req_4916",
+            "req_4922",
+            "req_4965"
+          ]
+        },
+        "status": "available"
+      },
+      {
+        "action": "pcb.outline.get",
+        "requestId": "req_4985",
+        "windowId": "1912acf3-30c8-43ab-910d-8b45526cc564",
+        "startedAt": "2026-11-03T16:38:36.542335Z",
+        "completedAt": "2026-11-03T16:38:36.580832Z",
+        "responseCreatedAt": "2026-11-03T16:38:36.578409Z",
+        "resultSha256": "8b93590cb9532d15f1d90a5195a0fd1deded846b3edf29e8244a76966e0873d6",
+        "context": {
+          "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+          "projectName": "boost-cccv-psu",
+          "documentUuid": "b31183190bec91b8",
+          "documentType": "pcb",
+          "tabId": "b31183190bec91b8@35d238ebf1a643c5b3bafc39cbf5699f"
+        },
+        "sequence": {
+          "Known": true,
+          "Seq": 3156,
+          "SeqAbandoned": 11,
+          "Unordered": false,
+          "AbandonedIDs": [
+            "req_765",
+            "req_766",
+            "req_831",
+            "req_2972",
+            "req_3131",
+            "req_3133",
+            "req_3218",
+            "req_4910",
+            "req_4916",
+            "req_4922",
+            "req_4965"
+          ]
+        },
+        "status": "available"
+      },
+      {
+        "action": "pcb.line.list",
+        "requestId": "req_4986",
+        "windowId": "1912acf3-30c8-43ab-910d-8b45526cc564",
+        "startedAt": "2026-11-03T16:38:36.580832Z",
+        "completedAt": "2026-11-03T16:38:36.6278348Z",
+        "responseCreatedAt": "2026-11-03T16:38:36.6106605Z",
+        "resultSha256": "5939a18e17cc948c47dbfdc701dccc12bbd4b939f7f7e690c61fd485a151030e",
+        "context": {
+          "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+          "projectName": "boost-cccv-psu",
+          "documentUuid": "b31183190bec91b8",
+          "documentType": "pcb",
+          "tabId": "b31183190bec91b8@35d238ebf1a643c5b3bafc39cbf5699f"
+        },
+        "sequence": {
+          "Known": true,
+          "Seq": 3157,
+          "SeqAbandoned": 11,
+          "Unordered": false,
+          "AbandonedIDs": [
+            "req_765",
+            "req_766",
+            "req_831",
+            "req_2972",
+            "req_3131",
+            "req_3133",
+            "req_3218",
+            "req_4910",
+            "req_4916",
+            "req_4922",
+            "req_4965"
+          ]
+        },
+        "status": "available"
+      },
+      {
+        "action": "pcb.silk.list",
+        "requestId": "req_4987",
+        "windowId": "1912acf3-30c8-43ab-910d-8b45526cc564",
+        "startedAt": "2026-11-03T16:38:36.6284039Z",
+        "completedAt": "2026-11-03T16:38:36.8088905Z",
+        "responseCreatedAt": "2026-11-03T16:38:36.7937038Z",
+        "resultSha256": "801e9a1ec730963b6b544e3a66e6bbd9c4d8702444614e7d2d1bd845ed83f0a1",
+        "context": {
+          "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+          "projectName": "boost-cccv-psu",
+          "documentUuid": "b31183190bec91b8",
+          "documentType": "pcb",
+          "tabId": "b31183190bec91b8@35d238ebf1a643c5b3bafc39cbf5699f"
+        },
+        "sequence": {
+          "Known": true,
+          "Seq": 3158,
+          "SeqAbandoned": 11,
+          "Unordered": false,
+          "AbandonedIDs": [
+            "req_765",
+            "req_766",
+            "req_831",
+            "req_2972",
+            "req_3131",
+            "req_3133",
+            "req_3218",
+            "req_4910",
+            "req_4916",
+            "req_4922",
+            "req_4965"
+          ]
+        },
+        "status": "available"
+      },
+      {
+        "action": "pcb.drc.rules",
+        "requestId": "req_4988",
+        "windowId": "1912acf3-30c8-43ab-910d-8b45526cc564",
+        "startedAt": "2026-11-03T16:38:36.8109357Z",
+        "completedAt": "2026-11-03T16:38:36.8467477Z",
+        "responseCreatedAt": "2026-11-03T16:38:36.8442707Z",
+        "resultSha256": "babc649d2183ef7311e05c6d0fe627e5cfb7b632f53d84f0637f5b26d297cd63",
+        "context": {
+          "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+          "projectName": "boost-cccv-psu",
+          "documentUuid": "b31183190bec91b8",
+          "documentType": "pcb",
+          "tabId": "b31183190bec91b8@35d238ebf1a643c5b3bafc39cbf5699f"
+        },
+        "sequence": {
+          "Known": true,
+          "Seq": 3159,
+          "SeqAbandoned": 11,
+          "Unordered": false,
+          "AbandonedIDs": [
+            "req_765",
+            "req_766",
+            "req_831",
+            "req_2972",
+            "req_3131",
+            "req_3133",
+            "req_3218",
+            "req_4910",
+            "req_4916",
+            "req_4922",
+            "req_4965"
+          ]
+        },
+        "status": "available"
+      },
+      {
+        "action": "pcb.layers.list",
+        "requestId": "req_4989",
+        "windowId": "1912acf3-30c8-43ab-910d-8b45526cc564",
+        "startedAt": "2026-11-03T16:38:36.8467477Z",
+        "completedAt": "2026-11-03T16:38:37.0487185Z",
+        "responseCreatedAt": "2026-11-03T16:38:37.0393692Z",
+        "resultSha256": "82788987d9e99a55276ecff8271586968a7ce280231693d701c7a748c4ccc9a1",
+        "context": {
+          "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+          "projectName": "boost-cccv-psu",
+          "documentUuid": "b31183190bec91b8",
+          "documentType": "pcb",
+          "tabId": "b31183190bec91b8@35d238ebf1a643c5b3bafc39cbf5699f"
+        },
+        "sequence": {
+          "Known": true,
+          "Seq": 3160,
+          "SeqAbandoned": 11,
+          "Unordered": false,
+          "AbandonedIDs": [
+            "req_765",
+            "req_766",
+            "req_831",
+            "req_2972",
+            "req_3131",
+            "req_3133",
+            "req_3218",
+            "req_4910",
+            "req_4916",
+            "req_4922",
+            "req_4965"
+          ]
+        },
+        "status": "available"
+      }
+    ]
+  },
+  "capturedAt": "2026-11-03T16:38:36.2324161Z",
+  "kind": "pcb-dump-file",
+  "partial": null,
+  "sha256": "c059615a6d1268507a0d85b33d9025c69b2928f347c0343f7a7eb6a93d49187c",
+  "snapshot": "pcb_dump_v22",
+  "version": 1
+}

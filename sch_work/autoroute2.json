@@ -1,0 +1,2 @@
+official auto-route (existing copper kept): map[cornerStyle:45 ignoreNets:[GND] layers:[1 2] optimization:completion] — may take minutes
+pcb.route.auto failed: autoRouting changed nothing (router report: {"success":true,"totalNetsCount":27,"successNetsCount":1,"failedNets":["LED1_C","PWR_LED","LED3_C","CC_LED","LED2_C","OSC_IN","NRST","VSENSE","PWM_B","PWM","UART_RX","UART_TX","SWCLK","OSC_OUT","BOOT0","CV_LED","SWDIO","VIN_RAW","VIN_5V","MID","GATE","VLOAD","ISENSE","VMID","SW","VOUT"],"duration":93066}).
