@@ -1,0 +1,321 @@
+{
+  "id": "req_55",
+  "type": "response",
+  "version": "v1",
+  "windowId": "83302bfd-0891-48fb-a994-944e13151630",
+  "createdAt": "2026-11-01T16:58:06.2934328Z",
+  "ok": true,
+  "result": {
+    "components": [
+      {
+        "description": "CPU内核:ARM-M3;CPU最大主频:72MHz;应用领域:-;",
+        "lcsc": "C8734",
+        "libraryUuid": "6aede4de65594a5baf0eaead531cce90",
+        "manufacturer": "ST(意法半导体)",
+        "manufacturerId": "STM32F103C8T6",
+        "name": "STM32F103C8T6",
+        "symbolName": "",
+        "uuid": "066c01af0a2b4c948d642f3d5061873e"
+      },
+      {
+        "description": "",
+        "lcsc": "C8734",
+        "libraryUuid": "985f2afd9a3f46f3891dff888862cdeb",
+        "manufacturer": "ST(意法半导体)",
+        "manufacturerId": "STM32F103C8T6",
+        "name": "STM32F103C8T6",
+        "symbolName": "",
+        "uuid": "086dcd43e47145a78159768d9f0ffd0d"
+      },
+      {
+        "description": "",
+        "lcsc": "C8734",
+        "libraryUuid": "38f848e22b6346d38bb7ced09c17fa18",
+        "manufacturer": "ST(意法半导体)",
+        "manufacturerId": "STM32F103C8T6",
+        "name": "STM32F103C8T6",
+        "symbolName": "",
+        "uuid": "276eb75f8192446aa84eec99c20b5b9c"
+      },
+      {
+        "description": "",
+        "lcsc": "C8734",
+        "libraryUuid": "cdfd78bcf9044ec1a7e96c59179d0af5",
+        "manufacturer": "STMicroelectronics",
+        "manufacturerId": "STM32F103C8T6",
+        "name": "STM32F103C8T6",
+        "symbolName": "",
+        "uuid": "4385e3f2f0c04ee1bba1bf64eb7307da"
+      },
+      {
+        "description": "CPU内核:CM3;程序存储容量:64KB;RAM总容量:20KB;GPIO端口数量:37;工作电压范围:2V~3.6V;CPU最大主频:72MHz;程序存储器类型:FLASH;",
+        "lcsc": "C8734",
+        "libraryUuid": "8c29f338d4844f3d9e28451f2fe8a56b",
+        "manufacturer": "ST(意法半导体)",
+        "manufacturerId": "STM32F103C8T6",
+        "name": "STM32F103C8T6",
+        "symbolName": "",
+        "uuid": "5a0e5ed6c5e54feaaa6affd4a4256ee8"
+      },
+      {
+        "description": "CPU内核:ARM-M3;CPU最大主频:72MHz;应用领域:-;",
+        "lcsc": "C8734",
+        "libraryUuid": "6093d2df824a4bfb8d21421f0dfa0ed3",
+        "manufacturer": "ST(意法半导体)",
+        "manufacturerId": "STM32F103C8T6",
+        "name": "STM32F103C8T6",
+        "symbolName": "",
+        "uuid": "74de5f5754344b1f85cadcb4f1ac220d"
+      },
+      {
+        "description": "CPU内核:ARM Cortex-M3;CPU最大主频:72MHz;程序存储容量:64KB;程序存储器类型:FLASH;RAM总容量:20KB;GPIO端口数量:37;",
+        "lcsc": "C8734",
+        "libraryUuid": "a554baf3abb946c0ba478dd9cf84cf39",
+        "manufacturer": "ST(意法半导体)",
+        "manufacturerId": "STM32F103C8T6",
+        "name": "STM32F103C8T6",
+        "symbolName": "",
+        "uuid": "7b4a307c2fca480f9aec960d9c15d996"
+      },
+      {
+        "description": "",
+        "lcsc": "C8734",
+        "libraryUuid": "82eb265106924de795f59d5a57735c15",
+        "manufacturer": "ST(意法半导体)",
+        "manufacturerId": "STM32F103C8T6",
+        "name": "STM32F103C8T6",
+        "symbolName": "",
+        "uuid": "a0a4a532da9a4ca481b2b9185ba8de3b"
+      },
+      {
+        "description": "",
+        "lcsc": "C8734",
+        "libraryUuid": "3334023a9a844138899a279021b22978",
+        "manufacturer": "ST(意法半导体)",
+        "manufacturerId": "STM32F103C8T6",
+        "name": "STM32F103C8T6",
+        "symbolName": "",
+        "uuid": "a7053d37647e40ab8fbb28ea44151526"
+      },
+      {
+        "description": "CPU内核:ARM Cortex-M3;CPU最大主频:72MHz;工作电压范围:2V~3.6V;内部振荡器:有;程序 FLASH容量:64K@x8bit;RAM总容量:20KB;EEPROM/数据 FLASH容量:-;GPIO端口数量:37;ADC(单元数/通道数/位数):1@x10ch/12bit;外设/功能/协议栈:温度传感器；DMA；看门狗；POR；PWM;工作温度范围:-40℃~+85℃",
+        "lcsc": "C8734",
+        "libraryUuid": "35e3571e514c4be3bd236acca4af8151",
+        "manufacturer": "ST(意法半导体)",
+        "manufacturerId": "STM32F103C8T6",
+        "name": "STM32F103C8T6",
+        "symbolName": "",
+        "uuid": "cfdd40a38f6b4cffbf1fba6a962debfc"
+      },
+      {
+        "description": "CPU内核:ARM-M3;CPU最大主频:72MHz;应用领域:-;",
+        "lcsc": "C8734",
+        "libraryUuid": "49895add37aa4a1b8ec7e714ca26c368",
+        "manufacturer": "ST(意法半导体)",
+        "manufacturerId": "STM32F103C8T6",
+        "name": "STM32F103C8T6",
+        "symbolName": "",
+        "uuid": "dfdd864a724a42e3ac2099d149f215f2"
+      },
+      {
+        "description": "",
+        "lcsc": "C8734",
+        "libraryUuid": "df26522ce38d4edeaf7304bbb0314976",
+        "manufacturer": "无",
+        "manufacturerId": "STM32F103C8T6最小系统模块",
+        "name": "STM32F103C8T6最小系统板",
+        "symbolName": "",
+        "uuid": "e20b53e68719477e9ce1ef1e30df6cac"
+      },
+      {
+        "description": "CPU内核:ARM-M3;CPU最大主频:72MHz;应用领域:-;",
+        "lcsc": "C8734",
+        "libraryUuid": "a90dc6705b1d4e04a469c206b3f7552a",
+        "manufacturer": "ST(意法半导体)",
+        "manufacturerId": "STM32F103C8T6",
+        "name": "STM32F103C8T6",
+        "symbolName": "",
+        "uuid": "e8f36af914384c36bf3e11a2cc356fa1"
+      },
+      {
+        "description": "输出类型:固定;最大输入电压:6V;输出电压:3.3V;最大输出电流:500mA;电源纹波抑制比(PSRR):70dB;输出极性:正极;",
+        "lcsc": "C82942",
+        "libraryUuid": "322655e66ba54a5bb17627730285c099",
+        "manufacturer": "MICRONE(南京微盟)",
+        "manufacturerId": "ME6211C33M5G-N",
+        "name": "ME6211C33M5G-N",
+        "symbolName": "",
+        "uuid": "7aabd554ce2b4bd49cdf5bdf9473cfb0"
+      },
+      {
+        "description": "输出类型:固定;工作电压:6V;输出电压:3.3V;输出电流:500mA;电源纹波抑制比(PSRR):70dB@(1kHz);输出极性:正极;",
+        "lcsc": "C82942",
+        "libraryUuid": "15a9a00a16b54ccf8845d63abe1deb08",
+        "manufacturer": "MICRONE(南京微盟)",
+        "manufacturerId": "ME6211C33M5G-N",
+        "name": "ME6211C33M5G-N",
+        "symbolName": "",
+        "uuid": "8f5135ba1f0d4930bb3c30e47bc2314e"
+      },
+      {
+        "description": "输出类型:固定;工作电压:6V;输出电压:3.3V;输出电流:500mA;电源纹波抑制比(PSRR):70dB@(1kHz);输出极性:正极;",
+        "lcsc": "C82942",
+        "libraryUuid": "381ccab4f84548af8e89e7ab381b1e46",
+        "manufacturer": "MICRONE(南京微盟)",
+        "manufacturerId": "ME6211C33M5G-N",
+        "name": "ME6211C33M5G-N",
+        "symbolName": "",
+        "uuid": "a13fc273d37a4b879d523b8c886baae0"
+      },
+      {
+        "description": "",
+        "lcsc": "C64982",
+        "libraryUuid": "9ab3cf821a5f4f7d8d7fd38c437e504c",
+        "manufacturer": "MDD",
+        "manufacturerId": "B340A",
+        "name": "B340A",
+        "symbolName": "",
+        "uuid": "383f61f3d2a14bbdaf6b529a70a9b8c3"
+      },
+      {
+        "description": "二极管配置:独立式;正向压降(Vf):550mV@3A;直流反向耐压(Vr):40V;整流电流:3A;",
+        "lcsc": "C64982",
+        "libraryUuid": "21441c209c2a47b6ba4b9f71db1c5ec2",
+        "manufacturer": "MDD(辰达半导体)",
+        "manufacturerId": "B340A",
+        "name": "B340A",
+        "symbolName": "",
+        "uuid": "dd460df364884710aa60ec5d4fcf7de6"
+      },
+      {
+        "description": "",
+        "lcsc": "C64982",
+        "libraryUuid": "5549c5f26644484cbf7491900cc83c96",
+        "manufacturer": "MDD",
+        "manufacturerId": "B340A",
+        "name": "B340A",
+        "symbolName": "",
+        "uuid": "f755b9f96d304efa82b0634de42e4c94"
+      },
+      {
+        "description": "",
+        "lcsc": "C474881",
+        "libraryUuid": "fe0bb88d7da147e6b6110cd7bb84754f",
+        "manufacturer": "KEFA(科发)",
+        "manufacturerId": "KF301-5.0-2P",
+        "name": "KF301-5.0-2P",
+        "symbolName": "",
+        "uuid": "5a7d0f971cc245de947c4c71dd0eac4f"
+      },
+      {
+        "description": "",
+        "lcsc": "C474881",
+        "libraryUuid": "9875a7916d2d4a0d8052ee6936d44523",
+        "manufacturer": "KEFA(科发)",
+        "manufacturerId": "KF301-5.0-2P",
+        "name": "KF301-5.0-2P",
+        "symbolName": "",
+        "uuid": "6aba5c2f23fb40a8b4a7c475d05e9d13"
+      },
+      {
+        "description": "",
+        "lcsc": "C474881",
+        "libraryUuid": "517713d6ace345f18a8815013ab9d95b",
+        "manufacturer": "KEFA(科发)",
+        "manufacturerId": "KF301-5.0-2P",
+        "name": "KF301-5.0-2P",
+        "symbolName": "",
+        "uuid": "a770130d7aae4d7eafb618b7da079b31"
+      },
+      {
+        "description": "电阻类型:厚膜电阻;阻值:100kΩ;精度:±1%;功率:100mW;温度系数:±100ppm/℃;最大工作电压:75V;工作温度范围:-55℃~+155℃;",
+        "lcsc": "C14675",
+        "libraryUuid": "828dcb4ef1f548048c6643b46af7d464",
+        "manufacturer": "YAGEO(国巨)",
+        "manufacturerId": "RC0603FR-07100KL",
+        "name": "RC0603FR-07100KL",
+        "symbolName": "",
+        "uuid": "22994b06dca84cfe8f662ca8bf2e1801",
+        "value": "100kΩ"
+      },
+      {
+        "description": "电阻类型:厚膜电阻;阻值:100kΩ;精度:±1%;功率:100mW;最大工作电压:75V;温度系数:±100ppm/℃;",
+        "lcsc": "C14675",
+        "libraryUuid": "381ccab4f84548af8e89e7ab381b1e46",
+        "manufacturer": "YAGEO(国巨)",
+        "manufacturerId": "RC0603FR-07100KL",
+        "name": "RC0603FR-07100KL",
+        "symbolName": "",
+        "uuid": "9ec0de84289341898cd07743b055d32a",
+        "value": "100kΩ"
+      }
+    ],
+    "count": 24,
+    "notFound": [
+      "C192764",
+      "C700953",
+      "C1335911",
+      "C2931719",
+      "C2931720",
+      "C601088",
+      "C271661",
+      "C54620387",
+      "C9900004221",
+      "C9900013124",
+      "C9900007571",
+      "C176146",
+      "C4004838",
+      "C22548",
+      "C109318",
+      "C152915",
+      "C45369465",
+      "C89632",
+      "C9900018463"
+    ],
+    "requested": [
+      "C8734",
+      "C82942",
+      "C192764",
+      "C700953",
+      "C64982",
+      "C1335911",
+      "C2931719",
+      "C2931720",
+      "C601088",
+      "C271661",
+      "C474881",
+      "C54620387",
+      "C9900004221",
+      "C9900013124",
+      "C9900007571",
+      "C176146",
+      "C4004838",
+      "C22548",
+      "C109318",
+      "C14675",
+      "C152915",
+      "C45369465",
+      "C89632",
+      "C9900018463"
+    ]
+  },
+  "context": {
+    "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+    "projectName": "boost-cccv-psu",
+    "documentUuid": "bab845ad837927a6",
+    "documentType": "schematic",
+    "tabId": "bab845ad837927a6@35d238ebf1a643c5b3bafc39cbf5699f",
+    "pageVisibility": "hidden"
+  },
+  "mutationContext": {
+    "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+    "projectName": "boost-cccv-psu",
+    "documentUuid": "bab845ad837927a6",
+    "documentType": "schematic",
+    "tabId": "bab845ad837927a6@35d238ebf1a643c5b3bafc39cbf5699f",
+    "pageVisibility": "hidden"
+  },
+  "mutationContextAvailable": true,
+  "seq": 54,
+  "seqAbandoned": 0
+}

@@ -1,0 +1,111 @@
+{
+ "S5": {
+  "cfg": "ref_ramp+clamp_track（修复对照）",
+  "cc_i_avg": 0.4983,
+  "cc_err_pct": -0.33,
+  "cc_vout": 9.966,
+  "cc_vout_expected": 9.9989868,
+  "state_toggles_in_cc": 0,
+  "recover_ms": 159.4,
+  "pass_cc": true,
+  "pass_no_osc": true
+ },
+ "S5_firmware_asis_deficit": {
+  "cfg": "ref_ramp+track（固件原样）",
+  "state_toggles_in_140ms": 0,
+  "vout_mean": 4.463,
+  "vout_min": 4.435,
+  "vout_max": 4.937,
+  "verdict": "欠额工况(CC负载0.55A>限流)输出塌落至二极管直通平台≈4.5V，限流在D≈0时不可执行（0.55A持续），电流环失去调节能力"
+ },
+ "S4_final": {
+  "kp_v": 0.06,
+  "ki_v": 50.0,
+  "tag": "final",
+  "unload_overshoot_mv": 300.3,
+  "unload_recover_ms": 157.5,
+  "load_undershoot_mv": 1969.3,
+  "load_recover_ms": 7.5,
+  "fault_during_unload": false,
+  "pass_step": false
+ },
+ "S1": [
+  {
+   "duty_counts": 420,
+   "v_sim": 11.193,
+   "v_theory_loss": 11.31,
+   "v_ideal": 12.0,
+   "dev_vs_loss_pct": 1.04,
+   "ripple_mv": 89.5,
+   "il_pk": 1.275,
+   "iout": 0.466
+  },
+  {
+   "duty_counts": 446,
+   "v_sim": 12.016,
+   "v_theory_loss": 12.392,
+   "v_ideal": 13.139,
+   "dev_vs_loss_pct": 3.03,
+   "ripple_mv": 103.3,
+   "il_pk": 1.46,
+   "iout": 0.501
+  }
+ ],
+ "S6": {
+  "i_capdump_pk": 27.671,
+  "fault_latched": true,
+  "fault_at_ms": 155.0,
+  "ocp_delay_ms": 5.0,
+  "i_end": 20.682,
+  "state_end": "FAULT_OCP"
+ },
+ "S7": {
+  "inject_at_ms": 150,
+  "fault_at_ms": 150.2,
+  "latch_holds": true,
+  "state_end": "FAULT_OVP",
+  "duty_end": 0
+ },
+ "S10": {
+  "v_dev_max_mv": 39.5,
+  "duty_end": 0.624,
+  "duty_limit_ok": true,
+  "pass_sag": true
+ },
+ "S2_firmware_asis": {
+  "cfg": "duty_ramp+track（固件原样）",
+  "ovp_latch_at_ms": 39.9,
+  "verdict": "启动必然失败：PI 积分器 1.7ms 内饱和至 612，占空比被斜坡推高越过 OVP 阈值"
+ },
+ "S3_firmware_track_knee": {
+  "cfg": "ref_ramp+track（仅换软启动）",
+  "v_avg": 11.9607,
+  "err_pct": -0.279,
+  "verdict": "24Ω=CC/CV 临界点时取小+反算跟踪形成 2 拍极限环，占空比被钉死，稳态误差 -2.3%"
+ },
+ "S2": {
+  "cfg": "ref_ramp+clamp_track（修复对照）",
+  "v_overshoot_v": 0.07,
+  "inrush_il_pk": 1.663,
+  "ovp_false_trigger": false,
+  "settle_s": 0.0535,
+  "pass_ovp": true,
+  "pass_overshoot": true,
+  "pass_inrush": true
+ },
+ "S3": {
+  "v_avg": 12.0031,
+  "err_pct": 0.074,
+  "ripple_mv": 260.8,
+  "ripple_pct": 2.17,
+  "il_pk": 1.57,
+  "iout": 0.5,
+  "pass_err": true,
+  "pass_ripple": true
+ },
+ "S8": {
+  "dcr": 0.17,
+  "rc_tau": 0.000883,
+  "source": "summary_s8_v2.json（kp≤0.08 全网格通过）"
+ }
+}

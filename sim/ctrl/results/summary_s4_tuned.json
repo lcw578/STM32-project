@@ -1,0 +1,24 @@
+{
+ "S4_tuned": {
+  "kp_v": 0.06,
+  "ki_v": 50.0,
+  "tag": "tuned",
+  "unload_overshoot_mv": 232.7,
+  "unload_recover_ms": 169.4,
+  "load_undershoot_mv": 5906.8,
+  "load_recover_ms": 19.4,
+  "fault_during_unload": false,
+  "pass_step": false
+ },
+ "S4_default": {
+  "kp_v": 0.05,
+  "ki_v": 150.0,
+  "tag": "default",
+  "unload_overshoot_mv": 136.6,
+  "unload_recover_ms": 350.0,
+  "load_undershoot_mv": 4773.0,
+  "load_recover_ms": 200.0,
+  "fault_during_unload": false,
+  "pass_step": false
+ }
+}

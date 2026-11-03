@@ -1,0 +1,74 @@
+[
+ {
+  "description": "",
+  "footprintName": "CAP-SMD_L6.0-W3.2-FD",
+  "lcsc": "C9900019364",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "100uF 16V",
+  "name": "100uF 16V",
+  "score": 6,
+  "symbolName": "100UF 16V",
+  "uuid": "984d5bae36ab4d6cb3da52006ca21ca8"
+ },
+ {
+  "description": "",
+  "footprintName": "CAP-SMD_BD8.0-L8.3-W8.3-LS9.3-FD",
+  "lcsc": "C9900014916",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "16V470UF",
+  "name": "16V470UF",
+  "score": 3,
+  "symbolName": "16V470UF",
+  "uuid": "9d572a2c6fc342808f7b3ac7ebc07b53"
+ },
+ {
+  "description": "",
+  "footprintName": "CONN-TH_GC16V-M-2P",
+  "lcsc": "C9900313158",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "GC16V-M-2P",
+  "name": "GC16V-M-2P",
+  "score": 3,
+  "symbolName": "GC16V-M-2P",
+  "uuid": "2420323ea1934077bb9ca26324141122"
+ },
+ {
+  "description": "",
+  "footprintName": "CAP-SMD_BD8.0-L8.3-W8.3-LS9.3-FD",
+  "lcsc": "C9900010933",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "470uF-16V-CC8*10.2",
+  "name": "470uF-16V-CC8*10.2",
+  "score": 3,
+  "symbolName": "470UF-16V-CC8*10.2",
+  "uuid": "1f988167634b45cebd1186b95159e372"
+ },
+ {
+  "description": "",
+  "footprintName": "CAP-SMD_BD8.0-L8.3-W8.3-LS9.3-FD",
+  "lcsc": "C9900014924",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "16V470UF",
+  "name": "16V470UF_C9900014924",
+  "score": 3,
+  "symbolName": "16V470UF_C9900014924",
+  "uuid": "957fd2a488944a3c896121d3fa2d6b56"
+ },
+ {
+  "description": "功能类型:升降压型;工作电压:1.8V~5.5V;输出电压:1.8V~5.2V;输出电流:1A;输出类型:固定;",
+  "footprintName": "VQFN-16_L3.0-W3.0-P0.50-BL-EP1.4",
+  "lcsc": "C3194576",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "ROHM(罗姆)",
+  "manufacturerId": "BD8306MUV-E2",
+  "name": "BD8306MUV-E2",
+  "score": 0,
+  "symbolName": "BD8306MUV-E2",
+  "uuid": "99f667134a534b28aed76012b4306e67"
+ }
+]

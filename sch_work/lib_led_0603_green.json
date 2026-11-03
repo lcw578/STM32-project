@@ -1,0 +1,26 @@
+[
+ {
+  "description": "",
+  "footprintName": "LED0603-RD_GREEN",
+  "lcsc": "C9900007571",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "LED-0603G-FZ_GREEN",
+  "name": "LED-0603G-FZ_GREEN",
+  "score": 9,
+  "symbolName": "LED-0603G-FZ_GREEN",
+  "uuid": "1e0b218337344904b0cc844667dd4cbc"
+ },
+ {
+  "description": "",
+  "footprintName": "LED0603-RD_GREEN",
+  "lcsc": "C9900005170",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "KT-0603GH",
+  "name": "KT-0603GH",
+  "score": 7,
+  "symbolName": "KT-0603GH",
+  "uuid": "541caea2caf7455c8024a1a8b6c3c62d"
+ }
+]

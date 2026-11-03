@@ -1,0 +1,17 @@
+{
+ "fails": [
+  [
+   "wire",
+   "VOUT"
+  ],
+  [
+   "wire",
+   "VOUT"
+  ],
+  [
+   "conn",
+   "R11:2",
+   "VSENSE"
+  ]
+ ]
+}

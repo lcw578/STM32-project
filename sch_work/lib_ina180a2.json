@@ -1,0 +1,38 @@
+[
+ {
+  "description": "放大器数:1;共模电压:-200mV~26V;增益:50V/V;带宽(-3db):210kHz;",
+  "footprintName": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL",
+  "lcsc": "C192764",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "TI(德州仪器)",
+  "manufacturerId": "INA180A2IDBVR",
+  "name": "INA180A2IDBVR",
+  "score": 3,
+  "symbolName": "INA180A2IDBVR",
+  "uuid": "aa43b6c1d80a4d2fb6613fdc549bfba3"
+ },
+ {
+  "description": "放大器数:1;共模电压:-200mV~30V;增益:50V/V;带宽(-3db):210kHz;",
+  "footprintName": "SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR",
+  "lcsc": "C48533471",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "LX(灵星芯微)",
+  "manufacturerId": "INA180A2IDBVR(LX)",
+  "name": "INA180A2IDBVR(LX)",
+  "score": 3,
+  "symbolName": "INA180A2IDBVR(LX)",
+  "uuid": "40d80375d0114fd6ab8ec63763956f0f"
+ },
+ {
+  "description": "放大器数:1;共模电压:-200mV~30V;增益:50V/V;带宽(-3db):210kHz;",
+  "footprintName": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+  "lcsc": "C47021222",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "XBLW(芯伯乐)",
+  "manufacturerId": "INA180A2IDBVR(XBLW)",
+  "name": "INA180A2IDBVR(XBLW)",
+  "score": 3,
+  "symbolName": "INA180A2IDBVR(XBLW)",
+  "uuid": "37a00deaf5664aa79886226157021f49"
+ }
+]

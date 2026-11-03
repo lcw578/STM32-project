@@ -1,0 +1,35 @@
+* T3 —— 软启动浪涌（栅极占空比 0->0.85 斜坡 50ms，复现固件软启动斜坡）
+* 目的：测量启动期电感浪涌电流峰值 vs Isat 2.7A，以及 Vout 是否越过 OVP 等效线
+VIN  in  0  DC 5
+Rin1 in  cin1 0.1
+Cin1 cin1 0 100u
+Cin2 in  0  10u
+
+L1   in  sw 100u
+Rs1  out oload 0.05
+M1   sw  g  0  0  AOS3400
+RG   g  gdrv 10
+Rgs  g  0    100k
+.model AOS3400 NMOS (Vto=1.0 Rd=0.015 Rs=0.005 Rb=0.01 Kp=8.0)
+D1   sw  out B340A
+.model B340A D(IS=1e-7 N=1.05 RS=0.028 CJO=180p M=0.33 BV=40 IBV=1e-4 EG=0.69 XTI=2)
+Resr1 out c1 0.08
+C1   c1 0 220u
+C2   out 0 10u
+RLOAD out 0 24
+
+* 占空比斜坡 0 -> 0.85 / 50ms（固件 SS_STEPS=500 @10kHz），载波 100kHz 锯齿
+Vramp  ramp 0 PWL(0 0 50m 0.85 100m 0.85)
+Vcar   car  0 PULSE(0 1 0 9.98u 20n 0 10u)
+Bg     gdrv 0 V = 5*u(v(ramp)-v(car))
+
+.control
+  tran 0.2u 100m 0 0.2u
+  meas tran il_inrush  MAX i(L1)    from=0 to=60m
+  meas tran vout_peak  MAX v(out)   from=0 to=60m
+  meas tran vout_end   AVG v(out)   from=80m to=100m
+  meas tran il_end     AVG i(L1)    from=80m to=100m
+  write T3_softstart.raw v(out) i(L1) v(gdrv)
+.endc
+
+.end

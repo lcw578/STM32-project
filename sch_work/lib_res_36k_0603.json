@@ -1,0 +1,28 @@
+[
+ {
+  "description": "电阻类型:厚膜电阻;阻值:36kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;",
+  "footprintName": "R0603",
+  "lcsc": "C176146",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "EVER OHMS(天二科技)",
+  "manufacturerId": "QR0603F36K0P05Z",
+  "name": "QR0603F36K0P05Z",
+  "score": 6,
+  "symbolName": "QR0603F36KP05",
+  "uuid": "7972a18b4bb0403bb7d4861af3f0a73e",
+  "value": "36kΩ"
+ },
+ {
+  "description": "电阻类型:厚膜电阻;阻值:36kΩ;精度:±5%;功率:100mW;最大工作电压:75V;温度系数:±100ppm/℃;",
+  "footprintName": "R0603",
+  "lcsc": "C228182",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "YAGEO(国巨)",
+  "manufacturerId": "AC0603JR-0736KL",
+  "name": "AC0603JR-0736KL",
+  "score": 6,
+  "symbolName": "AC0603JR-0736KL",
+  "uuid": "a42ba9cfd3724d84a1cfbe448612a6f0",
+  "value": "36kΩ"
+ }
+]

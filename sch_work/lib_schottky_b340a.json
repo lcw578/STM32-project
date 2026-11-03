@@ -1,0 +1,50 @@
+[
+ {
+  "description": "二极管配置:独立式;正向压降(Vf):550mV@3A;直流反向耐压(Vr):40V;整流电流:3A;",
+  "footprintName": "SMA_L4.3-W2.6-LS5.1-RD",
+  "lcsc": "C64982",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "MDD(辰达半导体)",
+  "manufacturerId": "B340A",
+  "name": "B340A",
+  "score": 3,
+  "symbolName": "B340A",
+  "uuid": "64c1acd8597c4b0ca569d84d1117b645"
+ },
+ {
+  "description": "",
+  "footprintName": "SMA_L4.2-W2.7-LS5.1-R-RD",
+  "lcsc": "C9900001984",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "B340A-E3-61T",
+  "name": "B340A-E3-61T",
+  "score": 3,
+  "symbolName": "B340A-E3-61T",
+  "uuid": "2003dbbe0b084cf29e39753e2ffc8ce0"
+ },
+ {
+  "description": "二极管配置:1个独立式;正向压降(Vf):700mV@3A;直流反向耐压(Vr):40V;整流电流:3A;",
+  "footprintName": "DO-214AC_L4.3-W2.4-LS4.7-RD",
+  "lcsc": "C37635173",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "DOWO(东沃)",
+  "manufacturerId": "B340A",
+  "name": "B340A_C37635173",
+  "score": 3,
+  "symbolName": "B340A_C37635173",
+  "uuid": "6ddeb7a5f2c6488b803a554cfb4aa08d"
+ },
+ {
+  "description": "二极管配置:独立式;正向压降(Vf):550mV@3A;直流反向耐压(Vr):40V;整流电流:3A;",
+  "footprintName": "SMA_L4.2-W2.7-LS5.0-RD",
+  "lcsc": "C5119488",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "KUU",
+  "manufacturerId": "B340A",
+  "name": "B340A_C5119488",
+  "score": 3,
+  "symbolName": "B340A_C5119488",
+  "uuid": "00c3c10a23834473a08251eb8b05236b"
+ }
+]

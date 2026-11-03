@@ -1,0 +1,52 @@
+[
+ {
+  "description": "",
+  "footprintName": "IND-SMD_L7.8-W7.0-A",
+  "lcsc": "C9900026755",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "CD75-221K",
+  "name": "CD75-221K",
+  "score": 3,
+  "symbolName": "CD75-221K",
+  "uuid": "d8cf9a63cba74ccc99ac5bb942312643"
+ },
+ {
+  "description": "电感值:330uH;精度:±20%;额定电流:400mA;类型:非屏蔽电感;",
+  "footprintName": "IND-SMD_L7.0-W7.8_XR_XRCD75",
+  "lcsc": "C49230840",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "Zoomdo(震东电子)",
+  "manufacturerId": "CD75-331M",
+  "name": "CD75-331M",
+  "score": 3,
+  "symbolName": "CD75-331M_C49230840",
+  "uuid": "bfc707383a4e44fd9e7f5956a4d5e2ec",
+  "value": "330uH"
+ },
+ {
+  "description": "电感值:150uH;精度:±20%;额定电流:580mA;类型:非屏蔽电感;",
+  "footprintName": "IND-SMD_L7.8-W7.0_CD75-330M",
+  "lcsc": "C49230838",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "Zoomdo(震东电子)",
+  "manufacturerId": "CD75-151M",
+  "name": "CD75-151M",
+  "score": 3,
+  "symbolName": "CD75-151M",
+  "uuid": "17355c95c4a643aeb242af15bd6aa888",
+  "value": "150uH"
+ },
+ {
+  "description": "",
+  "footprintName": "IND-SMD_L7.8-W7.0_APC07A50",
+  "lcsc": "C2836693",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "CD75-68UH",
+  "name": "CD75-68UH",
+  "score": 3,
+  "symbolName": "CD75-68UH",
+  "uuid": "29f830252a8b4a7e968e6e75adf823f7"
+ }
+]

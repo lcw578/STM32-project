@@ -1,0 +1,49 @@
+sch check: 43 finding(s) — 0 floating pin(s)/0 comp, 0 geom-net mismatch(es), 0 net-marker mismatch(es), 0 multi-net wire(s), 1 wire-crossing(s), 0 wire-over-pin(s), 0 zero-length wire(s), 0 dangling wire(s), 1 duplicate-net-marker(s), 0 titleblock-overlap(s), 0 out-of-sheet, 25 marker-overlap(s), 1 missing-deliverable(partition/titleblock), 0 folded-net-label(s), 1 redundant-net-marker(s), 6 reversed-net-flag(s), 0 polarity-convention outlier(s)
+  INFO   wire-crossing      已验证无接点正交内部交叉：原始段端不在交点、无引脚/标记，两个物理线岛的逐pin网络证据完整  @(270.00,560.00)
+  WARN   duplicate-net-marker  0864265062689665  重复 netflag(VIN_5V) @(280.00,80.00) ×2 — 建议保留 0864265062689665，删除 aba5ea95afaef970 (sch prim-delete)  marker=VIN_5V wire=  @(280.00,80.00)
+  WARN   marker-overlap     0864265062689665  VIN_5V(netflag) 与 VIN_5V(netflag) 视觉重叠 26.00×12.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=VIN_5V wire=
+  WARN   marker-overlap     0864265062689665  VIN_5V(netflag) 与 VIN_5V(netflag) 视觉重叠 21.00×12.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=VIN_5V wire=
+  WARN   marker-overlap     0864265062689665  VIN_5V(netflag) 与 VIN_5V(netflag) 视觉重叠 16.00×12.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=VIN_5V wire=
+  WARN   marker-overlap     1f308453c231f84c  GND(netflag) 与 3V3(netflag) 视觉重叠 18.00×2.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=GND wire=
+  WARN   marker-overlap     J1  J1(part) 与 VIN_RAW(netflag) 视觉重叠 12.50×10.50 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset
+  WARN   marker-overlap     C4  C4(part) 与 GND(netflag) 视觉重叠 10.00×9.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset
+  WARN   marker-overlap     2ae6aee57230a9e3  VIN_5V(netflag) 与 GND(netflag) 视觉重叠 18.00×2.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=VIN_5V wire=
+  WARN   marker-overlap     3241fdd69f2b638d  VIN_5V(netflag) 与 VIN_5V(netflag) 视觉重叠 31.00×12.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=VIN_5V wire=
+  WARN   marker-overlap     3241fdd69f2b638d  VIN_5V(netflag) 与 VIN_5V(netflag) 视觉重叠 26.00×12.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=VIN_5V wire=
+  WARN   marker-overlap     3241fdd69f2b638d  VIN_5V(netflag) 与 VIN_5V(netflag) 视觉重叠 26.00×12.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=VIN_5V wire=
+  WARN   marker-overlap     U3  U3(part) 与 GND(netflag) 视觉重叠 10.00×6.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset
+  WARN   marker-overlap     U3  U3(part) 与 GND(netflag) 视觉重叠 5.00×21.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset
+  WARN   marker-overlap     757c6bfd6f065126  GND(netflag) 与 VIN_RAW(netflag) 视觉重叠 6.00×6.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=GND wire=
+  WARN   marker-overlap     76e3bc37905c2e6e  3V3(netflag) 与 GND(netflag) 视觉重叠 6.00×6.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=3V3 wire=
+  WARN   marker-overlap     8cde96459476c5c3  VIN_5V(netflag) 与 GND(netflag) 视觉重叠 18.00×2.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=VIN_5V wire=
+  WARN   marker-overlap     8e0ce9975df2b127  VIN_5V(netflag) 与 C5(part) 视觉重叠 6.50×7.50 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=VIN_5V wire=
+  WARN   marker-overlap     90cff4d2217efd3b  3V3(netflag) 与 GND(netflag) 视觉重叠 3.50×7.50 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=3V3 wire=
+  WARN   marker-overlap     9f584f8b3c433b36  VIN_5V(netflag) 与 VIN_5V(netflag) 视觉重叠 21.00×12.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=VIN_5V wire=
+  WARN   marker-overlap     9f584f8b3c433b36  VIN_5V(netflag) 与 C3(part) 视觉重叠 1.50×8.50 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=VIN_5V wire=
+  WARN   marker-overlap     9f584f8b3c433b36  VIN_5V(netflag) 与 VIN_5V(netflag) 视觉重叠 31.00×12.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=VIN_5V wire=
+  WARN   marker-overlap     a111abd65fe35de9  GND(netflag) 与 SWDIO(netflag) 视觉重叠 6.00×6.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=GND wire=
+  WARN   marker-overlap     aba5ea95afaef970  VIN_5V(netflag) 与 VIN_5V(netflag) 视觉重叠 16.00×12.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=VIN_5V wire=
+  WARN   marker-overlap     cccdd2a7ce54cc29  VIN_RAW(netflag) 与 F1(part) 视觉重叠 5.50×3.50 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=VIN_RAW wire=
+  WARN   marker-overlap     C3  C3(part) 与 VIN_5V(netflag) 视觉重叠 6.50×8.50 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset
+  WARN   marker-overlap     dc1d42c1b730d995  OSC_IN(netflag) 与 GND(netflag) 视觉重叠 6.00×6.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=OSC_IN wire=
+  WARN   redundant-net-marker  同一根线树上有 5 个 VIN_5V(netflag)标志 — 一个命名即可,其余是修补残留(视觉堆叠);建议保留 0864265062689665,删除 3241fdd69f2b638d,9f584f8b3c433b36,aba5ea95afaef970,fa5be6243ec96dee  marker=VIN_5V wire=  @(280.00,80.00)
+  WARN   reversed-net-flag  3241fdd69f2b638d  VIN_5V 旗反挂:桩朝 right 而旗 rot=90(应为 270)— `sch disconnect` 后 `sch connect --direction right` 重连(或该 pin `sch autoconnect --replace`)  marker=VIN_5V wire=  @(290.00,80.00)
+  WARN   reversed-net-flag  92476f394cf33de4  GND 旗反挂:桩朝 right 而旗 rot=0(应为 90)— `sch disconnect` 后 `sch connect --direction right` 重连(或该 pin `sch autoconnect --replace`)  marker=GND wire=  @(285.00,560.00)
+  WARN   reversed-net-flag  969315c355829143  GND 旗反挂:桩朝 right 而旗 rot=270(应为 90)— `sch disconnect` 后 `sch connect --direction right` 重连(或该 pin `sch autoconnect --replace`)  marker=GND wire=  @(460.00,90.00)
+  WARN   reversed-net-flag  9f584f8b3c433b36  VIN_5V 旗反挂:桩朝 right 而旗 rot=90(应为 270)— `sch disconnect` 后 `sch connect --direction right` 重连(或该 pin `sch autoconnect --replace`)  marker=VIN_5V wire=  @(295.00,80.00)
+  WARN   reversed-net-flag  d915f07a6c9cf20f  VIN_5V 旗反挂:桩朝 left 而旗 rot=0(应为 90)— `sch disconnect` 后 `sch connect --direction left` 重连(或该 pin `sch autoconnect --replace`)  marker=VIN_5V wire=  @(25.00,590.00)
+  WARN   reversed-net-flag  fa5be6243ec96dee  VIN_5V 旗反挂:桩朝 right 而旗 rot=90(应为 270)— `sch disconnect` 后 `sch connect --direction right` 重连(或该 pin `sch autoconnect --replace`)  marker=VIN_5V wire=  @(300.00,80.00)
+  WARN   designator-overlap  F1  Designator overlaps body/marker/title/another designator; non-designator properties excluded
+  WARN   designator-overlap  C11  Designator overlaps body/marker/title/another designator; non-designator properties excluded
+  WARN   designator-wire-overlap  Q3  wire crosses Designator text bbox
+  WARN   designator-overlap  J1  Designator overlaps body/marker/title/another designator; non-designator properties excluded
+  WARN   designator-overlap  C3  Designator overlaps body/marker/title/another designator; non-designator properties excluded
+  WARN   designator-overlap  C3  Designator overlaps body/marker/title/another designator; non-designator properties excluded
+  WARN   designator-overlap  C5  Designator overlaps body/marker/title/another designator; non-designator properties excluded
+  WARN   designator-wire-overlap  C5  wire crosses Designator text bbox
+  WARN   missing-partition  44 个器件的页没有功能分区框 — 铁律#15:`sch zones set` → `sch zone-draw`(整纸版式 `--mode partition`);交付前必须有
+→ routing: reroute crossings in clear channels (L-bends); never run a wire through a pin
+→ duplicate markers: a partial autoconnect stacked coincident flags/ports — sch prim-delete the suggested IDs (keep one)
+→ marker overlap: net markers cover a part/each other — `sch destagger` plans the fix (add --apply to land it; it re-verifies and rolls back on any electrical regression), or re-run autoconnect with more offset
+→ missing-partition: 多器件页没画功能分区框(铁律#15) — `sch zones set`→`sch zone-draw`(整纸版式 --mode partition);若 `sch zone-plan` 报 partitionOverlap,先 `sch zone-arrange --apply` 或拆页,再画
+→ redundant-net-marker: 同一线树上同网标志重复(修补残留)— 按 suggestDeleteIds `sch prim-delete` 清冗余(保留一个)

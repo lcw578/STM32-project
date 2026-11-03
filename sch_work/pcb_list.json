@@ -1,0 +1,858 @@
+⚠ staleRisk: PCB was mutated by pcb.import_changes since the last reload — pcb.components.list (and DRC) may read stale engine state; authoritative workflows should save, run `easyeda doc reload`, then read back; if refresh fails, treat the data as unavailable
+{
+  "id": "req_1792",
+  "type": "response",
+  "version": "v1",
+  "windowId": "b353f434-35bd-438b-a83b-efc9faf2fc20",
+  "createdAt": "2026-11-02T16:00:34.6961299Z",
+  "ok": true,
+  "result": {
+    "components": [
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C1",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "CL31B106KBHNNNE",
+        "name": "={Value}",
+        "primitiveId": "e967033cd918b99e",
+        "rotation": 0,
+        "supplierId": "C89632",
+        "uniqueId": "gge4",
+        "x": 204.31600000000006,
+        "y": -1848.1668999999965
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C2",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "CL31B106KBHNNNE",
+        "name": "={Value}",
+        "primitiveId": "26a14b974a5db1ed",
+        "rotation": 0,
+        "supplierId": "C89632",
+        "uniqueId": "gge10",
+        "x": 2158.3200000000006,
+        "y": -559.3303999999985
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C3",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "CL31B106KBHNNNE",
+        "name": "={Value}",
+        "primitiveId": "7ddbedcd4e7def27",
+        "rotation": 0,
+        "supplierId": "C89632",
+        "uniqueId": "gge18",
+        "x": 1971.6190000000006,
+        "y": -4044.573899999992
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C4",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "CL31B106KBHNNNE",
+        "name": "={Value}",
+        "primitiveId": "77d74db256d1ad62",
+        "rotation": 0,
+        "supplierId": "C89632",
+        "uniqueId": "gge19",
+        "x": 2385.863000000001,
+        "y": -3932.8568999999925
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C5",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "220uF±20%25V 6.3*11 2.5mm",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "f7e26cf2b5325b5f",
+        "rotation": 0,
+        "supplierId": "C9900018463",
+        "uniqueId": "gge3",
+        "x": 204.31600000000003,
+        "y": -1150.4343999999967
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C6",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "220uF±20%25V 6.3*11 2.5mm",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "a966433704f3bf87",
+        "rotation": 0,
+        "supplierId": "C9900018463",
+        "uniqueId": "gge9",
+        "x": 1519.067500000001,
+        "y": -1228.147399999997
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C7",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "NL0603B104M500CPBN",
+        "name": "={Value}",
+        "primitiveId": "2b469661b1fd69ca",
+        "rotation": 0,
+        "supplierId": "C45369465",
+        "uniqueId": "gge27",
+        "x": 3210.371500000001,
+        "y": -3102.725899999993
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C8",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "NL0603B104M500CPBN",
+        "name": "={Value}",
+        "primitiveId": "299defd9be7aab2d",
+        "rotation": 0,
+        "supplierId": "C45369465",
+        "uniqueId": "gge28",
+        "x": 3210.371500000001,
+        "y": -3493.313899999992
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C9",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "NL0603B104M500CPBN",
+        "name": "={Value}",
+        "primitiveId": "6aee7118044bb315",
+        "rotation": 0,
+        "supplierId": "C45369465",
+        "uniqueId": "gge43",
+        "x": 4305.172000615049,
+        "y": -657.9883999999977
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C10",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "NL0603B104M500CPBN",
+        "name": "={Value}",
+        "primitiveId": "0bcd1ea0c18c7834",
+        "rotation": 0,
+        "supplierId": "C45369465",
+        "uniqueId": "gge33",
+        "x": 4305.172000615049,
+        "y": -2055.022899999994
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C11",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "NL0603B104M500CPBN",
+        "name": "={Value}",
+        "primitiveId": "72318cdeeb532b7b",
+        "rotation": 0,
+        "supplierId": "C45369465",
+        "uniqueId": "gge34",
+        "x": 3757.416000205017,
+        "y": -1671.8108999999981
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C12",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "0603N220J101",
+        "name": "={Value}",
+        "primitiveId": "9560c3988c6aecf9",
+        "rotation": 0,
+        "supplierId": "C152915",
+        "uniqueId": "gge22",
+        "x": 3347.3085001640034,
+        "y": -743.5843999999975
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C13",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "0603N220J101",
+        "name": "={Value}",
+        "primitiveId": "e1f9485ea966e7fd",
+        "rotation": 0,
+        "supplierId": "C152915",
+        "uniqueId": "gge23",
+        "x": 4166.041000410033,
+        "y": -1228.1473999999982
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "D1",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "B340A",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "57a16d32cc756941",
+        "rotation": 0,
+        "supplierId": "C64982",
+        "uniqueId": "gge8",
+        "x": 1754.0160000000005,
+        "y": -559.330399999999
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "J1",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "KF301-5.0-2P",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "52be3ecb5a7a6ae2",
+        "rotation": 0,
+        "supplierId": "C474881",
+        "uniqueId": "gge2",
+        "x": 204.31600000000003,
+        "y": -359.3303999999992
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "J2",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "KF301-5.0-2P",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "6da7e265ea4cacdb",
+        "rotation": 0,
+        "supplierId": "C474881",
+        "uniqueId": "gge12",
+        "x": 1135.5115,
+        "y": -2532.0858999999937
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "J3",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "HMT-2.54-1*4PM",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "88adebefbeaf7228",
+        "rotation": 0,
+        "supplierId": "C54620387",
+        "uniqueId": "gge41",
+        "x": 4599.421000656062,
+        "y": -850.4343999999967
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "J4",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "HMT-2.54-1*4PM",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "d7bb4ff9422dcacf",
+        "rotation": 0,
+        "supplierId": "C54620387",
+        "uniqueId": "gge42",
+        "x": 4599.4210006560625,
+        "y": -1948.1668999999965
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "L1",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "IHA203BA",
+        "name": "={Value}",
+        "primitiveId": "15a947201d1e0557",
+        "rotation": 0,
+        "supplierId": "C1335911",
+        "uniqueId": "gge5",
+        "x": 1035.5115000000003,
+        "y": -559.3303999999989
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "LED1",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "SLED-0603-H0_8MM",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "5fd5e459dd0fc34b",
+        "rotation": 0,
+        "supplierId": "C9900013124",
+        "uniqueId": "gge35",
+        "x": 3503.2185002050164,
+        "y": -2933.382899999993
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "LED2",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "LED-0603G-FZ_GREEN",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "fa8798804d77a81c",
+        "rotation": 0,
+        "supplierId": "C9900007571",
+        "uniqueId": "gge37",
+        "x": 3503.2185002050164,
+        "y": -3265.804899999993
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "LED3",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "SLED-0603-H0_8MM",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "553bb9bc39ba1afa",
+        "rotation": 0,
+        "supplierId": "C9900013124",
+        "uniqueId": "gge39",
+        "x": 3503.2185002050164,
+        "y": -3584.9528999999916
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "Q1",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "AO3400A",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "5171502dc50153fe",
+        "rotation": 0,
+        "supplierId": "C700953",
+        "uniqueId": "gge6",
+        "x": 1035.5115,
+        "y": -1577.6338999999973
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "Q2",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "S8050",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "ee6f3bd108ea8188",
+        "rotation": 0,
+        "supplierId": "C2931719",
+        "uniqueId": "gge14",
+        "x": 935.5115000000001,
+        "y": -2845.689899999993
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "Q3",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "S8550",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "8689a69da5df1558",
+        "rotation": 0,
+        "supplierId": "C2931720",
+        "uniqueId": "gge15",
+        "x": 935.5115000000001,
+        "y": -3377.584899999993
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "R1",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "QR0603F36K0P05Z",
+        "name": "={Value}",
+        "primitiveId": "2bc46be3604a70b2",
+        "rotation": 0,
+        "supplierId": "C176146",
+        "uniqueId": "gge30",
+        "x": 4029.1040002460313,
+        "y": -459.3303999999988
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "R2",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "RC0603FR-1010KL",
+        "name": "={Value}",
+        "primitiveId": "c60d631ec54a50f5",
+        "rotation": 0,
+        "supplierId": "C4004838",
+        "uniqueId": "gge31",
+        "x": 4029.1040002460313,
+        "y": -1050.4343999999967
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "R3",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "RC0603FR-071KL",
+        "name": "={Value}",
+        "primitiveId": "a65264088547cb48",
+        "rotation": 0,
+        "supplierId": "C22548",
+        "uniqueId": "gge38",
+        "x": 3894.357000246031,
+        "y": -3265.804899999993
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "R4",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "RC0603FR-071KL",
+        "name": "={Value}",
+        "primitiveId": "0d933759e99389c3",
+        "rotation": 0,
+        "supplierId": "C22548",
+        "uniqueId": "gge40",
+        "x": 3894.357000246031,
+        "y": -3672.645899999993
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "R5",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "RC0603FR-071KL",
+        "name": "={Value}",
+        "primitiveId": "bd2200d9b6721e14",
+        "rotation": 0,
+        "supplierId": "C22548",
+        "uniqueId": "gge36",
+        "x": 3894.357000246031,
+        "y": -3021.0758999999925
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "R6",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "RC0603FR-0710RL",
+        "name": "={Value}",
+        "primitiveId": "0a01c507fb125a33",
+        "rotation": 0,
+        "supplierId": "C109318",
+        "uniqueId": "gge16",
+        "x": 1312.831500000001,
+        "y": -3184.372899999993
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "R7",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "RC0603FR-07100KL",
+        "name": "={Value}",
+        "primitiveId": "24d5cadfb56447cf",
+        "rotation": 0,
+        "supplierId": "C14675",
+        "uniqueId": "gge7",
+        "x": 1178.0845000000004,
+        "y": -2055.0228999999954
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "R8",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "RC0603FR-071KL",
+        "name": "={Value}",
+        "primitiveId": "f368271abf15e22c",
+        "rotation": 0,
+        "supplierId": "C22548",
+        "uniqueId": "gge13",
+        "x": 385.46100000000024,
+        "y": -2845.689899999994
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "R9",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "RC0603FR-1010KL",
+        "name": "={Value}",
+        "primitiveId": "90c2039b1e4f143a",
+        "rotation": 0,
+        "supplierId": "C4004838",
+        "uniqueId": "gge24",
+        "x": 3210.371500000001,
+        "y": -1753.4578999999972
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "R10",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "RC0603FR-07100KL",
+        "name": "={Value}",
+        "primitiveId": "57d4ae77f809b98a",
+        "rotation": 0,
+        "supplierId": "C14675",
+        "uniqueId": "gge26",
+        "x": 3210.371500000001,
+        "y": -2733.909899999994
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "R11",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "RC0603FR-071KL",
+        "name": "={Value}",
+        "primitiveId": "b6252f1b4eb993f1",
+        "rotation": 0,
+        "supplierId": "C22548",
+        "uniqueId": "gge32",
+        "x": 4029.1040002460313,
+        "y": -1577.633899999997
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "Rs1",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "HoYH1206-1W-50mR-1%",
+        "name": "={Value}",
+        "primitiveId": "a1b516a0b9e6d906",
+        "rotation": 0,
+        "supplierId": "C601088",
+        "uniqueId": "gge11",
+        "x": 1754.0160000000003,
+        "y": -1671.8108999999963
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "SW1",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "Buttontact-6x6mm",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "ece5af032975f8e5",
+        "rotation": 0,
+        "supplierId": "C9900004221",
+        "uniqueId": "gge25",
+        "x": 3210.371500000001,
+        "y": -2226.825899999995
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "U1",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "STM32F103C8T6",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "93000b0aab73b40e",
+        "rotation": 0,
+        "supplierId": "C8734",
+        "uniqueId": "gge20",
+        "x": 2706.324500000001,
+        "y": -1477.6338999999975
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "U2",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "ME6211C33M5G-N",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "ef0ca845facd1a08",
+        "rotation": 0,
+        "supplierId": "C82942",
+        "uniqueId": "gge17",
+        "x": 1971.6190000000006,
+        "y": -3789.8888999999926
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "U3",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "INA180A2IDBVR",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "b9e5769ad0cf2974",
+        "rotation": 0,
+        "supplierId": "C192764",
+        "uniqueId": "gge29",
+        "x": 3657.416000205017,
+        "y": -950.4343999999974
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "Y1",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "CS16M008000RD1",
+        "name": "={Value}",
+        "primitiveId": "b0259f1274345a0a",
+        "rotation": 0,
+        "supplierId": "C271661",
+        "uniqueId": "gge21",
+        "x": 3210.371500000001,
+        "y": -559.3303999999991
+      }
+    ],
+    "count": 42,
+    "coverage": {
+      "bbox": {
+        "available": 0,
+        "notRequested": 42,
+        "requested": false,
+        "unavailable": 0
+      },
+      "pads": {
+        "available": 0,
+        "failed": 0,
+        "geometryAvailable": 0,
+        "geometryUnavailable": 0,
+        "notRequested": 42,
+        "observed": 0,
+        "requested": false,
+        "serialized": 0,
+        "unavailable": 0
+      }
+    },
+    "incomplete": false,
+    "partial": false
+  },
+  "context": {
+    "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+    "projectName": "boost-cccv-psu",
+    "documentUuid": "b31183190bec91b8",
+    "documentType": "pcb",
+    "tabId": "b31183190bec91b8@35d238ebf1a643c5b3bafc39cbf5699f",
+    "pageVisibility": "hidden"
+  },
+  "mutationContext": {
+    "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+    "projectName": "boost-cccv-psu",
+    "documentUuid": "b31183190bec91b8",
+    "documentType": "pcb",
+    "tabId": "b31183190bec91b8@35d238ebf1a643c5b3bafc39cbf5699f",
+    "pageVisibility": "hidden"
+  },
+  "mutationContextAvailable": true,
+  "staleRisk": "PCB was mutated by pcb.import_changes since the last reload — pcb.components.list (and DRC) may read stale engine state; authoritative workflows should save, run `easyeda doc reload`, then read back; if refresh fails, treat the data as unavailable",
+  "seq": 2364,
+  "seqAbandoned": 3,
+  "abandonedIds": [
+    "req_765",
+    "req_766",
+    "req_831"
+  ]
+}

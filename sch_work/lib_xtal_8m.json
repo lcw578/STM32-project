@@ -1,0 +1,52 @@
+[
+ {
+  "description": "晶振类型:-;频率:8MHz;常温频差:±50ppm;负载电容:8pF;频率稳定度:±150ppm;",
+  "footprintName": "OSC-SMD_2P-L3.2-W2.5",
+  "lcsc": "C889706",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "NDK",
+  "manufacturerId": "NX3225GD-8MHZ-STD-CRA-3",
+  "name": "NX3225GD-8MHZ-STD-CRA-3",
+  "score": 6,
+  "symbolName": "NX3225GD-8MHZ-STD-CRA-3",
+  "uuid": "b3a54ecd979846b3bffdaed0d36ab1b7",
+  "value": "8MHz"
+ },
+ {
+  "description": "频率:8MHz;常温频差:±20ppm;负载电容:8pF;频率稳定度:±50ppm;",
+  "footprintName": "CRYSTAL-SMD_L3.2-W2.5-1",
+  "lcsc": "C6346160",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "NDK",
+  "manufacturerId": "NX3225GD-8MHZ-EXS00A-CG04874",
+  "name": "NX3225GD-8MHZ-EXS00A-CG04874",
+  "score": 6,
+  "symbolName": "NX3225GD-8MHZ-EXS00A-CG04874",
+  "uuid": "a3b356412ceb4dd4859162d6e880fdc1",
+  "value": "8MHz"
+ },
+ {
+  "description": "",
+  "footprintName": "CRYSTAL-SMD_L3.2-W2.5_3225-8MHZ",
+  "lcsc": "C9900007658",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "3225-8MHz",
+  "name": "3225-8MHz",
+  "score": 6,
+  "symbolName": "3225-8MHZ",
+  "uuid": "3b5b27575cce44caaa1f581d2b1d048e"
+ },
+ {
+  "description": "",
+  "footprintName": "CRYSTAL-SMD_4P-L3.2-W2.5-BL",
+  "lcsc": "C9900003518",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "8MHz-3225_4",
+  "name": "8MHz-3225_4",
+  "score": 6,
+  "symbolName": "8MHZ-3225_4",
+  "uuid": "b555e72ec9ce4084bede7fac194d1497"
+ }
+]

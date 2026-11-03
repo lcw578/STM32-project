@@ -1,0 +1,207 @@
+[
+ {
+  "designator": "J1",
+  "ok": true,
+  "info": "J1"
+ },
+ {
+  "designator": "C5",
+  "ok": true,
+  "info": "C5"
+ },
+ {
+  "designator": "C1",
+  "ok": true,
+  "info": "C1"
+ },
+ {
+  "designator": "L1",
+  "ok": true,
+  "info": "L1"
+ },
+ {
+  "designator": "Q1",
+  "ok": true,
+  "info": "Q1"
+ },
+ {
+  "designator": "R7",
+  "ok": true,
+  "info": "R7"
+ },
+ {
+  "designator": "D1",
+  "ok": true,
+  "info": "D1"
+ },
+ {
+  "designator": "C6",
+  "ok": true,
+  "info": "C6"
+ },
+ {
+  "designator": "C2",
+  "ok": true,
+  "info": "C2"
+ },
+ {
+  "designator": "Rs1",
+  "ok": true,
+  "info": "Rs1"
+ },
+ {
+  "designator": "J2",
+  "ok": true,
+  "info": "J2"
+ },
+ {
+  "designator": "R8",
+  "ok": true,
+  "info": "R8"
+ },
+ {
+  "designator": "Q2",
+  "ok": true,
+  "info": "Q2"
+ },
+ {
+  "designator": "Q3",
+  "ok": true,
+  "info": "Q3"
+ },
+ {
+  "designator": "R6",
+  "ok": true,
+  "info": "R6"
+ },
+ {
+  "designator": "U2",
+  "ok": true,
+  "info": "U2"
+ },
+ {
+  "designator": "C3",
+  "ok": true,
+  "info": "C3"
+ },
+ {
+  "designator": "C4",
+  "ok": true,
+  "info": "C4"
+ },
+ {
+  "designator": "U1",
+  "ok": true,
+  "info": "U1"
+ },
+ {
+  "designator": "Y1",
+  "ok": true,
+  "info": "Y1"
+ },
+ {
+  "designator": "C12",
+  "ok": true,
+  "info": "C12"
+ },
+ {
+  "designator": "C13",
+  "ok": true,
+  "info": "C13"
+ },
+ {
+  "designator": "R9",
+  "ok": true,
+  "info": "R9"
+ },
+ {
+  "designator": "SW1",
+  "ok": true,
+  "info": "SW1"
+ },
+ {
+  "designator": "R10",
+  "ok": true,
+  "info": "R10"
+ },
+ {
+  "designator": "C7",
+  "ok": true,
+  "info": "C7"
+ },
+ {
+  "designator": "C8",
+  "ok": true,
+  "info": "C8"
+ },
+ {
+  "designator": "U3",
+  "ok": true,
+  "info": "U3"
+ },
+ {
+  "designator": "R1",
+  "ok": true,
+  "info": "R1"
+ },
+ {
+  "designator": "R2",
+  "ok": true,
+  "info": "R2"
+ },
+ {
+  "designator": "R11",
+  "ok": true,
+  "info": "R11"
+ },
+ {
+  "designator": "C10",
+  "ok": true,
+  "info": "C10"
+ },
+ {
+  "designator": "C11",
+  "ok": true,
+  "info": "C11"
+ },
+ {
+  "designator": "LED1",
+  "ok": true,
+  "info": "LED1"
+ },
+ {
+  "designator": "R5",
+  "ok": true,
+  "info": "R5"
+ },
+ {
+  "designator": "LED2",
+  "ok": true,
+  "info": "LED2"
+ },
+ {
+  "designator": "R3",
+  "ok": true,
+  "info": "R3"
+ },
+ {
+  "designator": "LED3",
+  "ok": true,
+  "info": "LED3"
+ },
+ {
+  "designator": "R4",
+  "ok": true,
+  "info": "R4"
+ },
+ {
+  "designator": "J3",
+  "ok": true,
+  "info": "J3"
+ },
+ {
+  "designator": "J4",
+  "ok": true,
+  "info": "J4"
+ }
+]

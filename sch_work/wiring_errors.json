@@ -1,0 +1,267 @@
+{
+ "wire": [
+  "VIN_5V",
+  "SW",
+  "SW",
+  "VOUT",
+  "VOUT",
+  "VLOAD",
+  "PWM_B",
+  "MID",
+  "OSC_IN",
+  "OSC_OUT",
+  "OSC_OUT",
+  "OSC_IN",
+  "VMID",
+  "VMID",
+  "LED2_C",
+  "LED3_C"
+ ],
+ "conn": [
+  [
+   "J1:2",
+   "GND",
+   "{'id': 'req_186', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:30:26.8757127Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "C5:2",
+   "GND",
+   "{'id': 'req_188', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:30:29.877501Z', 'ok': False, 'result': {'degraded': {'consecutive"
+  ],
+  [
+   "C1:2",
+   "GND",
+   "{'id': 'req_190', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:30:32.8745145Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "C6:2",
+   "GND",
+   "{'id': 'req_192', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:30:35.8804058Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "C2:2",
+   "GND",
+   "{'id': 'req_194', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:30:38.8804475Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "J2:2",
+   "GND",
+   "{'id': 'req_197', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:30:41.8724646Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "R7:2",
+   "GND",
+   "{'id': 'req_199', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:30:44.874307Z', 'ok': False, 'result': {'degraded': {'consecutive"
+  ],
+  [
+   "Q1:2",
+   "GND",
+   "{'id': 'req_201', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:30:47.8772636Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "Q3:2",
+   "GND",
+   "{'id': 'req_203', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:30:50.8762883Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "R2:2",
+   "GND",
+   "{'id': 'req_205', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:30:53.8725127Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "R5:2",
+   "GND",
+   "{'id': 'req_207', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:30:56.8711124Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "R3:2",
+   "GND",
+   "{'id': 'req_209', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:30:59.8774925Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "R4:2",
+   "GND",
+   "{'id': 'req_211', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:31:02.8699707Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "R10:2",
+   "GND",
+   "{'id': 'req_213', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:31:05.8728905Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "C10:2",
+   "GND",
+   "{'id': 'req_215', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:31:08.8708153Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "C11:2",
+   "GND",
+   "{'id': 'req_217', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:31:11.8708254Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "C12:2",
+   "GND",
+   "{'id': 'req_219', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:31:12.3720632Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "C13:2",
+   "GND",
+   "{'id': 'req_221', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:31:14.8735177Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "C3:2",
+   "GND",
+   "{'id': 'req_223', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:31:17.924861Z', 'ok': False, 'result': {'degraded': {'consecutive"
+  ],
+  [
+   "C4:2",
+   "GND",
+   "{'id': 'req_225', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:31:20.8751035Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "C7:2",
+   "GND",
+   "{'id': 'req_227', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:31:23.8767038Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "C8:2",
+   "GND",
+   "{'id': 'req_229', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:31:26.874918Z', 'ok': False, 'result': {'degraded': {'consecutive"
+  ],
+  [
+   "C9:2",
+   "GND",
+   "{'id': 'req_231', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:31:29.8800231Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "U3:2",
+   "GND",
+   "{'id': 'req_233', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:31:32.8787184Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "U2:2",
+   "GND",
+   "{'id': 'req_235', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:31:35.8704208Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "J3:4",
+   "GND",
+   "{'id': 'req_237', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:31:38.8712253Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "J4:4",
+   "GND",
+   "{'id': 'req_239', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:31:41.8784616Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "SW1:2",
+   "GND",
+   "{'id': 'req_241', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:31:44.8728437Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "U1:8",
+   "GND",
+   "{'id': 'req_243', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:31:47.8830835Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "U1:23",
+   "GND",
+   "{'id': 'req_245', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:31:50.8804002Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "U1:35",
+   "GND",
+   "{'id': 'req_247', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:31:53.8732953Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "U1:47",
+   "GND",
+   "{'id': 'req_249', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:31:56.8704563Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "U2:5",
+   "3V3",
+   "{'id': 'req_251', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:31:59.8748434Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "C4:1",
+   "3V3",
+   "{'id': 'req_253', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:32:02.8753064Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "C7:1",
+   "3V3",
+   "{'id': 'req_255', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:32:05.8724Z', 'ok': False, 'result': {'degraded': {'consecutiveFa"
+  ],
+  [
+   "C8:1",
+   "3V3",
+   "{'id': 'req_257', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:32:08.8769799Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "C9:1",
+   "3V3",
+   "{'id': 'req_259', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:32:11.8804108Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "U3:5",
+   "3V3",
+   "{'id': 'req_261', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:32:14.8721538Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "R9:1",
+   "3V3",
+   "{'id': 'req_263', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:32:17.8759587Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "J3:1",
+   "3V3",
+   "{'id': 'req_265', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:32:20.8766502Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "J4:3",
+   "3V3",
+   "{'id': 'req_267', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:32:23.8744983Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "U1:1",
+   "3V3",
+   "{'id': 'req_269', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:32:26.8733592Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "U1:9",
+   "3V3",
+   "{'id': 'req_271', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:32:27.3956452Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "U1:24",
+   "3V3",
+   "{'id': 'req_273', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:32:29.8764586Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "U1:36",
+   "3V3",
+   "{'id': 'req_275', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:32:32.8744998Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "U1:48",
+   "3V3",
+   "{'id': 'req_277', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:32:35.8759439Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "C3:1",
+   "VIN_5V",
+   "{'id': 'req_283', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:32:41.7017886Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "Rs1:2",
+   "VLOAD",
+   "{'id': 'req_293', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:32:47.3307793Z', 'ok': False, 'result': {'degraded': {'consecutiv"
+  ],
+  [
+   "U1:19",
+   "CC_LED",
+   "{'id': 'req_347', 'type': 'response', 'version': 'v1', 'windowId': '83302bfd-0891-48fb-a994-944e13151630', 'createdAt': '2026-11-01T17:33:21.6078631Z', 'ok': False, 'result': {'geometryGuard': {'findi"
+  ]
+ ]
+}

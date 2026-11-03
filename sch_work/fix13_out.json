@@ -1,0 +1,25 @@
+{
+ "fails": [
+  [
+   "conn",
+   "C11:1",
+   "ISENSE"
+  ],
+  [
+   "conn",
+   "C11:2",
+   "GND"
+  ],
+  [
+   "conn",
+   "C12:1",
+   "OSC_IN"
+  ],
+  [
+   "conn",
+   "C12:2",
+   "GND"
+  ]
+ ],
+ "check_raw": "{}"
+}

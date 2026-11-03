@@ -1,0 +1,13 @@
+{
+  "id": "req_733",
+  "type": "response",
+  "version": "v1",
+  "windowId": "83302bfd-0891-48fb-a994-944e13151630",
+  "createdAt": "2026-11-01T18:22:38.2320901Z",
+  "ok": false,
+  "error": {
+    "code": "DISPATCH_FAILED",
+    "message": "connector did not respond",
+    "detail": "context deadline exceeded"
+  }
+}

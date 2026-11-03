@@ -1,0 +1,65 @@
+sch check: 55 finding(s) — 1 floating pin(s)/1 comp, 0 geom-net mismatch(es), 8 net-marker mismatch(es), 1 multi-net wire(s), 2 wire-crossing(s), 0 wire-over-pin(s), 0 zero-length wire(s), 0 dangling wire(s), 1 duplicate-net-marker(s), 0 titleblock-overlap(s), 12 out-of-sheet, 11 marker-overlap(s), 2 missing-deliverable(partition/titleblock), 0 folded-net-label(s), 3 redundant-net-marker(s), 8 reversed-net-flag(s), 0 polarity-convention outlier(s)
+  WARN   net-marker-mismatch  da495b522ae6981a  网络标识 3V3 与所连导线 VMID 名称不一致  marker=3V3 wire=VMID  @(830.00,760.00)
+  WARN   net-marker-mismatch  9a402b492670b488  网络标识 VMID 与所连导线 VSENSE 名称不一致  marker=VMID wire=VSENSE  @(750.00,620.00)
+  WARN   net-marker-mismatch  087017328b7dbb39  网络标识 VSENSE 与所连导线 VOUT 名称不一致  marker=VSENSE wire=VOUT  @(330.00,615.00)
+  WARN   net-marker-mismatch  087017328b7dbb39  网络标识 GND 与所连导线 VOUT 名称不一致  marker=GND wire=VOUT  @(330.00,675.00)
+  WARN   net-marker-mismatch  087017328b7dbb39  网络标识 PWR_LED 与所连导线 VOUT 名称不一致  marker=PWR_LED wire=VOUT  @(330.00,735.00)
+  WARN   net-marker-mismatch  087017328b7dbb39  网络标识 VSENSE 与所连导线 VOUT 名称不一致  marker=VSENSE wire=VOUT  @(350.00,615.00)
+  WARN   net-marker-mismatch  087017328b7dbb39  网络标识 GND 与所连导线 VOUT 名称不一致  marker=GND wire=VOUT  @(330.00,675.00)
+  WARN   net-marker-mismatch  087017328b7dbb39  网络标识 PWR_LED 与所连导线 VOUT 名称不一致  marker=PWR_LED wire=VOUT  @(310.00,735.00)
+  WARN   multi-net-wire     087017328b7dbb39  导线有多个网络名: VSENSE、GND、PWR_LED  nets=[VSENSE,GND,PWR_LED]
+  WARN   floating-pin       R11  1 个引脚悬空(无导线连接,未打 NC 标识)  [1]
+          pin 1 (1)  @(820.00,620.00)
+  ERROR  wire-crossing      交叉未获得无接点证据：存在引脚/标记或逐pin网络/原始几何不完整，不能豁免  @(40.00,785.00)
+  ERROR  wire-crossing      交叉未获得无接点证据：存在引脚/标记或逐pin网络/原始几何不完整，不能豁免  @(270.00,560.00)
+  WARN   duplicate-net-marker  202ea0f827420789  重复 netflag(GND) @(330.00,675.00) ×2 — 建议保留 202ea0f827420789，删除 a8b9f2c435a39a19 (sch prim-delete)  marker=GND wire=  @(330.00,675.00)
+  WARN   marker-overlap     C11  C11(part) 与 GND(netflag) 视觉重叠 17.00×12.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset
+  WARN   marker-overlap     14629a90bfa73e25  3V3(netflag) 与 GND(netflag) 视觉重叠 6.00×7.50 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=3V3 wire=
+  WARN   marker-overlap     202ea0f827420789  GND(netflag) 与 NRST(netflag) 视觉重叠 6.00×7.50 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=GND wire=
+  WARN   marker-overlap     C4  C4(part) 与 GND(netflag) 视觉重叠 3.50×10.50 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset
+  WARN   marker-overlap     2ae6aee57230a9e3  VIN_5V(netflag) 与 GND(netflag) 视觉重叠 18.00×2.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=VIN_5V wire=
+  WARN   marker-overlap     2d5ae577083d31c3  GND(netflag) 与 3V3(netflag) 视觉重叠 18.00×2.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=GND wire=
+  WARN   marker-overlap     3cc9ede341b8cb5b  GND(netflag) 与 3V3(netflag) 视觉重叠 6.00×7.50 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=GND wire=
+  WARN   marker-overlap     C12  C12(part) 与 OSC_OUT(netflag) 视觉重叠 6.00×6.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset
+  WARN   marker-overlap     8cde96459476c5c3  VIN_5V(netflag) 与 GND(netflag) 视觉重叠 18.00×2.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=VIN_5V wire=
+  WARN   marker-overlap     9f584f8b3c433b36  VIN_5V(netflag) 与 C3(part) 视觉重叠 1.50×8.50 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=VIN_5V wire=
+  WARN   marker-overlap     a8b9f2c435a39a19  GND(netflag) 与 NRST(netflag) 视觉重叠 6.00×7.50 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset  marker=GND wire=
+  WARN   redundant-net-marker  同一根线树上有 2 个 GND(netflag)标志 — 一个命名即可,其余是修补残留(视觉堆叠);建议保留 202ea0f827420789,删除 a8b9f2c435a39a19  marker=GND wire=  @(330.00,675.00)
+  WARN   redundant-net-marker  同一根线树上有 2 个 PWR_LED(netflag)标志 — 一个命名即可,其余是修补残留(视觉堆叠);建议保留 44c88c9ae223c5ee,删除 5f5fe29e6461dc15  marker=PWR_LED wire=  @(310.00,735.00)
+  WARN   redundant-net-marker  同一根线树上有 2 个 VSENSE(netflag)标志 — 一个命名即可,其余是修补残留(视觉堆叠);建议保留 4f2b0be02d9e7566,删除 77fcc8d4ee674d8b  marker=VSENSE wire=  @(330.00,615.00)
+  WARN   reversed-net-flag  202ea0f827420789  GND 旗反挂:桩朝 up 而旗 rot=270(应为 180)— `sch disconnect` 后 `sch connect --direction up` 重连(或该 pin `sch autoconnect --replace`)  marker=GND wire=  @(330.00,675.00)
+  WARN   reversed-net-flag  2a8164312bbc5b33  GND 旗反挂:桩朝 up 而旗 rot=0(应为 180)— `sch disconnect` 后 `sch connect --direction up` 重连(或该 pin `sch autoconnect --replace`)  marker=GND wire=  @(720.00,690.00)
+  WARN   reversed-net-flag  4f3082fcd94c7ef9  VIN_5V 旗反挂:桩朝 left 而旗 rot=0(应为 90)— `sch disconnect` 后 `sch connect --direction left` 重连(或该 pin `sch autoconnect --replace`)  marker=VIN_5V wire=  @(50.00,700.00)
+  WARN   reversed-net-flag  5280b3a2a6e53e9b  GND 旗反挂:桩朝 right 而旗 rot=270(应为 90)— `sch disconnect` 后 `sch connect --direction right` 重连(或该 pin `sch autoconnect --replace`)  marker=GND wire=  @(385.00,80.00)
+  WARN   reversed-net-flag  92476f394cf33de4  GND 旗反挂:桩朝 right 而旗 rot=0(应为 90)— `sch disconnect` 后 `sch connect --direction right` 重连(或该 pin `sch autoconnect --replace`)  marker=GND wire=  @(285.00,560.00)
+  WARN   reversed-net-flag  969315c355829143  GND 旗反挂:桩朝 right 而旗 rot=270(应为 90)— `sch disconnect` 后 `sch connect --direction right` 重连(或该 pin `sch autoconnect --replace`)  marker=GND wire=  @(460.00,90.00)
+  WARN   reversed-net-flag  a8b9f2c435a39a19  GND 旗反挂:桩朝 up 而旗 rot=270(应为 180)— `sch disconnect` 后 `sch connect --direction up` 重连(或该 pin `sch autoconnect --replace`)  marker=GND wire=  @(330.00,675.00)
+  WARN   reversed-net-flag  d915f07a6c9cf20f  VIN_5V 旗反挂:桩朝 left 而旗 rot=0(应为 90)— `sch disconnect` 后 `sch connect --direction left` 重连(或该 pin `sch autoconnect --replace`)  marker=VIN_5V wire=  @(25.00,590.00)
+  ERROR  out-of-sheet       64b96c8304c58109  __ROTPROBE__(netflag) 超出图纸可用区（990004..990010 × 989994..990006，可用区 12..1158 × 12..813）— 打印不出来，移回图内  marker=__ROTPROBE__ wire=
+  ERROR  out-of-sheet       8992cfba2ca71a6c  VLOAD(netflag) 超出图纸可用区（724..736 × 834..840，可用区 12..1158 × 12..813）— 打印不出来，移回图内  marker=VLOAD wire=
+  ERROR  out-of-sheet       96d8ed854b8e12d5  3V3(netflag) 超出图纸可用区（704..716 × 834..840，可用区 12..1158 × 12..813）— 打印不出来，移回图内  marker=3V3 wire=
+  ERROR  out-of-sheet       61b17e719f740018  GND(netflag) 超出图纸可用区（0..11 × 774..796，可用区 12..1158 × 12..813）— 打印不出来，移回图内  marker=GND wire=
+  ERROR  out-of-sheet       fe45b05f4564a8e2  GND(netflag) 超出图纸可用区（644..665 × 815..825，可用区 12..1158 × 12..813）— 打印不出来，移回图内  marker=GND wire=
+  ERROR  out-of-sheet       da1756087e842aef  导线 da1756087e842aef 的线段 (730,830)→(730,800) 超出图纸可用区 — 连同它挂的标签移回图内  @(730.00,830.00)
+  ERROR  out-of-sheet       aaea91b059fbc76d  导线 aaea91b059fbc76d 的线段 (710,830)→(710,800) 超出图纸可用区 — 连同它挂的标签移回图内  @(710.00,830.00)
+  WARN   out-of-sheet       c72c7667a60cde78  netflag 的可见属性 Name 超出纸张（990010..990018 × 989973..990027）— 打印不出来；移回图内，或不需要显示时关闭该属性的显示
+  WARN   out-of-sheet       41bb0cd08742336d  netflag 的可见属性 Name 超出纸张（718..742 × 840..848）— 打印不出来；移回图内，或不需要显示时关闭该属性的显示
+  WARN   out-of-sheet       4979f11e58d1372f  netflag 的可见属性 Name 超出纸张（704..716 × 840..848）— 打印不出来；移回图内，或不需要显示时关闭该属性的显示
+  WARN   out-of-sheet       4754ebcd010718d2  netflag 的可见属性 Name 超出纸张（-9..-1 × 777..793）— 打印不出来；移回图内，或不需要显示时关闭该属性的显示
+  WARN   out-of-sheet       e2392e8098f0bbe6  netflag 的可见属性 Name 超出纸张（647..663 × 826..834）— 打印不出来；移回图内，或不需要显示时关闭该属性的显示
+  WARN   designator-overlap  U3  Designator overlaps body/marker/title/another designator; non-designator properties excluded
+  WARN   designator-wire-overlap  U3  wire crosses Designator text bbox
+  WARN   designator-overlap  R9  Designator overlaps body/marker/title/another designator; non-designator properties excluded
+  WARN   designator-overlap  C3  Designator overlaps body/marker/title/another designator; non-designator properties excluded
+  WARN   designator-overlap  C5  Designator overlaps body/marker/title/another designator; non-designator properties excluded
+  WARN   designator-wire-overlap  C5  wire crosses Designator text bbox
+  WARN   missing-partition  42 个器件的页没有功能分区框 — 铁律#15:`sch zones set` → `sch zone-draw`(整纸版式 `--mode partition`);交付前必须有
+  WARN   missing-titleblock  图签未填:Name(图纸标题)、Drawed(设计者)、Description(图纸说明) — 交付图必须能认领(`sch titleblock --data '{"Name":"…","Drawed":"…"}'`)
+→ floating pins: wire them, or mark the intentional ones NC — the listed pins are exactly what `sch no-connect --designator <REF> --pin <n>[,<n>]` takes
+→ routing: reroute crossings in clear channels (L-bends); never run a wire through a pin
+→ net names: fix mismatched flags/ports/labels before treating schematic DRC as clean
+→ duplicate markers: a partial autoconnect stacked coincident flags/ports — sch prim-delete the suggested IDs (keep one)
+→ marker overlap: net markers cover a part/each other — `sch destagger` plans the fix (add --apply to land it; it re-verifies and rolls back on any electrical regression), or re-run autoconnect with more offset
+→ missing-partition: 多器件页没画功能分区框(铁律#15) — `sch zones set`→`sch zone-draw`(整纸版式 --mode partition);若 `sch zone-plan` 报 partitionOverlap,先 `sch zone-arrange --apply` 或拆页,再画
+→ missing-titleblock: 图签必填项空着,交付图必须能认领 — `sch titleblock --data '{"Name":"…","Drawed":"…","Description":"…"}'`
+→ redundant-net-marker: 同一线树上同网标志重复(修补残留)— 按 suggestDeleteIds `sch prim-delete` 清冗余(保留一个)

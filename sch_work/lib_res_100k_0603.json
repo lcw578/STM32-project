@@ -1,0 +1,28 @@
+[
+ {
+  "description": "电阻类型:薄膜电阻;阻值:100kΩ;精度:±0.1%;功率:62.5mW;温度系数:±25ppm/℃;",
+  "footprintName": "R0603",
+  "lcsc": "C4100329",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "TE Connectivity(泰科电子)",
+  "manufacturerId": "CPF0603B100KE1",
+  "name": "CPF0603B100KE1",
+  "score": 6,
+  "symbolName": "CPF0603B100KE1",
+  "uuid": "3cfe099cbfcb405486c1c0a33b22ad48",
+  "value": "100kΩ"
+ },
+ {
+  "description": "电阻类型:薄膜电阻;阻值:100kΩ;精度:±0.01%;功率:100mW;温度系数:±15ppm/℃;",
+  "footprintName": "R0603",
+  "lcsc": "C6668830",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "YAGEO(国巨)",
+  "manufacturerId": "RT0603LRC07100KL",
+  "name": "RT0603LRC07100KL",
+  "score": 6,
+  "symbolName": "RT0603LRC07100KL",
+  "uuid": "ef1ead21c2cf41919cef1cee41664859",
+  "value": "100kΩ"
+ }
+]

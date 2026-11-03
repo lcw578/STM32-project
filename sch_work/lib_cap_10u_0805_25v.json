@@ -1,0 +1,38 @@
+[
+ {
+  "description": "",
+  "footprintName": "CAP-SMD_BD8.0-L8.3-W8.3-LS9.3-FD-1",
+  "lcsc": "C9900017672",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "220uF/25V-SMT",
+  "name": "220uF/25V-SMT",
+  "score": 3,
+  "symbolName": "220UF/25V-SMT",
+  "uuid": "0ded4bf46f9a4b5189624aabed0a5759"
+ },
+ {
+  "description": "",
+  "footprintName": "CAP-SMD_L3.5-W2.8-FD",
+  "lcsc": "C9900008861",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "B35281411",
+  "name": "B35281411",
+  "score": 0,
+  "symbolName": "B35281411",
+  "uuid": "a3556a8b14f84287bf4b3168537e29fd"
+ },
+ {
+  "description": "",
+  "footprintName": "CONN-SMD_BM10B-GEZK-TBT",
+  "lcsc": "C9900293172",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "BM10B-GEZK-TBT",
+  "name": "BM10B-GEZK-TBT",
+  "score": 0,
+  "symbolName": "BM10B-GEZK-TBT",
+  "uuid": "741ee18b80e94e68b9b8a7f61422ae4f"
+ }
+]

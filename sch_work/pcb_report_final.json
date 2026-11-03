@@ -1,0 +1,161 @@
+⚠ staleRisk: PCB was mutated by pcb.model3d.bind since the last reload — pcb.report (and DRC) may read stale engine state; authoritative workflows should save, run `easyeda doc reload`, then read back; if refresh fails, treat the data as unavailable
+{
+  "id": "req_4073",
+  "type": "response",
+  "version": "v1",
+  "windowId": "086bfe50-0a34-4ca5-b9fa-fb04eec1bae3",
+  "createdAt": "2026-11-03T06:39:57.3365998Z",
+  "ok": true,
+  "result": {
+    "differentialPairs": [],
+    "equalLengthNetGroups": [],
+    "netClasses": [
+      {
+        "name": "POWER",
+        "nets": [
+          "VIN_5V",
+          "VOUT",
+          "SW",
+          "VLOAD",
+          "VIN_RAW"
+        ],
+        "totalLength": 8439.173655
+      }
+    ],
+    "netCount": 28,
+    "nets": [
+      {
+        "length": 14101.046326,
+        "net": "GND"
+      },
+      {
+        "length": 169.16106,
+        "net": "LED1_C"
+      },
+      {
+        "length": 1511.601821,
+        "net": "PWR_LED"
+      },
+      {
+        "length": 156.582309,
+        "net": "LED3_C"
+      },
+      {
+        "length": 1676.614036,
+        "net": "CC_LED"
+      },
+      {
+        "length": 122.86597,
+        "net": "LED2_C"
+      },
+      {
+        "length": 945.775303,
+        "net": "OSC_IN"
+      },
+      {
+        "length": 1118.882337,
+        "net": "NRST"
+      },
+      {
+        "length": 1090.755559,
+        "net": "VSENSE"
+      },
+      {
+        "length": 396.879254,
+        "net": "PWM_B"
+      },
+      {
+        "length": 268.593314,
+        "net": "PWM"
+      },
+      {
+        "length": 929.346827,
+        "net": "UART_RX"
+      },
+      {
+        "length": 818.475091,
+        "net": "UART_TX"
+      },
+      {
+        "length": 631.19519,
+        "net": "SWCLK"
+      },
+      {
+        "length": 1157.501038,
+        "net": "OSC_OUT"
+      },
+      {
+        "length": 1068.173159,
+        "net": "BOOT0"
+      },
+      {
+        "length": 1503.367137,
+        "net": "CV_LED"
+      },
+      {
+        "length": 931.405421,
+        "net": "SWDIO"
+      },
+      {
+        "length": 435.332219,
+        "net": "VIN_RAW"
+      },
+      {
+        "length": 4046.163637,
+        "net": "VIN_5V"
+      },
+      {
+        "length": 222.912472,
+        "net": "MID"
+      },
+      {
+        "length": 653.582479,
+        "net": "GATE"
+      },
+      {
+        "length": 801.644604,
+        "net": "VLOAD"
+      },
+      {
+        "length": 5781.736504,
+        "net": "3V3"
+      },
+      {
+        "length": 1374.195712,
+        "net": "ISENSE"
+      },
+      {
+        "length": 418.668833,
+        "net": "VMID"
+      },
+      {
+        "length": 1206.413051,
+        "net": "SW"
+      },
+      {
+        "length": 1949.620144,
+        "net": "VOUT"
+      }
+    ]
+  },
+  "context": {
+    "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+    "projectName": "boost-cccv-psu",
+    "documentUuid": "b31183190bec91b8",
+    "documentType": "pcb",
+    "tabId": "b31183190bec91b8@35d238ebf1a643c5b3bafc39cbf5699f",
+    "pageVisibility": "hidden"
+  },
+  "mutationContext": {
+    "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+    "projectName": "boost-cccv-psu",
+    "documentUuid": "b31183190bec91b8",
+    "documentType": "pcb",
+    "tabId": "b31183190bec91b8@35d238ebf1a643c5b3bafc39cbf5699f",
+    "pageVisibility": "hidden"
+  },
+  "mutationContextAvailable": true,
+  "staleRisk": "PCB was mutated by pcb.model3d.bind since the last reload — pcb.report (and DRC) may read stale engine state; authoritative workflows should save, run `easyeda doc reload`, then read back; if refresh fails, treat the data as unavailable",
+  "seq": 616,
+  "seqAbandoned": 0
+}

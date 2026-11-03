@@ -1,0 +1,106 @@
+{
+ "S1": [
+  {
+   "duty_counts": 420,
+   "v_sim": 11.435,
+   "v_theory_loss": 11.411,
+   "v_ideal": 12.0,
+   "dev_vs_loss_pct": 0.22,
+   "ripple_mv": 91.5,
+   "il_pk": 1.302,
+   "iout": 0.476
+  },
+  {
+   "duty_counts": 446,
+   "v_sim": 12.318,
+   "v_theory_loss": 12.512,
+   "v_ideal": 13.139,
+   "dev_vs_loss_pct": 1.55,
+   "ripple_mv": 105.9,
+   "il_pk": 1.497,
+   "iout": 0.513
+  }
+ ],
+ "S2_firmware_asis": {
+  "cfg": "duty_ramp+track（固件原样）",
+  "ovp_latch_at_ms": 38.2,
+  "verdict": "启动必然失败：PI 积分器 1.7ms 内饱和至 612，占空比被斜坡推高越过 OVP 阈值"
+ },
+ "S3_firmware_track_knee": {
+  "cfg": "ref_ramp+track（仅换软启动）",
+  "v_avg": 11.7161,
+  "err_pct": -2.318,
+  "verdict": "24Ω=CC/CV 临界点时取小+反算跟踪形成 2 拍极限环，占空比被钉死，稳态误差 -2.3%"
+ },
+ "S2": {
+  "cfg": "ref_ramp+clamp_track（修复对照）",
+  "v_overshoot_v": 0.067,
+  "inrush_il_pk": 1.689,
+  "ovp_false_trigger": false,
+  "settle_s": 0.0548,
+  "pass_ovp": true,
+  "pass_overshoot": true,
+  "pass_inrush": true
+ },
+ "S3": {
+  "v_avg": 12.0031,
+  "err_pct": 0.075,
+  "ripple_mv": 244.2,
+  "ripple_pct": 2.04,
+  "il_pk": 1.532,
+  "iout": 0.5,
+  "pass_err": true,
+  "pass_ripple": true
+ },
+ "S4_default": {
+  "kp_v": 0.05,
+  "ki_v": 150.0,
+  "tag": "default",
+  "unload_overshoot_mv": 136.6,
+  "unload_recover_ms": 350.0,
+  "load_undershoot_mv": 4773.0,
+  "load_recover_ms": 200.0,
+  "fault_during_unload": false,
+  "pass_step": false
+ },
+ "S5": {
+  "cfg": "ref_ramp+clamp_track（修复对照）",
+  "cc_i_avg": 0.4979,
+  "cc_err_pct": -0.41,
+  "cc_vout": 9.958,
+  "cc_vout_expected": 9.9989868,
+  "state_toggles_in_cc": 1022,
+  "recover_ms": 18.7,
+  "pass_cc": true,
+  "pass_no_osc": false
+ },
+ "S5_firmware_asis_deficit": {
+  "cfg": "ref_ramp+track（固件原样）",
+  "state_toggles_in_140ms": 0,
+  "vout_mean": 4.51,
+  "vout_min": 4.487,
+  "vout_max": 4.895,
+  "verdict": "欠额工况(CC负载0.55A>限流)输出塌落至二极管直通平台≈4.5V，限流在D≈0时不可执行（0.55A持续），电流环失去调节能力"
+ },
+ "S6": {
+  "i_capdump_pk": 36.849,
+  "fault_latched": true,
+  "fault_at_ms": 155.0,
+  "ocp_delay_ms": 5.0,
+  "i_end": 35.0,
+  "state_end": "FAULT_OCP"
+ },
+ "S7": {
+  "inject_at_ms": 150,
+  "fault_at_ms": 150.2,
+  "latch_holds": true,
+  "state_end": "FAULT_OVP",
+  "duty_end": 0
+ },
+ "S10": {
+  "v_dev_max_mv": 28.8,
+  "duty_end": 0.613,
+  "duty_limit_ok": true,
+  "pass_sag": true
+ }
+}

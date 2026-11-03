@@ -1,0 +1,240 @@
+{
+ "24Ω": {
+  "baseline_window": {
+   "v_err_mv": -8.06,
+   "i_err_ma": 0.01
+  },
+  "inst_phases": [
+   {
+    "phi_us": 0.0,
+    "v_err_mv": 46.0,
+    "i_err_ma": 2.3
+   },
+   {
+    "phi_us": 0.5,
+    "v_err_mv": 38.8,
+    "i_err_ma": 1.96
+   },
+   {
+    "phi_us": 1.0,
+    "v_err_mv": 48.1,
+    "i_err_ma": 2.4
+   },
+   {
+    "phi_us": 1.5,
+    "v_err_mv": 46.2,
+    "i_err_ma": 2.26
+   },
+   {
+    "phi_us": 2.0,
+    "v_err_mv": 40.8,
+    "i_err_ma": 2.01
+   },
+   {
+    "phi_us": 2.5,
+    "v_err_mv": 35.3,
+    "i_err_ma": 1.75
+   },
+   {
+    "phi_us": 3.0,
+    "v_err_mv": 20.2,
+    "i_err_ma": 1.01
+   },
+   {
+    "phi_us": 3.5,
+    "v_err_mv": -12.5,
+    "i_err_ma": -0.51
+   },
+   {
+    "phi_us": 4.0,
+    "v_err_mv": -52.1,
+    "i_err_ma": -1.82
+   },
+   {
+    "phi_us": 4.5,
+    "v_err_mv": -43.7,
+    "i_err_ma": -1.5
+   },
+   {
+    "phi_us": 5.0,
+    "v_err_mv": -44.6,
+    "i_err_ma": -1.53
+   },
+   {
+    "phi_us": 5.5,
+    "v_err_mv": -45.4,
+    "i_err_ma": -1.56
+   },
+   {
+    "phi_us": 6.0,
+    "v_err_mv": -45.7,
+    "i_err_ma": -1.57
+   },
+   {
+    "phi_us": 6.5,
+    "v_err_mv": -43.7,
+    "i_err_ma": -1.48
+   },
+   {
+    "phi_us": 7.0,
+    "v_err_mv": -39.7,
+    "i_err_ma": -1.31
+   },
+   {
+    "phi_us": 7.5,
+    "v_err_mv": -38.3,
+    "i_err_ma": -1.24
+   },
+   {
+    "phi_us": 8.0,
+    "v_err_mv": -31.9,
+    "i_err_ma": -0.95
+   },
+   {
+    "phi_us": 8.5,
+    "v_err_mv": -26.1,
+    "i_err_ma": -0.66
+   },
+   {
+    "phi_us": 9.0,
+    "v_err_mv": -21.2,
+    "i_err_ma": -0.42
+   },
+   {
+    "phi_us": 9.5,
+    "v_err_mv": 8.0,
+    "i_err_ma": 0.94
+   }
+  ],
+  "worst_phase_v": {
+   "phi_us": 4.0,
+   "v_err_mv": -52.1,
+   "i_err_ma": -1.82
+  },
+  "worst_phase_i": {
+   "phi_us": 1.0,
+   "v_err_mv": 48.1,
+   "i_err_ma": 2.4
+  },
+  "note": "瞬时采样的读数偏差为固定相位的静态偏差（100µs=10×10µs 锁相）；真实链路 20µs S/H 孔径+电压路 RC 使偏差收敛到基线水平"
+ },
+ "30Ω": {
+  "baseline_window": {
+   "v_err_mv": -7.35,
+   "i_err_ma": 0.03
+  },
+  "inst_phases": [
+   {
+    "phi_us": 0.0,
+    "v_err_mv": 29.8,
+    "i_err_ma": 1.28
+   },
+   {
+    "phi_us": 0.5,
+    "v_err_mv": 31.3,
+    "i_err_ma": 1.32
+   },
+   {
+    "phi_us": 1.0,
+    "v_err_mv": 24.8,
+    "i_err_ma": 1.1
+   },
+   {
+    "phi_us": 1.5,
+    "v_err_mv": 33.4,
+    "i_err_ma": 1.38
+   },
+   {
+    "phi_us": 2.0,
+    "v_err_mv": 24.5,
+    "i_err_ma": 1.08
+   },
+   {
+    "phi_us": 2.5,
+    "v_err_mv": 23.8,
+    "i_err_ma": 1.01
+   },
+   {
+    "phi_us": 3.0,
+    "v_err_mv": 16.3,
+    "i_err_ma": 0.72
+   },
+   {
+    "phi_us": 3.5,
+    "v_err_mv": -4.9,
+    "i_err_ma": -0.06
+   },
+   {
+    "phi_us": 4.0,
+    "v_err_mv": -31.3,
+    "i_err_ma": -0.84
+   },
+   {
+    "phi_us": 4.5,
+    "v_err_mv": -36.8,
+    "i_err_ma": -0.97
+   },
+   {
+    "phi_us": 5.0,
+    "v_err_mv": -38.7,
+    "i_err_ma": -1.02
+   },
+   {
+    "phi_us": 5.5,
+    "v_err_mv": -38.3,
+    "i_err_ma": -1.0
+   },
+   {
+    "phi_us": 6.0,
+    "v_err_mv": -34.2,
+    "i_err_ma": -0.86
+   },
+   {
+    "phi_us": 6.5,
+    "v_err_mv": -38.6,
+    "i_err_ma": -1.01
+   },
+   {
+    "phi_us": 7.0,
+    "v_err_mv": -36.4,
+    "i_err_ma": -0.92
+   },
+   {
+    "phi_us": 7.5,
+    "v_err_mv": -32.9,
+    "i_err_ma": -0.78
+   },
+   {
+    "phi_us": 8.0,
+    "v_err_mv": -27.9,
+    "i_err_ma": -0.64
+   },
+   {
+    "phi_us": 8.5,
+    "v_err_mv": -26.2,
+    "i_err_ma": -0.55
+   },
+   {
+    "phi_us": 9.0,
+    "v_err_mv": -18.2,
+    "i_err_ma": -0.25
+   },
+   {
+    "phi_us": 9.5,
+    "v_err_mv": 2.4,
+    "i_err_ma": 0.51
+   }
+  ],
+  "worst_phase_v": {
+   "phi_us": 5.0,
+   "v_err_mv": -38.7,
+   "i_err_ma": -1.02
+  },
+  "worst_phase_i": {
+   "phi_us": 1.5,
+   "v_err_mv": 33.4,
+   "i_err_ma": 1.38
+  },
+  "note": "瞬时采样的读数偏差为固定相位的静态偏差（100µs=10×10µs 锁相）；真实链路 20µs S/H 孔径+电压路 RC 使偏差收敛到基线水平"
+ }
+}

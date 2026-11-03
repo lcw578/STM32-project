@@ -1,0 +1,79 @@
+[
+ {
+  "description": "",
+  "footprintName": "IND-SMD_L3.5-W3.0",
+  "lcsc": "C9900020162",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "100uH",
+  "name": "100uH",
+  "score": 3,
+  "symbolName": "100UH_C9900020162",
+  "uuid": "2d1e216d6a864103928ea85852f328a1"
+ },
+ {
+  "description": "电感值:100uH;精度:±25%;额定电流:250mA;饱和电流(Isat):-;",
+  "footprintName": "IND-SMD_L4.9-W4.9_CDRH4D28C",
+  "lcsc": "C17521206",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "Sumida(胜美达)",
+  "manufacturerId": "CDRH4D18CNP-101PC",
+  "name": "CDRH4D18CNP-101PC",
+  "score": 3,
+  "symbolName": "CDRH4D18CNP-101PC",
+  "uuid": "8badc6fd18aa4be5a18503016089b56b",
+  "value": "100uH"
+ },
+ {
+  "description": "电感值:100uH;精度:±10%;饱和电流(Isat):900mA;类型:工字电感;",
+  "footprintName": "IND-TH_BD10.0-P5.00-D0.6",
+  "lcsc": "C20416192",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "YJYCOIN(益嘉源)",
+  "manufacturerId": "YDPK0810-101K",
+  "name": "YDPK0810-101K",
+  "score": 3,
+  "symbolName": "YDPK0810-101K",
+  "uuid": "c9eae72d9cc34f47bb21b2b89ad7ebbf",
+  "value": "100uH"
+ },
+ {
+  "description": "电感值:100uH;精度:±10%;额定电流:2.7A;饱和电流(Isat):-;类型:色环电感;品质因数:-;",
+  "footprintName": "IND-TH_BD12.7-L23.4-P27.40-D0.9",
+  "lcsc": "C1335911",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "VISHAY(威世)",
+  "manufacturerId": "IHA203BA",
+  "name": "IHA203BA",
+  "score": 3,
+  "symbolName": "IHA203BA",
+  "uuid": "d62a0aeb143f4395a4b0cdf7ef053851",
+  "value": "100uH"
+ },
+ {
+  "description": "电感值:100uH;精度:±20%;饱和电流(Isat):450mA;",
+  "footprintName": "IND-SMD_L5.2-W5.0_LTF5022T",
+  "lcsc": "C6291278",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "TDK",
+  "manufacturerId": "LTF5022T-101MR45-LC",
+  "name": "LTF5022T-101MR45-LC",
+  "score": 3,
+  "symbolName": "LTF5022T-101MR45-LC",
+  "uuid": "6957101ada7c4fa9a367e4694c6a6d9f",
+  "value": "100uH"
+ },
+ {
+  "description": "电感值:100uH;精度:±10%;额定电流:4.2A;饱和电流(Isat):-;类型:色环电感;品质因数:-;",
+  "footprintName": "IND-TH_BD14.0-L29.9-P34.20-D0.8",
+  "lcsc": "C1331733",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "VISHAY(威世)",
+  "manufacturerId": "IHA305BA",
+  "name": "IHA305BA",
+  "score": 3,
+  "symbolName": "IHA305BA",
+  "uuid": "79d007572fb54913b4f510e66bc82b3c",
+  "value": "100uH"
+ }
+]

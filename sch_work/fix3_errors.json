@@ -1,0 +1,10 @@
+[
+ {
+  "wire": "OSC_OUT",
+  "err": "{\"code\": \"SCHEMATIC_GEOMETRY_INVALID\", \"message\": \"schematic geometry guard failed (preflight)\", \"detail\": \"Rejected before write: fix source pin exit/wire geometry and replan. wire-through-body (J2):"
+ },
+ {
+  "stub": "U1:19",
+  "net": "CC_LED"
+ }
+]

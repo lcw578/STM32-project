@@ -1,0 +1,54 @@
+[
+ {
+  "description": "电阻类型:-;阻值:50mΩ;精度:±1%;功率:1W;工作电压:-;温度系数:±75ppm/℃;",
+  "footprintName": "R1206",
+  "lcsc": "C844912",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "VISHAY(威世)",
+  "manufacturerId": "WSLP1206R0500FEA",
+  "name": "WSLP1206R0500FEA",
+  "score": 6,
+  "symbolName": "WSLP1206R0500FEA",
+  "uuid": "064958becaaa4cbd8674506ed73f40fa",
+  "value": "50mΩ"
+ },
+ {
+  "description": "电阻类型:采样电阻;阻值:50mΩ;精度:±5%;最大工作电压:-;功率:1W;温度系数:±50ppm/℃;安装方式:贴片;",
+  "footprintName": "R1206",
+  "lcsc": "C53120967",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "JIERR(捷而瑞)",
+  "manufacturerId": "JER1206J1R050",
+  "name": "JER1206J1R050",
+  "score": 6,
+  "symbolName": "JER1206J1R050",
+  "uuid": "a77423d5b02d45ff90e6c49e114755fa",
+  "value": "50mΩ"
+ },
+ {
+  "description": "电阻类型:采样电阻;阻值:50mΩ;精度:±1%;功率:1W;温度系数:±50ppm/℃;安装方式:贴片;",
+  "footprintName": "R1206",
+  "lcsc": "C5185600",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "FORT(致强)",
+  "manufacturerId": "CUM1206-15FR050",
+  "name": "CUM1206-15FR050",
+  "score": 6,
+  "symbolName": "CUM1206-15FR050",
+  "uuid": "98564ad456af4937bb35703c2632fa76",
+  "value": "50mΩ"
+ },
+ {
+  "description": "电阻类型:厚膜电阻;阻值:50mΩ;精度:±5%;",
+  "footprintName": "R1206",
+  "lcsc": "C175836",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "EVER OHMS(天二科技)",
+  "manufacturerId": "CR1206JR050P05R",
+  "name": "CR1206JR050P05R",
+  "score": 6,
+  "symbolName": "CR1206J0R05P05",
+  "uuid": "257839237f284a5b83d647e7c252dd8a",
+  "value": "50mΩ"
+ }
+]

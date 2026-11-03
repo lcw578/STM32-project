@@ -1,0 +1,27 @@
+[
+ {
+  "description": "",
+  "footprintName": "C0603",
+  "lcsc": "C9900013340",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "100nF/0603/50V",
+  "name": "100nF/0603/50V",
+  "score": 6,
+  "symbolName": "100NF/0603/50V",
+  "uuid": "811c5a69fad14dfa85c1af699a12c275"
+ },
+ {
+  "description": "容值:100nF;精度:±20%;额定电压:50V;",
+  "footprintName": "C0603",
+  "lcsc": "C45369465",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "HUI JU(汇聚)",
+  "manufacturerId": "NL0603B104M500CPBN",
+  "name": "NL0603B104M500CPBN",
+  "score": 6,
+  "symbolName": "NL0603B104M500CPBN",
+  "uuid": "754d548555074a839adef8076bfc584c",
+  "value": "100nF"
+ }
+]

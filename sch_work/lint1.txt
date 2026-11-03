@@ -1,0 +1,63 @@
+⚠ staleRisk: PCB was mutated by pcb.component.modify since the last reload — pcb.components.list (and DRC) may read stale engine state; authoritative workflows should save, run `easyeda doc reload`, then read back; if refresh fails, treat the data as unavailable
+⚠ staleRisk: PCB was mutated by pcb.component.modify since the last reload — pcb.outline.get (and DRC) may read stale engine state; authoritative workflows should save, run `easyeda doc reload`, then read back; if refresh fails, treat the data as unavailable
+⚠ staleRisk: PCB was mutated by pcb.component.modify since the last reload — pcb.drc.rules (and DRC) may read stale engine state; authoritative workflows should save, run `easyeda doc reload`, then read back; if refresh fails, treat the data as unavailable
+⚠ staleRisk: PCB was mutated by pcb.component.modify since the last reload — pcb.silk.list (and DRC) may read stale engine state; authoritative workflows should save, run `easyeda doc reload`, then read back; if refresh fails, treat the data as unavailable
+PCB layout-lint: score 0/100 (short): 42 comps, 10 short, 10 overlap, 0 off-board, 0 tight; 24 signal nets, ratsnest 17592mil, 30 crossings
+  WARN  silk-over-pad silk text Designator "C3" overlaps pad LED3.1 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]
+  WARN  silk-over-pad silk text Designator "C8" overlaps pad Q2.1 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]
+  WARN  silk-over-pad silk text Designator "R9" overlaps pad SW1.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]
+  WARN  silk-over-pad silk text Designator "SW1" overlaps pad U2.4 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]
+  WARN  silk-over-pad silk text Designator "U2" overlaps pad U2.5 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]
+  WARN  silk-over-pad silk text Designator "U3" overlaps pad U3.5 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]
+  WARN  silk-off-board silkscreen text 'J2' extends outside the board outline (text 2383..2430 × 1943..1988 mil, board -5..2760 × -5..1973) — it will not be printed; move it with `pcb silk-set --ids 6da7e265ea4cacdbe24 --x … --y …`
+  ERROR short      C12.2[GND] ↔ Y1.1[OSC_IN] on top  (copper overlap 31.5×35.4 mil)
+  ERROR short      C3.1[VIN_5V] ↔ LED3.1[CC_LED] on top  (copper overlap 17.8×9.8 mil)
+  ERROR short      C3.1[VIN_5V] ↔ LED3.2[LED3_C] on top  (copper overlap 5.2×9.8 mil)
+  ERROR short      C3.2[GND] ↔ R4.1[LED3_C] on top  (copper overlap 12.8×11.0 mil)
+  ERROR short      C7.2[GND] ↔ Q3.3[MID] on top  (copper overlap 5.5×10.5 mil)
+  ERROR short      C8.1[3V3] ↔ Q3.2[GND] on top  (copper overlap 21.6×13.1 mil)
+  ERROR short      D1.1[VOUT] ↔ L1.2[SW] on multi  (copper overlap 48.8×22.8 mil)
+  ERROR short      J3.3[SWCLK] ↔ J4.1[UART_TX] on multi  (copper overlap 3.0×63.0 mil)
+  ERROR short      J3.4[GND] ↔ J4.1[UART_TX] on multi  (copper overlap 23.0×63.0 mil)
+  ERROR short      J3.4[GND] ↔ J4.2[UART_RX] on multi  (copper overlap 3.0×63.0 mil)
+  ERROR overlap    C3 ↔ LED3  (top side, 72.2×9.8 mil)
+  ERROR overlap    C3 ↔ R4  (top side, 77.5×11.0 mil)
+  ERROR overlap    C4 ↔ SW1  (top side, 183.9×48.2 mil)
+  ERROR overlap    C7 ↔ Q3  (top side, 5.5×35.4 mil)
+  ERROR overlap    C8 ↔ Q3  (top side, 49.2×35.4 mil)
+  ERROR overlap    C12 ↔ Y1  (top side, 86.7×35.4 mil)
+  ERROR overlap    D1 ↔ L1  (top side, 48.8×22.8 mil)
+  ERROR overlap    J3 ↔ J4  (top side, 103.0×63.0 mil)
+  ERROR overlap    R9 ↔ SW1  (top side, 86.5×34.0 mil)
+  ERROR overlap    SW1 ↔ U2  (top side, 74.7×98.1 mil)
+  WARN  crossing   BOOT0 × CC_LED @ (1077, 515)
+  WARN  crossing   BOOT0 × CV_LED @ (969, 580)
+  WARN  crossing   BOOT0 × VIN_5V @ (551, 832)
+  WARN  crossing   CC_LED × CV_LED @ (1380, 498)
+  WARN  crossing   CC_LED × NRST @ (1019, 518)
+  WARN  crossing   CC_LED × PWR_LED @ (888, 526)
+  WARN  crossing   CC_LED × SWCLK @ (1269, 505)
+  WARN  crossing   CC_LED × SWDIO @ (1358, 500)
+  WARN  crossing   CC_LED × UART_RX @ (1481, 493)
+  WARN  crossing   CC_LED × UART_TX @ (1464, 494)
+  WARN  crossing   CC_LED × VIN_5V @ (296, 558)
+  WARN  crossing   CV_LED × LED2_C @ (264, 720)
+  WARN  crossing   CV_LED × NRST @ (891, 595)
+  WARN  crossing   CV_LED × PWR_LED @ (698, 634)
+  WARN  crossing   CV_LED × SWCLK @ (1249, 524)
+  WARN  crossing   CV_LED × SWDIO @ (1356, 503)
+  WARN  crossing   CV_LED × UART_RX @ (1497, 475)
+  WARN  crossing   CV_LED × UART_TX @ (1474, 480)
+  WARN  crossing   CV_LED × VIN_5V @ (526, 668)
+  WARN  crossing   ISENSE × UART_RX @ (1551, 416)
+  WARN  crossing   ISENSE × UART_TX @ (1519, 412)
+  WARN  crossing   LED3_C × VIN_5V @ (298, 560)
+  WARN  crossing   MID × PWM_B @ (1657, 871)
+  WARN  crossing   NRST × PWR_LED @ (622, 677)
+  WARN  crossing   NRST × VIN_5V @ (531, 700)
+  WARN  crossing   PWR_LED × VIN_5V @ (535, 727)
+  WARN  crossing   SWCLK × SWDIO @ (1446, 331)
+  WARN  crossing   UART_RX × UART_TX @ (1417, 563)
+  WARN  crossing   UART_RX × VSENSE @ (1568, 397)
+  WARN  crossing   UART_TX × VSENSE @ (1532, 394)
+layout not routable-ready: 10 cross-net short, 10 overlap, 0 off-board

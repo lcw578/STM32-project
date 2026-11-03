@@ -1,0 +1,38 @@
+[
+ {
+  "description": "数量:1个N沟道;漏源电压(Vdss):30V;连续漏极电流(Id):5.2A;导通电阻(RDS(on)):27mΩ@4.5V;耗散功率(Pd):1W;阈值电压(Vgs(th)):850mV;",
+  "footprintName": "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+  "lcsc": "C700953",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "HUASHUO(华朔)",
+  "manufacturerId": "AO3400A",
+  "name": "AO3400A",
+  "score": 3,
+  "symbolName": "AO3400A_C700953",
+  "uuid": "ce3bf8afe66241198c3f6478c6919622"
+ },
+ {
+  "description": "",
+  "footprintName": "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+  "lcsc": "C30094725",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "AO3400A",
+  "name": "AO3400A_C30094725",
+  "score": 3,
+  "symbolName": "AO3400A_C30094725",
+  "uuid": "86962c954a9540d3a037b7356bb373f8"
+ },
+ {
+  "description": "",
+  "footprintName": "SOT-23-3_L2.9-W1.3-P1.90-LS2.6-BR",
+  "lcsc": "C9900089444",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "ao3400a",
+  "name": "ao3400a_C9900089444",
+  "score": 3,
+  "symbolName": "AO3400A_C9900089444",
+  "uuid": "1d9d29fb14384143918ad096a31c90fa"
+ }
+]

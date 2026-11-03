@@ -1,0 +1,62 @@
+[
+ {
+  "description": "",
+  "footprintName": "HDR-SMD_2P-P2.54-V-M_C9900024210",
+  "lcsc": "C9900024210",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "1*2P卧式排针",
+  "name": "1*2P卧式排针",
+  "score": 5,
+  "symbolName": "1*2P卧式排针",
+  "uuid": "7da6ca4adab84e63a4d8bf11f2bc97bd"
+ },
+ {
+  "description": "",
+  "footprintName": "HDR-TH_30P-P2.54-V-M-R2-C15-S2.54",
+  "lcsc": "C9900027096",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "COM2X15_2.54_DIP",
+  "name": "COM2X15_2.54_DIP",
+  "score": 3,
+  "symbolName": "COM2X15_2.54_DIP",
+  "uuid": "82565ac4f07f49be834154e513190b29"
+ },
+ {
+  "description": "",
+  "footprintName": "HDR-TH_16P-P2.54-V-M-R2-C8-S2.54",
+  "lcsc": "C9900027095",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "2X8PIN2.54",
+  "name": "2X8PIN2.54",
+  "score": 3,
+  "symbolName": "2X8PIN2.54",
+  "uuid": "3b9d021ef8fe43faa8b04a1c3eec0c59"
+ },
+ {
+  "description": "",
+  "footprintName": "HDR-TH_8P-P2.54-V-M-4",
+  "lcsc": "C9900192758",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "2.54-1*8-BLACK",
+  "name": "2.54-1*8-BLACK",
+  "score": 3,
+  "symbolName": "2.54-1*8-BLACK",
+  "uuid": "f9de0f7321504bf084c03408efe6c1eb"
+ },
+ {
+  "description": "",
+  "footprintName": "HDR-TH_10P-P2.54-V-M_1",
+  "lcsc": "C9900192757",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "2.54-1*10-BLACK",
+  "name": "2.54-1*10-BLACK",
+  "score": 3,
+  "symbolName": "2.54-1*10-BLACK",
+  "uuid": "505b8c3d18ba43349ebc9de2105cad7e"
+ }
+]

@@ -1,0 +1,55 @@
+* T1/T2 —— Boost 功率级开环稳态与占空比扫描（LTspice/ngspice 兼容语法）
+* 依据《01_系统设计方案.md》§5 + devices_selected.json 实际选型
+*   Vin=5V, L1=100uH(IHA203BA, DCR=80m), Q1=AO3400A(Rds~30m@Vgs=5V),
+*   D1=B340A(Vf~0.45V@0.5A), Cout=220uF(ESR 80m)+10uF, 负载 24R(12V/0.5A)
+* 栅驱：理想 0/5V PWM（图腾柱近似为理想 5V 摆幅），10ohm 栅阻+100k 下拉
+.options savecurrents
+.param D=0.6194
+.param TPER=10u
+
+VIN  in  0  DC 5
+* 输入电容 100uF 电解(ESR 100m) + 10uF 陶瓷
+Rin1 in  cin1 0.1
+Cin1 cin1 0 100u
+Cin2 in  0  10u
+
+* 功率级
+L1   in  sw 100u
+Rs1  out oload 0.05
+* MOS：AO3400A 等效（Vto=1.0V, Rds~30mOhm@Vgs=5V —— 手册参数等效 VDMOS）
+M1   sw  g  0  0  AOS3400
+RG   g  gdrv 10
+Rgs  g  0    100k
+.model AOS3400 NMOS (Vto=1.0 Rd=0.015 Rs=0.005 Rb=0.01 Kp=8.0)
+* 整流管：B340A 肖特基（40V/3A, Vf~0.45V@3A）
+D1   sw  out B340A
+.model B340A D(IS=1e-7 N=1.05 RS=0.028 CJO=180p M=0.33 BV=40 IBV=1e-4 EG=0.69 XTI=2)
+* 输出电容 220uF 电解(ESR 80m) + 10uF 陶瓷
+Resr1 out c1 0.08
+C1   c1 0 220u
+C2   out 0 10u
+
+* 负载 24R（12V/0.5A 额定点）
+RLOAD out 0 24
+
+* 栅极 PWM：0->5V，100kHz，占空比由 .param D 控制
+Vgate gdrv 0 PULSE(0 5 0 20n 20n 'D*10u' 10u)
+
+.control
+  tran 0.2u 30m 15m 0.2u
+  * 稳态窗 15m~30m 内测量
+  meas tran vout_avg  AVG v(out)      from=15m to=30m
+  meas tran vout_max  MAX v(out)      from=15m to=30m
+  meas tran vout_min  MIN v(out)      from=15m to=30m
+  meas tran il_avg    AVG i(L1)       from=15m to=30m
+  meas tran il_max    MAX i(L1)       from=15m to=30m
+  meas tran il_min    MIN i(L1)       from=15m to=30m
+  meas tran iout_avg  AVG i(RLOAD)    from=15m to=30m
+  meas tran vds_max   MAX v(sw)       from=15m to=30m
+  * 电感电流纹波（一个开关周期）
+  meas tran il_pk_pk  PP i(L1)        from=29.9m to=30m
+  meas tran vo_pk_pk  PP v(out)       from=29.9m to=30m
+  write T1_D062.raw v(out) v(sw) i(L1) v(gdrv)
+.endc
+
+.end

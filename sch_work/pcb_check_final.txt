@@ -1,0 +1,63 @@
+⚠ staleRisk: PCB was mutated by pcb.silk.add since the last reload — pcb.components.list (and DRC) may read stale engine state; authoritative workflows should save, run `easyeda doc reload`, then read back; if refresh fails, treat the data as unavailable
+⚠ staleRisk: PCB was mutated by pcb.silk.add since the last reload — pcb.line.list (and DRC) may read stale engine state; authoritative workflows should save, run `easyeda doc reload`, then read back; if refresh fails, treat the data as unavailable
+⚠ staleRisk: PCB was mutated by pcb.silk.add since the last reload — pcb.via.list (and DRC) may read stale engine state; authoritative workflows should save, run `easyeda doc reload`, then read back; if refresh fails, treat the data as unavailable
+⚠ staleRisk: PCB was mutated by pcb.silk.add since the last reload — pcb.silk.list (and DRC) may read stale engine state; authoritative workflows should save, run `easyeda doc reload`, then read back; if refresh fails, treat the data as unavailable
+⚠ staleRisk: PCB was mutated by pcb.silk.add since the last reload — pcb.constraint.list (and DRC) may read stale engine state; authoritative workflows should save, run `easyeda doc reload`, then read back; if refresh fails, treat the data as unavailable
+⚠ staleRisk: PCB was mutated by pcb.silk.add since the last reload — pcb.drc.rules (and DRC) may read stale engine state; authoritative workflows should save, run `easyeda doc reload`, then read back; if refresh fails, treat the data as unavailable
+⚠ staleRisk: PCB was mutated by pcb.silk.add since the last reload — pcb.fill.list (and DRC) may read stale engine state; authoritative workflows should save, run `easyeda doc reload`, then read back; if refresh fails, treat the data as unavailable
+⚠ staleRisk: PCB was mutated by pcb.silk.add since the last reload — pcb.outline.get (and DRC) may read stale engine state; authoritative workflows should save, run `easyeda doc reload`, then read back; if refresh fails, treat the data as unavailable
+⚠ staleRisk: PCB was mutated by pcb.silk.add since the last reload — pcb.pour.list (and DRC) may read stale engine state; authoritative workflows should save, run `easyeda doc reload`, then read back; if refresh fails, treat the data as unavailable
+⚠ staleRisk: PCB was mutated by pcb.silk.add since the last reload — pcb.layers.list (and DRC) may read stale engine state; authoritative workflows should save, run `easyeda doc reload`, then read back; if refresh fails, treat the data as unavailable
+PCB check (DFM): 377 track(s), 32 via(s), 149 pad(s) — 51 issue(s)
+  ERROR=0 WARN=41  |  dangling=2 acute=3 nonOrtho=0 overPad=0 clearance=0 silkFlipped=1 overlapVia=0 singleLayerVia=0 widthMismatch=9 dupSegment=0 coupling=17 antennaKeepout=0 netlessPour=0 viaCrossesPlane=0 floatingIsland=0 powerNotPoured=2 netlessViaInPad=0 widthUnderSpec=1 silkOverPad=9 silkOffBoard=0 decapTooFar=5 viaInPad=0 copperNearEdge=0 fiducialMissing=1 zoneViolation=0 zoneClaimsStale=0 internalOnEdge=0 plugClearance=1 matingBlocked=0 openingInward=0
+  WARN  dangling-end      track end connects to nothing (no pad/via/track) — unfinished or floating copper @ (2107, 539)  [GND]
+  WARN  dangling-end      track end connects to nothing (no pad/via/track) — unfinished or floating copper @ (2278, 600)  [GND]
+  WARN  acute-angle       trace bends 45° (<90°) — acid-trap acute angle [规范 §4.1 转角禁直角/锐角 — pcb-design-rules.md] @ (1142, 373)  [3V3]
+  WARN  acute-angle       trace bends 45° (<90°) — acid-trap acute angle [规范 §4.1 转角禁直角/锐角 — pcb-design-rules.md] @ (343, 787)  [VIN_5V]
+  WARN  acute-angle       trace bends 45° (<90°) — acid-trap acute angle [规范 §4.1 转角禁直角/锐角 — pcb-design-rules.md] @ (1944, 1399)  [VOUT]
+  INFO  width-mismatch    2-pin part C1: entering track widths differ (10.0 vs 40.0 mil) [规范 §1.2 推荐线宽 — pcb-design-rules.md]  [GND]
+  INFO  width-mismatch    2-pin part C2: entering track widths differ (10.0 vs 17.3 mil) [规范 §1.2 推荐线宽 — pcb-design-rules.md]  [GND]
+  INFO  width-mismatch    2-pin part C3: entering track widths differ (10.0 vs 23.0 mil) [规范 §1.2 推荐线宽 — pcb-design-rules.md]  [GND]
+  INFO  width-mismatch    2-pin part C5: entering track widths differ (10.0 vs 40.0 mil) [规范 §1.2 推荐线宽 — pcb-design-rules.md]  [GND]
+  INFO  width-mismatch    2-pin part C6: entering track widths differ (10.0 vs 20.0 mil) [规范 §1.2 推荐线宽 — pcb-design-rules.md]  [GND]
+  INFO  width-mismatch    2-pin part D1: entering track widths differ (20.0 vs 40.0 mil) [规范 §1.2 推荐线宽 — pcb-design-rules.md]  [VOUT]
+  INFO  width-mismatch    2-pin part J1: entering track widths differ (40.0 vs 10.0 mil) [规范 §1.2 推荐线宽 — pcb-design-rules.md]  [VIN_RAW]
+  INFO  width-mismatch    2-pin part J2: entering track widths differ (20.0 vs 10.0 mil) [规范 §1.2 推荐线宽 — pcb-design-rules.md]  [VLOAD]
+  INFO  width-mismatch    2-pin part R12: entering track widths differ (10.0 vs 20.0 mil) [规范 §1.2 推荐线宽 — pcb-design-rules.md]  [GND]
+  WARN  parallel-coupling parallel traces 39.2 mil apart over 49 mil (< 52.0 mil = 3×W) — crosstalk/3W risk [规范 §4.2 减少串扰 — pcb-design-rules.md]  [[LED1_C VIN_5V]]
+  WARN  parallel-coupling parallel traces 19.7 mil apart over 37 mil (< 29.3 mil = 3×W) — crosstalk/3W risk [规范 §4.2 减少串扰 — pcb-design-rules.md]  [[OSC_IN OSC_OUT]]
+  WARN  parallel-coupling parallel traces 40.9 mil apart over 41 mil (< 69.1 mil = 3×W) — crosstalk/3W risk [规范 §4.2 减少串扰 — pcb-design-rules.md]  [[PWM_B VIN_5V]]
+  WARN  parallel-coupling parallel traces 19.7 mil apart over 28 mil (< 29.3 mil = 3×W) — crosstalk/3W risk [规范 §4.2 减少串扰 — pcb-design-rules.md]  [[PWM UART_TX]]
+  WARN  parallel-coupling parallel traces 22.9 mil apart over 38 mil (< 29.3 mil = 3×W) — crosstalk/3W risk [规范 §4.2 减少串扰 — pcb-design-rules.md]  [[UART_RX UART_TX]]
+  WARN  parallel-coupling parallel traces 26.9 mil apart over 30 mil (< 30.0 mil = 3×W) — crosstalk/3W risk [规范 §4.2 减少串扰 — pcb-design-rules.md]  [[OSC_IN OSC_OUT]]
+  WARN  parallel-coupling parallel traces 27.1 mil apart over 69 mil (< 29.3 mil = 3×W) — crosstalk/3W risk [规范 §4.2 减少串扰 — pcb-design-rules.md]  [[CC_LED PWR_LED]]
+  WARN  parallel-coupling parallel traces 24.8 mil apart over 161 mil (< 29.3 mil = 3×W) — crosstalk/3W risk [规范 §4.2 减少串扰 — pcb-design-rules.md]  [[CC_LED NRST]]
+  WARN  parallel-coupling parallel traces 19.7 mil apart over 91 mil (< 29.3 mil = 3×W) — crosstalk/3W risk [规范 §4.2 减少串扰 — pcb-design-rules.md]  [[CC_LED CV_LED]]
+  WARN  parallel-coupling parallel traces 23.0 mil apart over 511 mil (< 29.3 mil = 3×W) — crosstalk/3W risk [规范 §4.2 减少串扰 — pcb-design-rules.md]  [[CV_LED PWR_LED]]
+  WARN  parallel-coupling parallel traces 15.1 mil apart over 356 mil (< 29.3 mil = 3×W) — crosstalk/3W risk [规范 §4.2 减少串扰 — pcb-design-rules.md]  [[BOOT0 CV_LED]]
+  WARN  parallel-coupling parallel traces 18.8 mil apart over 459 mil (< 29.3 mil = 3×W) — crosstalk/3W risk [规范 §4.2 减少串扰 — pcb-design-rules.md]  [[CV_LED PWR_LED]]
+  WARN  parallel-coupling parallel traces 26.9 mil apart over 35 mil (< 29.3 mil = 3×W) — crosstalk/3W risk [规范 §4.2 减少串扰 — pcb-design-rules.md]  [[BOOT0 CV_LED]]
+  WARN  parallel-coupling parallel traces 19.7 mil apart over 78 mil (< 29.3 mil = 3×W) — crosstalk/3W risk [规范 §4.2 减少串扰 — pcb-design-rules.md]  [[ISENSE VSENSE]]
+  WARN  parallel-coupling parallel traces 25.0 mil apart over 84 mil (< 29.3 mil = 3×W) — crosstalk/3W risk [规范 §4.2 减少串扰 — pcb-design-rules.md]  [[ISENSE VSENSE]]
+  WARN  parallel-coupling parallel traces 14.0 mil apart over 662 mil (< 29.3 mil = 3×W) — crosstalk/3W risk [规范 §4.2 减少串扰 — pcb-design-rules.md]  [[UART_RX UART_TX]]
+  WARN  parallel-coupling parallel traces 70.2 mil apart over 92 mil (< 120.0 mil = 3×W) — crosstalk/3W risk [规范 §4.2 减少串扰 — pcb-design-rules.md]  [[SW VLOAD]]
+  WARN  silkscreen-flipped designator 'C5' is rotated 180° (upside-down (上下颠倒)) — not upright (放反/朝向不正) [规范 §11.2 位号清晰可辨 — pcb-design-rules.md] @ (511, 1646)  []
+  WARN  silk-over-pad     silk text Designator "C2" overlaps pad U3.3 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md] @ (1944, 1439)  []
+  WARN  silk-over-pad     silk text Designator "C4" overlaps pad SW1.3 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md] @ (535, 531)  []
+  WARN  silk-over-pad     silk text Designator "R3" overlaps pad LED2.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md] @ (263, 720)  []
+  WARN  silk-over-pad     silk text Designator "R4" overlaps pad R3.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md] @ (350, 640)  []
+  WARN  silk-over-pad     silk text Designator "R9" overlaps pad SW1.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md] @ (865, 709)  []
+  WARN  silk-over-pad     silk text Designator "U2" overlaps pad R5.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md] @ (390, 880)  []
+  WARN  silk-over-pad     silk text Designator "U3" overlaps pad D1.1 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md] @ (1863, 1600)  []
+  WARN  silk-over-pad     silk text CV overlaps pad R3.1 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md] @ (290, 640)  []
+  WARN  silk-over-pad     silk text + overlaps pad C6.1 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md] @ (2201, 1700)  []
+  WARN  decap-too-far     decoupling cap C4 sits 392mil (10.0mm) from the nearest 3V3 pin U2.5 — a decap must hug its IC (≤100mil / 2.54mm) [规范 §3.1 去耦电容紧贴IC — pcb-design-rules.md] @ (577, 440)  [3V3]
+  WARN  decap-too-far     decoupling cap C6 sits 366mil (9.3mm) from the nearest VOUT pin U3.3 — a decap must hug its IC (≤100mil / 2.54mm) [规范 §3.1 去耦电容紧贴IC — pcb-design-rules.md] @ (2201, 1700)  [VOUT]
+  WARN  decap-too-far     decoupling cap C7 sits 167mil (4.2mm) from the nearest 3V3 pin U1.36 — a decap must hug its IC (≤100mil / 2.54mm) [规范 §3.1 去耦电容紧贴IC — pcb-design-rules.md] @ (1172, 800)  [3V3]
+  WARN  decap-too-far     decoupling cap C8 sits 172mil (4.4mm) from the nearest 3V3 pin U1.36 — a decap must hug its IC (≤100mil / 2.54mm) [规范 §3.1 去耦电容紧贴IC — pcb-design-rules.md] @ (1322, 800)  [3V3]
+  WARN  decap-too-far     decoupling cap C9 sits 727mil (18.5mm) from the nearest 3V3 pin U1.24 — a decap must hug its IC (≤100mil / 2.54mm) [规范 §3.1 去耦电容紧贴IC — pcb-design-rules.md] @ (2232, 460)  [3V3]
+  INFO  fiducial-missing  board has 133 top-layer pads (SMT-scale) but only 0 fiducial(s) (FID*/MARK*) — SMT wants ≥3 non-collinear 1mm marks (JLC panel rails add their own; local marks needed for fine-pitch) [规范 §9 Mark点设计 — pcb-design-rules.md]  []
+  WARN  connector-plug-clearance J3 ↔ J4 center distance 12.70mm (500mil) < 12.91mm required by their plug envelopes (J3 12.91mm[fallback], J4 12.91mm[fallback]) — the receptacle footprints may clear, but the plugs/overmolds will collide [plug-width=fallback — no envelope table entry, estimated from the rendered bbox] [规范 §3.5 插头护套包络 ≠ 母座本体宽 — pcb-design-rules.md] @ (1750, 130)  []
+  WARN  power-not-poured  power net 3V3 (14 pads) has no copper pour/plane — power should be poured, not carried by thin tracks: `pcb pour-fit --net 3V3` (2-layer) or `pcb power-planes` (4-layer) [规范 §5.2 铺铜策略 — pcb-design-rules.md]  [3V3]
+  WARN  power-not-poured  power net VOUT (7 pads) has no copper pour/plane — power should be poured, not carried by thin tracks: `pcb pour-fit --net VOUT` (2-layer) or `pcb power-planes` (4-layer) [规范 §5.2 铺铜策略 — pcb-design-rules.md]  [VOUT]
+  WARN  width-under-spec  power net GND: 111 track(s) below the gnd spec width 19.7 mil (thinnest 9.78 mil) — widen for current capacity (route-short sizes by role; pour it instead, or --width-power to override) [规范 §1.2 推荐线宽 — pcb-design-rules.md] @ (1263, 771)  [GND]

@@ -1,0 +1,62 @@
+{
+ "wire": [
+  "VIN_5V",
+  "VIN_5V",
+  "SW",
+  "SW",
+  "VOUT",
+  "VOUT",
+  "VLOAD",
+  "PWM_B",
+  "OSC_IN",
+  "OSC_OUT",
+  "OSC_OUT",
+  "OSC_IN",
+  "VMID",
+  "VMID"
+ ],
+ "conn": [
+  {
+   "pin": "U1:9",
+   "net": "3V3",
+   "err": "{\"code\": \"SCHEMATIC_GEOMETRY_INVALID\", \"message\": \"schematic geometry guard failed (preflight)\", \"detail\": \"Rejected before write: fix source pin exit/wire geometry and replan. wire-through-body (Rs1): wire segment 0 (375,665)→(345,665) enters component body\"}"
+  },
+  {
+   "pin": "U1:36",
+   "net": "3V3",
+   "err": "{\"code\": \"EDA_CALL_FAILED\", \"message\": \"Failed to create pin-stub wire (545,625)→(575,625) after retry — check for a primitive already occupying the endpoint.\", \"detail\": \"create failed!\"}"
+  },
+  {
+   "pin": "U1:48",
+   "net": "3V3",
+   "err": "{\"code\": \"EDA_CALL_FAILED\", \"message\": \"Failed to create pin-stub wire (545,745)→(575,745) after retry — check for a primitive already occupying the endpoint.\", \"detail\": \"create failed!\"}"
+  },
+  {
+   "pin": "C3:1",
+   "net": "VIN_5V",
+   "err": "{\"code\": \"SCHEMATIC_GEOMETRY_INVALID\", \"message\": \"schematic geometry guard failed (preflight)\", \"detail\": \"Rejected before write: fix source pin exit/wire geometry and replan. wire-through-body (U2): wire segment 0 (390,170)→(360,170) enters component body\"}"
+  },
+  {
+   "pin": "Rs1:2",
+   "net": "VLOAD",
+   "err": "{\"code\": \"SCHEMATIC_GEOMETRY_INVALID\", \"message\": \"schematic geometry guard failed (preflight)\", \"detail\": \"Rejected before write: fix source pin exit/wire geometry and replan. wire-through-body (U1): wire segment 0 (390,660)→(420,660) enters component body\"}"
+  }
+ ],
+ "flag": [
+  {
+   "pin": "J4:1",
+   "net": "UART_TX",
+   "err": "stub {\"code\": \"SCHEMATIC_GEOMETRY_INVALID\", \"message\": \"schematic geometry guard failed (preflight)\", \"detail\": \"Rejected before write: fix source pin exit"
+  },
+  {
+   "pin": "U1:19",
+   "net": "CC_LED",
+   "err": "stub {\"code\": \"SCHEMATIC_GEOMETRY_INVALID\", \"message\": \"schematic geometry guard failed (preflight)\", \"detail\": \"Rejected before write: fix source pin exit"
+  },
+  {
+   "pin": "U1:2",
+   "net": "PWR_LED",
+   "err": "stub {\"code\": \"SCHEMATIC_GEOMETRY_INVALID\", \"message\": \"schematic geometry guard failed (preflight)\", \"detail\": \"Rejected before write: fix source pin exit"
+  }
+ ]
+}

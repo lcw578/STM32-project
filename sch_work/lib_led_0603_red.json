@@ -1,0 +1,38 @@
+[
+ {
+  "description": "",
+  "footprintName": "LED0603-R-RD_RED",
+  "lcsc": "C9900013124",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "SLED-0603-H0_8MM",
+  "name": "SLED-0603-H0_8MM_C9900013124",
+  "score": 8,
+  "symbolName": "SLED-0603-H0_8MM",
+  "uuid": "3ee58efb3ef9423894d0250783f5e3e2"
+ },
+ {
+  "description": "",
+  "footprintName": "LED0603-R-RD_RED",
+  "lcsc": "C9900009051",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "0603LED",
+  "name": "0603LED",
+  "score": 8,
+  "symbolName": "0603LED",
+  "uuid": "d053086041244dfea1e9487d1cd44afa"
+ },
+ {
+  "description": "",
+  "footprintName": "LED0603-RD_RED",
+  "lcsc": "C9900015761",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "LED_0603",
+  "name": "LED_0603",
+  "score": 8,
+  "symbolName": "LED_0603",
+  "uuid": "8129980bb65545fba821b4e431b65752"
+ }
+]

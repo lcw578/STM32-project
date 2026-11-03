@@ -1,0 +1,28 @@
+[
+ {
+  "description": "容值:22pF;额定电压:100V;材质(温度系数):NP0(C0G);",
+  "footprintName": "C0603",
+  "lcsc": "C152915",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "0603N220J101",
+  "name": "0603N220J101",
+  "score": 6,
+  "symbolName": "0603N220J101",
+  "uuid": "219c56478c204320baf06879f08631ea",
+  "value": "22pF"
+ },
+ {
+  "description": "容值:22pF;精度:±2%;额定电压:50V;温度系数:NP0;",
+  "footprintName": "C0603",
+  "lcsc": "C388039",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "Walsin(华新科)",
+  "manufacturerId": "0603N220G500CT",
+  "name": "0603N220G500CT",
+  "score": 6,
+  "symbolName": "0603N220G500CT",
+  "uuid": "2c17e72c81fb46ceb15961486b1133f1",
+  "value": "22pF"
+ }
+]

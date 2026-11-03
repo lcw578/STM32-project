@@ -1,0 +1,143 @@
+{
+  "id": "req_2975",
+  "type": "response",
+  "version": "v1",
+  "windowId": "55b75218-e722-4932-93da-a29b7777e6de",
+  "createdAt": "2026-11-03T03:06:00.495924Z",
+  "ok": true,
+  "result": {
+    "differentialPairs": [],
+    "equalLengthNetGroups": [],
+    "netClasses": [],
+    "netCount": 27,
+    "nets": [
+      {
+        "length": 169.16106,
+        "net": "LED1_C"
+      },
+      {
+        "length": 1511.601821,
+        "net": "PWR_LED"
+      },
+      {
+        "length": 156.582309,
+        "net": "LED3_C"
+      },
+      {
+        "length": 122.86597,
+        "net": "LED2_C"
+      },
+      {
+        "length": 945.775303,
+        "net": "OSC_IN"
+      },
+      {
+        "length": 396.879254,
+        "net": "PWM_B"
+      },
+      {
+        "length": 977.718607,
+        "net": "SW"
+      },
+      {
+        "length": 856.857351,
+        "net": "GATE"
+      },
+      {
+        "length": 321.677776,
+        "net": "MID"
+      },
+      {
+        "length": 304.570436,
+        "net": "VMID"
+      },
+      {
+        "length": 4522.177688,
+        "net": "3V3"
+      },
+      {
+        "length": 3568.442875,
+        "net": "VIN_5V"
+      },
+      {
+        "length": 2043.326079,
+        "net": "VOUT"
+      },
+      {
+        "length": 805.231184,
+        "net": "VLOAD"
+      },
+      {
+        "length": 1118.882337,
+        "net": "NRST"
+      },
+      {
+        "length": 818.475091,
+        "net": "UART_TX"
+      },
+      {
+        "length": 268.593314,
+        "net": "PWM"
+      },
+      {
+        "length": 931.405421,
+        "net": "SWDIO"
+      },
+      {
+        "length": 1066.53548,
+        "net": "ISENSE"
+      },
+      {
+        "length": 1090.755559,
+        "net": "VSENSE"
+      },
+      {
+        "length": 1157.501038,
+        "net": "OSC_OUT"
+      },
+      {
+        "length": 1068.173159,
+        "net": "BOOT0"
+      },
+      {
+        "length": 929.346827,
+        "net": "UART_RX"
+      },
+      {
+        "length": 1503.367137,
+        "net": "CV_LED"
+      },
+      {
+        "length": 1676.614036,
+        "net": "CC_LED"
+      },
+      {
+        "length": 631.19519,
+        "net": "SWCLK"
+      },
+      {
+        "length": 14051.963395,
+        "net": "GND"
+      }
+    ]
+  },
+  "context": {
+    "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+    "projectName": "boost-cccv-psu",
+    "documentUuid": "b31183190bec91b8",
+    "documentType": "pcb",
+    "tabId": "b31183190bec91b8@35d238ebf1a643c5b3bafc39cbf5699f",
+    "pageVisibility": "hidden"
+  },
+  "mutationContext": {
+    "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+    "projectName": "boost-cccv-psu",
+    "documentUuid": "b31183190bec91b8",
+    "documentType": "pcb",
+    "tabId": "b31183190bec91b8@35d238ebf1a643c5b3bafc39cbf5699f",
+    "pageVisibility": "hidden"
+  },
+  "mutationContextAvailable": true,
+  "seq": 3,
+  "seqAbandoned": 0
+}

@@ -1,0 +1,21 @@
+# ---- 会话/工具私有的东西，不入库 ----
+.easyeda/
+.workbuddy/
+__pycache__/
+*.pyc
+*.log
+~$*
+
+# ---- 大体积可再生文件 ----
+# ngspice/LTspice 波形原始数据：用 sim/ltspice/*.cir 可重跑生成
+sim/ltspice/*.raw
+
+# ---- tools/：ngspice 免装版二进制（52MB），组员按 03 §10 自行下载 ----
+tools/
+
+# ---- 被最终版取代的旧 Gerber ----
+嘉立创打样文件_70x50mm.zip
+嘉立创打样文件_v2_70x50mm.zip
+
+# ---- 本机备份 ----
+sch_work/backup_v1/

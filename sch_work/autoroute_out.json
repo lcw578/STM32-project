@@ -1,0 +1,39 @@
+{
+  "after": {
+    "arcs": 0,
+    "tracks": 248,
+    "vias": 17
+  },
+  "before": {
+    "arcs": 0,
+    "tracks": 0,
+    "vias": 0
+  },
+  "created": {
+    "arcs": 0,
+    "tracks": 248,
+    "vias": 17
+  },
+  "lockedBefore": 0,
+  "lockedLost": [],
+  "props": {
+    "cornerStyle": 0,
+    "existingPrimitiveMode": "keep",
+    "ignoreNets": [
+      "GND"
+    ],
+    "layers": [
+      1,
+      2
+    ],
+    "optimization": 1
+  },
+  "removedPrimitiveIds": [],
+  "router": {
+    "duration": 169398,
+    "failedNets": [],
+    "success": true,
+    "successNetsCount": 26,
+    "totalNetsCount": 26
+  }
+}

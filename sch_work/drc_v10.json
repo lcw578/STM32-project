@@ -1,0 +1,224 @@
+{
+  "id": "req_3670",
+  "type": "response",
+  "version": "v1",
+  "windowId": "55b75218-e722-4932-93da-a29b7777e6de",
+  "createdAt": "2026-11-03T04:07:55.1420072Z",
+  "ok": true,
+  "result": {
+    "passed": false,
+    "violations": [
+      {
+        "count": 1,
+        "list": [
+          {
+            "count": 1,
+            "list": [
+              {
+                "errorObjType": "SMD Pad to Track",
+                "errorType": "Clearance Error",
+                "explanation": {
+                  "errData": {
+                    "clearance": 0.59843,
+                    "errorType": "Safe Spacing",
+                    "globalIndex": "err3",
+                    "isInSameComponent": false,
+                    "layerIds": [
+                      1
+                    ],
+                    "minDistance": 0,
+                    "name": "copperThickness1oz",
+                    "obj1": "40d65cd00f4436cc",
+                    "obj1Suffix": "(GND): e909",
+                    "obj1Type": "Track",
+                    "obj2": "2bc46be3604a70b2e8",
+                    "obj2Suffix": "(VOUT): R1_1",
+                    "obj2Type": "SMD Pad",
+                    "position": {
+                      "x": 170.44645,
+                      "y": 80.21668
+                    }
+                  },
+                  "param": {
+                    "minDistance": "0mil",
+                    "obj1": "Object 1",
+                    "obj2": "object 2",
+                    "shouldBe": "\u003e= 6mil",
+                    "type": "ClearanceError"
+                  },
+                  "str": "{obj1} to {obj2} distance is {minDistance}, should be {shouldBe}"
+                },
+                "globalIndex": "err3",
+                "layer": "Top Layer",
+                "obj1": {
+                  "suffix": "(GND): e909",
+                  "typeName": "Track"
+                },
+                "obj2": {
+                  "suffix": "(VOUT): R1_1",
+                  "typeName": "SMD Pad"
+                },
+                "objs": [
+                  "40d65cd00f4436cc",
+                  "2bc46be3604a70b2e8"
+                ],
+                "parentId": "DRCTab|_|Errors|_|Clearance Error|_|SMD Pad to Track",
+                "pos": {
+                  "x": 170.44645,
+                  "y": 80.21668
+                },
+                "ruleName": "copperThickness1oz",
+                "ruleTypeName": "Safe Spacing",
+                "visible": true
+              }
+            ],
+            "name": "SMD Pad to Track",
+            "title": [
+              "SMD Pad",
+              "to",
+              "Track",
+              "(1)"
+            ],
+            "visible": true
+          }
+        ],
+        "name": "Clearance Error",
+        "title": [
+          "Clearance Error",
+          "(1)"
+        ],
+        "visible": true
+      },
+      {
+        "count": 2,
+        "list": [
+          {
+            "count": 2,
+            "doNotTranslate": true,
+            "list": [
+              {
+                "errorObjType": "SMD Pad",
+                "errorType": "Connection Error",
+                "explanation": {
+                  "errData": {
+                    "errorType": "No Connection",
+                    "globalIndex": "err4",
+                    "isFree": false,
+                    "layerIds": [
+                      1
+                    ],
+                    "name": "Common",
+                    "net": "VOUT",
+                    "obj1": "2bc46be3604a70b2e8",
+                    "obj1Suffix": "(VOUT): R1_1",
+                    "obj1Type": "SMD Pad",
+                    "position": {
+                      "x": 172.034,
+                      "y": 80
+                    }
+                  },
+                  "param": {
+                    "obj1": "Object 1",
+                    "type": "ConnectError"
+                  },
+                  "str": "{obj1} is disconnected from other objects of the same network"
+                },
+                "globalIndex": "err4",
+                "isFree": false,
+                "net": "VOUT",
+                "obj1": {
+                  "suffix": "(VOUT): R1_1",
+                  "typeName": "SMD Pad"
+                },
+                "objs": [
+                  "2bc46be3604a70b2e8"
+                ],
+                "parentId": "DRCTab|_|Errors|_|Connection Error|_|VOUT",
+                "pos": {
+                  "x": 172.034,
+                  "y": 80
+                },
+                "ruleName": "Common",
+                "visible": true
+              },
+              {
+                "errorObjType": "SMD Pad",
+                "errorType": "Connection Error",
+                "explanation": {
+                  "errData": {
+                    "errorType": "No Connection",
+                    "globalIndex": "err5",
+                    "isFree": false,
+                    "layerIds": [
+                      1
+                    ],
+                    "name": "Common",
+                    "net": "VOUT",
+                    "obj1": "b9e5769ad0cf2974e6",
+                    "obj1Suffix": "(VOUT): U3_3",
+                    "obj1Type": "SMD Pad",
+                    "position": {
+                      "x": 214.42643000000004,
+                      "y": 53.89385
+                    }
+                  },
+                  "param": {
+                    "obj1": "Object 1",
+                    "type": "ConnectError"
+                  },
+                  "str": "{obj1} is disconnected from other objects of the same network"
+                },
+                "globalIndex": "err5",
+                "isFree": false,
+                "net": "VOUT",
+                "obj1": {
+                  "suffix": "(VOUT): U3_3",
+                  "typeName": "SMD Pad"
+                },
+                "objs": [
+                  "b9e5769ad0cf2974e6"
+                ],
+                "parentId": "DRCTab|_|Errors|_|Connection Error|_|VOUT",
+                "pos": {
+                  "x": 214.42643000000004,
+                  "y": 53.89385
+                },
+                "ruleName": "Common",
+                "visible": true
+              }
+            ],
+            "name": "VOUT",
+            "title": "VOUT (2)",
+            "visible": true
+          }
+        ],
+        "name": "Connection Error",
+        "title": [
+          "Connection Error",
+          "(2)"
+        ],
+        "visible": true
+      }
+    ]
+  },
+  "context": {
+    "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+    "projectName": "boost-cccv-psu",
+    "documentUuid": "b31183190bec91b8",
+    "documentType": "pcb",
+    "tabId": "b31183190bec91b8@35d238ebf1a643c5b3bafc39cbf5699f",
+    "pageVisibility": "visible"
+  },
+  "mutationContext": {
+    "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+    "projectName": "boost-cccv-psu",
+    "documentUuid": "b31183190bec91b8",
+    "documentType": "pcb",
+    "tabId": "b31183190bec91b8@35d238ebf1a643c5b3bafc39cbf5699f",
+    "pageVisibility": "visible"
+  },
+  "mutationContextAvailable": true,
+  "seq": 337,
+  "seqAbandoned": 0
+}
+pcb drc: native verdict failed; inspect the returned violations

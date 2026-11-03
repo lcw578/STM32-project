@@ -1,0 +1,26 @@
+[
+ {
+  "description": "",
+  "footprintName": "R1812",
+  "lcsc": "C9900022046",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "cr1812j510re04z",
+  "name": "cr1812j510re04z",
+  "score": 3,
+  "symbolName": "CR1812J510RE04Z",
+  "uuid": "4f7d67bbb34a45bbb00f7a2c1226a8b4"
+ },
+ {
+  "description": "",
+  "footprintName": "BGA-144_L10.0-W10.0-P0.80-R12-C12-TL",
+  "lcsc": "C9900096620",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "AX58200BI",
+  "name": "AX58200BI",
+  "score": 0,
+  "symbolName": "AX58200BI",
+  "uuid": "356be98ac2ac481295f6f5a9f4ba824f"
+ }
+]

@@ -1,0 +1,45 @@
+{
+ "S1": [
+  {
+   "duty_counts": 420,
+   "v_sim": 11.193,
+   "v_theory_loss": 11.31,
+   "v_ideal": 12.0,
+   "dev_vs_loss_pct": 1.04,
+   "ripple_mv": 89.5,
+   "il_pk": 1.275,
+   "iout": 0.466
+  },
+  {
+   "duty_counts": 446,
+   "v_sim": 12.016,
+   "v_theory_loss": 12.392,
+   "v_ideal": 13.139,
+   "dev_vs_loss_pct": 3.03,
+   "ripple_mv": 103.3,
+   "il_pk": 1.46,
+   "iout": 0.501
+  }
+ ],
+ "S6": {
+  "i_capdump_pk": 27.671,
+  "fault_latched": true,
+  "fault_at_ms": 155.0,
+  "ocp_delay_ms": 5.0,
+  "i_end": 20.682,
+  "state_end": "FAULT_OCP"
+ },
+ "S7": {
+  "inject_at_ms": 150,
+  "fault_at_ms": 150.2,
+  "latch_holds": true,
+  "state_end": "FAULT_OVP",
+  "duty_end": 0
+ },
+ "S10": {
+  "v_dev_max_mv": 39.5,
+  "duty_end": 0.624,
+  "duty_limit_ok": true,
+  "pass_sag": true
+ }
+}

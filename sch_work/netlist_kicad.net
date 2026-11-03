@@ -1,0 +1,12 @@
+{
+  "id": "req_1777",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-11-02T15:58:54.7689579Z",
+  "ok": false,
+  "error": {
+    "code": "AMBIGUOUS_WINDOW",
+    "message": "2 connector windows are connected; the target is ambiguous",
+    "detail": "pass --project \u003cname\u003e (preferred) or --window \u003cid\u003e. Connected now: b353f434-35bd-438b-a83b-efc9faf2fc20 [project=boost-cccv-psu doc=schematic host=electron], dad28beb-4950-4a38-8965-3a2767bc60f3 [project=boost-cccv-psu doc=schematic host=electron]"
+  }
+}

@@ -1,0 +1,27 @@
+[
+ {
+  "description": "电阻类型:厚膜电阻;阻值:1kΩ;精度:±0.1%;功率:62.5mW;最大工作电压:-;温度系数:±25ppm/℃;",
+  "footprintName": "R0603",
+  "lcsc": "C2913953",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "SANYEAR(叁叶源)",
+  "manufacturerId": "SY0603BD1KP",
+  "name": "SY0603BD1KP",
+  "score": 6,
+  "symbolName": "SY0603BD1KP",
+  "uuid": "7e9ec0a1e64242cf8f85ab1c3429965e",
+  "value": "1kΩ"
+ },
+ {
+  "description": "",
+  "footprintName": "RES-TH_BD3.0-L9.0-P13.0-D0.6",
+  "lcsc": "C9900018938",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "AXIAL0.5 1K/0.5W/1%",
+  "name": "AXIAL0.5 1K/0.5W/1%",
+  "score": 3,
+  "symbolName": "AXIAL0.5 1K/0.5W/1%",
+  "uuid": "787d5cda647f488a9e61154b03efe63c"
+ }
+]

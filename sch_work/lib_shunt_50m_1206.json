@@ -1,0 +1,54 @@
+[
+ {
+  "description": "电阻类型:采样电阻;阻值:250mΩ;精度:±1%;功率:1W;安装方式:贴片;",
+  "footprintName": "R1206",
+  "lcsc": "C2932845",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "Milliohm(毫欧)",
+  "manufacturerId": "HoYH1206-1W-250mR-1%",
+  "name": "HoYH1206-1W-250mR-1%",
+  "score": 6,
+  "symbolName": "HOYH1206-1W-250MR-1%",
+  "uuid": "9bb546316d5f42568c76bfddfd1a0f06",
+  "value": "250mΩ"
+ },
+ {
+  "description": "电阻类型:采样电阻;阻值:50mΩ;精度:±1%;功率:1W;温度系数:±100ppm/℃;安装方式:贴片;",
+  "footprintName": "R1206",
+  "lcsc": "C601088",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "Milliohm(毫欧)",
+  "manufacturerId": "HoYH1206-1W-50mR-1%",
+  "name": "HoYH1206-1W-50mR-1%",
+  "score": 6,
+  "symbolName": "HOYH1206-1W-50MR-1%",
+  "uuid": "d040fade29cc42dca18df3f8c49867ac",
+  "value": "50mΩ"
+ },
+ {
+  "description": "电阻类型:采样电阻;阻值:50mΩ;精度:±1%;功率:1W;安装方式:贴片;",
+  "footprintName": "RES-SMD_L3.2-W1.6",
+  "lcsc": "C2908328",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "Milliohm(毫欧)",
+  "manufacturerId": "HoLR1206-1W-50mR-1%-15ppm",
+  "name": "HoLR1206-1W-50mR-1%-15ppm",
+  "score": 6,
+  "symbolName": "HOLR1206-1W-50MR-1%-15PPM",
+  "uuid": "136317243c2c4082b24af1029adc2823",
+  "value": "50mΩ"
+ },
+ {
+  "description": "电阻类型:薄膜电阻;阻值:750mΩ;精度:±1%;功率:1W;温度系数:±100ppm/℃;",
+  "footprintName": "R1206",
+  "lcsc": "C46594309",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "Milliohm(毫欧)",
+  "manufacturerId": "HoJLRH1206-1W-750mR-1%",
+  "name": "HoJLRH1206-1W-750mR-1%",
+  "score": 6,
+  "symbolName": "HOJLRH1206-1W-750MR-1%",
+  "uuid": "a3f1e2c6108e46048892fedbd9d8a3aa",
+  "value": "750mΩ"
+ }
+]

@@ -1,0 +1,41 @@
+[
+ {
+  "description": "容值:22uF;精度:±10%;额定电压:10V;等效串联电阻(ESR):3Ω@100kHz;",
+  "footprintName": "CAP-SMD_L3.2-W1.6",
+  "lcsc": "C503893",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "TORCH(火炬)",
+  "manufacturerId": "CA45-A-10V-22uF-K",
+  "name": "CA45-A-10V-22uF-K_C503893",
+  "score": 6,
+  "symbolName": "CA45-A-10V-22μF-K",
+  "uuid": "42873910d182443386aa55fbfcbbfc05",
+  "value": "22uF"
+ },
+ {
+  "description": "容值:22uF;精度:±20%;额定电压:10V;等效串联电阻(ESR):10Ω@100kHz;",
+  "footprintName": "CASE-A_3216",
+  "lcsc": "C140394",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "CEC(振华新云)",
+  "manufacturerId": "CA45-A-10V-22uF-M",
+  "name": "CA45-A-10V-22uF-M",
+  "score": 6,
+  "symbolName": "CA45-A-10V-22UF-M",
+  "uuid": "45db5335f4624d0cba71584812fc8ddb",
+  "value": "22uF"
+ },
+ {
+  "description": "容值:22uF;精度:±10%;额定电压:10V;等效串联电阻:4.5Ω@100kHz;",
+  "footprintName": "CASE-A_3216",
+  "lcsc": "C141305",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "CEC(振华新云)",
+  "manufacturerId": "CA45B-A-10V-22uF-K",
+  "name": "CA45B-A-10V-22uF-K",
+  "score": 6,
+  "symbolName": "CA45B-A-10V-22UF-K",
+  "uuid": "500fffd0498c402ab357505d058dd5ef",
+  "value": "22uF"
+ }
+]

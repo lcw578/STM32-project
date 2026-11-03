@@ -1,0 +1,50 @@
+[
+ {
+  "description": "正向压降(Vf):550mV@3A;直流反向耐压(Vr):40V;整流电流:3A;",
+  "footprintName": "SMB_L4.6-W3.6-LS5.3-RD",
+  "lcsc": "C169415",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "晶导微电子",
+  "manufacturerId": "SS34B",
+  "name": "SS34B",
+  "score": 3,
+  "symbolName": "SS34B",
+  "uuid": "9ac0f183eb194242b25aeca0def4c4f1"
+ },
+ {
+  "description": "二极管配置:独立式;正向压降(Vf):550mV@3A;直流反向耐压(Vr):40V;整流电流:3A;",
+  "footprintName": "DO-214AA_L4.4-W3.6-LS5.3-RD",
+  "lcsc": "C7450521",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "LJ(朗捷)",
+  "manufacturerId": "SS34B",
+  "name": "SS34B_1",
+  "score": 3,
+  "symbolName": "SS34B_C7450521",
+  "uuid": "3d1ba7ce373c4bf4ae93020c70cbbb83"
+ },
+ {
+  "description": "正向压降(Vf):550mV@3A;直流反向耐压(Vr):40V;整流电流:3A;",
+  "footprintName": "DO-214AA_L5.6-W4.0-RD",
+  "lcsc": "C360455",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "PINGWEI(平伟)",
+  "manufacturerId": "SS34B",
+  "name": "SS34B_C360455",
+  "score": 3,
+  "symbolName": "SS34B_C360455",
+  "uuid": "a76451e5d5c74ea1bd117bab7e1a2ca7"
+ },
+ {
+  "description": "二极管配置:1个独立式;正向压降(Vf):550mV;直流反向耐压(Vr):40V;整流电流:3A;",
+  "footprintName": "SMBF_L4.3-W3.6-LS5.3-RD",
+  "lcsc": "C7435459",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "XCH(旭昌辉)",
+  "manufacturerId": "SS34BF",
+  "name": "SS34BF_C7435459",
+  "score": 3,
+  "symbolName": "SS34BF_C7435459",
+  "uuid": "6b7eb92d1e4c42e295a0bde7289c6760"
+ }
+]

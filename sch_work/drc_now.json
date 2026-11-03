@@ -1,0 +1,114 @@
+{
+  "id": "req_3769",
+  "type": "response",
+  "version": "v1",
+  "windowId": "086bfe50-0a34-4ca5-b9fa-fb04eec1bae3",
+  "createdAt": "2026-11-03T06:05:22.198611Z",
+  "ok": true,
+  "result": {
+    "passed": false,
+    "violations": [
+      {
+        "count": 1,
+        "list": [
+          {
+            "count": 1,
+            "list": [
+              {
+                "errorObjType": "Copper Region(Filled) to Track",
+                "errorType": "Clearance Error",
+                "explanation": {
+                  "errData": {
+                    "clearance": 1,
+                    "errorType": "Safe Spacing",
+                    "globalIndex": "err1",
+                    "isInSameComponent": false,
+                    "layerIds": [
+                      1
+                    ],
+                    "minDistance": 0,
+                    "name": "copperThickness1oz",
+                    "obj1": "f0c0ce682137d161",
+                    "obj1Suffix": "(GND): e2e2",
+                    "obj1Type": "Copper Region(Filled)",
+                    "obj2": "8e0b386954b33a3d",
+                    "obj2Suffix": "(VMID): e1053",
+                    "obj2Type": "Track",
+                    "position": {
+                      "x": 215.96355,
+                      "y": 69.78582
+                    }
+                  },
+                  "param": {
+                    "minDistance": "0mil",
+                    "obj1": "Object 1",
+                    "obj2": "object 2",
+                    "shouldBe": "\u003e= 10mil",
+                    "type": "ClearanceError"
+                  },
+                  "str": "{obj1} to {obj2} distance is {minDistance}, should be {shouldBe}"
+                },
+                "globalIndex": "err1",
+                "layer": "Top Layer",
+                "obj1": {
+                  "suffix": "(GND): e2e2",
+                  "typeName": "Copper Region(Filled)"
+                },
+                "obj2": {
+                  "suffix": "(VMID): e1053",
+                  "typeName": "Track"
+                },
+                "objs": [
+                  "f0c0ce682137d161",
+                  "8e0b386954b33a3d"
+                ],
+                "parentId": "DRCTab|_|Errors|_|Clearance Error|_|Copper Region(Filled) to Track",
+                "pos": {
+                  "x": 215.96355,
+                  "y": 69.78582
+                },
+                "ruleName": "copperThickness1oz",
+                "ruleTypeName": "Safe Spacing",
+                "visible": true
+              }
+            ],
+            "name": "Copper Region(Filled) to Track",
+            "title": [
+              "Copper Region(Filled)",
+              "to",
+              "Track",
+              "(1)"
+            ],
+            "visible": true
+          }
+        ],
+        "name": "Clearance Error",
+        "title": [
+          "Clearance Error",
+          "(1)"
+        ],
+        "visible": true
+      }
+    ]
+  },
+  "context": {
+    "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+    "projectName": "boost-cccv-psu",
+    "documentUuid": "b31183190bec91b8",
+    "documentType": "pcb",
+    "tabId": "b31183190bec91b8@35d238ebf1a643c5b3bafc39cbf5699f",
+    "pageVisibility": "hidden"
+  },
+  "mutationContext": {
+    "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+    "projectName": "boost-cccv-psu",
+    "documentUuid": "b31183190bec91b8",
+    "documentType": "pcb",
+    "tabId": "b31183190bec91b8@35d238ebf1a643c5b3bafc39cbf5699f",
+    "pageVisibility": "hidden"
+  },
+  "mutationContextAvailable": true,
+  "seq": 389,
+  "seqAbandoned": 0
+}
+pcb drc: native verdict failed; inspect the returned violations

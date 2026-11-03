@@ -1,0 +1,52 @@
+[
+ {
+  "description": "",
+  "footprintName": "HC-49S_L11.4-W4.7-LS13.0",
+  "lcsc": "C9900022292",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "HC-49S/SMD - 8MHz",
+  "name": "HC-49S/SMD - 8MHz",
+  "score": 6,
+  "symbolName": "HC-49S/SMD - 8MHZ",
+  "uuid": "c97fb9a7617f4b31ab7363c16ba23e74"
+ },
+ {
+  "description": "",
+  "footprintName": "OSC-TH_L11.1-W4.7-P4.88",
+  "lcsc": "C2912230",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "HC-49S-G20QSA-8MHz",
+  "name": "HC-49S-G20QSA-8MHz",
+  "score": 6,
+  "symbolName": "HC-49S-G20QSA-8MHZ",
+  "uuid": "e4816431108844c6ac2b080e57fbd472"
+ },
+ {
+  "description": "晶振类型:贴片晶振;频率:8MHz;常温频差:±20ppm;负载电容:20pF;频率稳定度:±30ppm;",
+  "footprintName": "HC-49S_L11.4-W4.5-LS12.7",
+  "lcsc": "C271661",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "TKD(泰晶)",
+  "manufacturerId": "CS16M008000RD1",
+  "name": "CS16M008000RD1",
+  "score": 5,
+  "symbolName": "CS16M008000RD1",
+  "uuid": "a3ec0436ccca48288e195ea9b2834e78",
+  "value": "8MHz"
+ },
+ {
+  "description": "频率:8MHz;常温频差:±30ppm;负载电容:30pF;频率稳定度:±30ppm;",
+  "footprintName": "HC-49S_L11.2-W5.0-P4.88",
+  "lcsc": "C1669797",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "DIODES(美台)",
+  "manufacturerId": "GB0800004",
+  "name": "GB0800004",
+  "score": 5,
+  "symbolName": "GB0800004",
+  "uuid": "c2d9fe386c014915bb3829823fea478e",
+  "value": "8MHz"
+ }
+]

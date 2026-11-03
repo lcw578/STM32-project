@@ -1,0 +1,50 @@
+[
+ {
+  "description": "焊脚数量:2;额定电流:30A;本体材质:黄铜;本体镀层:锡;",
+  "footprintName": "CONN-TH_KEYSTONE-1206",
+  "lcsc": "C6383040",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "Keystone",
+  "manufacturerId": "1206",
+  "name": "1206",
+  "score": 3,
+  "symbolName": "1206",
+  "uuid": "e2a52f027dbb4abe9613ee0b854e89f2"
+ },
+ {
+  "description": "",
+  "footprintName": "R2512",
+  "lcsc": "C9900015239",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "0.05R",
+  "name": "0.05R",
+  "score": 3,
+  "symbolName": "0.05R",
+  "uuid": "aac85c1cb9b34db1a06ef4a0bbfec912"
+ },
+ {
+  "description": "",
+  "footprintName": "RES-SMD_L6.4-W3.2-R2512",
+  "lcsc": "C9900019300",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "0.05R/50毫欧",
+  "name": "0.05R/50毫欧",
+  "score": 3,
+  "symbolName": "0.05R/50毫欧",
+  "uuid": "422bc22cfca245e9b9599cc32401a34e"
+ },
+ {
+  "description": "",
+  "footprintName": "F1206",
+  "lcsc": "C9900021141",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "120610A保险丝",
+  "name": "120610A保险丝",
+  "score": 3,
+  "symbolName": "120610A保险丝",
+  "uuid": "a13c4a32d27041838c87459161f080bd"
+ }
+]

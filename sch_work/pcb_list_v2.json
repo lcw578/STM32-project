@@ -1,0 +1,891 @@
+⚠ staleRisk: PCB was mutated by pcb.import_changes since the last reload — pcb.components.list (and DRC) may read stale engine state; authoritative workflows should save, run `easyeda doc reload`, then read back; if refresh fails, treat the data as unavailable
+{
+  "id": "req_3304",
+  "type": "response",
+  "version": "v1",
+  "windowId": "55b75218-e722-4932-93da-a29b7777e6de",
+  "createdAt": "2026-11-03T03:54:34.8960624Z",
+  "ok": true,
+  "result": {
+    "components": [
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C1",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "CL31B106KBHNNNE",
+        "name": "={Value}",
+        "primitiveId": "e967033cd918b99e",
+        "rotation": 0,
+        "supplierId": "C89632",
+        "uniqueId": "gge4",
+        "x": 640,
+        "y": 1420
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C2",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "CL31B106KBHNNNE",
+        "name": "={Value}",
+        "primitiveId": "26a14b974a5db1ed",
+        "rotation": 0,
+        "supplierId": "C89632",
+        "uniqueId": "gge10",
+        "x": 2050,
+        "y": 1350
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C3",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "CL31B106KBHNNNE",
+        "name": "={Value}",
+        "primitiveId": "7ddbedcd4e7def27",
+        "rotation": 0,
+        "supplierId": "C89632",
+        "uniqueId": "gge18",
+        "x": 120,
+        "y": 350
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C4",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "CL31B106KBHNNNE",
+        "name": "={Value}",
+        "primitiveId": "77d74db256d1ad62",
+        "rotation": 0,
+        "supplierId": "C89632",
+        "uniqueId": "gge19",
+        "x": 640,
+        "y": 440
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C5",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "220uF±20%25V 6.3*11 2.5mm",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "f7e26cf2b5325b5f",
+        "rotation": 0,
+        "supplierId": "C9900018463",
+        "uniqueId": "gge3",
+        "x": 640,
+        "y": 1780
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C6",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "220uF±20%25V 6.3*11 2.5mm",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "a966433704f3bf87",
+        "rotation": 0,
+        "supplierId": "C9900018463",
+        "uniqueId": "gge9",
+        "x": 2250,
+        "y": 1700
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C7",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "NL0603B104M500CPBN",
+        "name": "={Value}",
+        "primitiveId": "2b469661b1fd69ca",
+        "rotation": 0,
+        "supplierId": "C45369465",
+        "uniqueId": "gge27",
+        "x": 1199.998,
+        "y": 799.9985000000001
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C8",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "NL0603B104M500CPBN",
+        "name": "={Value}",
+        "primitiveId": "299defd9be7aab2d",
+        "rotation": 0,
+        "supplierId": "C45369465",
+        "uniqueId": "gge28",
+        "x": 1349.998,
+        "y": 799.9985000000001
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C9",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "NL0603B104M500CPBN",
+        "name": "={Value}",
+        "primitiveId": "6aee7118044bb315",
+        "rotation": 0,
+        "supplierId": "C45369465",
+        "uniqueId": "gge43",
+        "x": 2259.998,
+        "y": 459.9984999999999
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C12",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "0603N220J101",
+        "name": "={Value}",
+        "primitiveId": "9560c3988c6aecf9",
+        "rotation": 0,
+        "supplierId": "C152915",
+        "uniqueId": "gge22",
+        "x": 559.998,
+        "y": 229.99850000000004
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C13",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "0603N220J101",
+        "name": "={Value}",
+        "primitiveId": "e1f9485ea966e7fd",
+        "rotation": 0,
+        "supplierId": "C152915",
+        "uniqueId": "gge23",
+        "x": 559.998,
+        "y": 99.9985
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "D1",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "B340A",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "57a16d32cc756941",
+        "rotation": 0,
+        "supplierId": "C64982",
+        "uniqueId": "gge8",
+        "x": 1950,
+        "y": 1600.004
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "J1",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "KF301-5.0-2P",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "52be3ecb5a7a6ae2",
+        "rotation": 0,
+        "supplierId": "C474881",
+        "uniqueId": "gge2",
+        "x": 347.296,
+        "y": 1595.3255
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "J2",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "KF301-5.0-2P",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "6da7e265ea4cacdb",
+        "rotation": 0,
+        "supplierId": "C474881",
+        "uniqueId": "gge12",
+        "x": 2427.296,
+        "y": 995.3255
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "J3",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "HMT-2.54-1*4PM",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "88adebefbeaf7228",
+        "rotation": 0,
+        "supplierId": "C54620387",
+        "uniqueId": "gge41",
+        "x": 1499.999,
+        "y": 130.0015
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "J4",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "HMT-2.54-1*4PM",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "d7bb4ff9422dcacf",
+        "rotation": 0,
+        "supplierId": "C54620387",
+        "uniqueId": "gge42",
+        "x": 1999.999,
+        "y": 130.0015
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "LED1",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "SLED-0603-H0_8MM",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "5fd5e459dd0fc34b",
+        "rotation": 0,
+        "supplierId": "C9900013124",
+        "uniqueId": "gge35",
+        "x": 231,
+        "y": 880
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "LED2",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "LED-0603G-FZ_GREEN",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "fa8798804d77a81c",
+        "rotation": 0,
+        "supplierId": "C9900007571",
+        "uniqueId": "gge37",
+        "x": 231.9515,
+        "y": 719.789
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "LED3",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "SLED-0603-H0_8MM",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "553bb9bc39ba1afa",
+        "rotation": 0,
+        "supplierId": "C9900013124",
+        "uniqueId": "gge39",
+        "x": 231,
+        "y": 560
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "Q1",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "AO3400A",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "5171502dc50153fe",
+        "rotation": 0,
+        "supplierId": "C700953",
+        "uniqueId": "gge6",
+        "x": 1396.849,
+        "y": 1150
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "Q2",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "S8050",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "ee6f3bd108ea8188",
+        "rotation": 0,
+        "supplierId": "C2931719",
+        "uniqueId": "gge14",
+        "x": 1576.849,
+        "y": 900
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "Q3",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "S8550",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "8689a69da5df1558",
+        "rotation": 0,
+        "supplierId": "C2931720",
+        "uniqueId": "gge15",
+        "x": 1576.849,
+        "y": 760
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "R1",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "QR0603F36K0P05Z",
+        "name": "={Value}",
+        "primitiveId": "2bc46be3604a70b2",
+        "rotation": 0,
+        "supplierId": "C176146",
+        "uniqueId": "gge30",
+        "x": 2380,
+        "y": 700
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "R2",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "RC0603FR-1010KL",
+        "name": "={Value}",
+        "primitiveId": "c60d631ec54a50f5",
+        "rotation": 0,
+        "supplierId": "C4004838",
+        "uniqueId": "gge31",
+        "x": 2380,
+        "y": 560
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "R3",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "RC0603FR-071KL",
+        "name": "={Value}",
+        "primitiveId": "a65264088547cb48",
+        "rotation": 0,
+        "supplierId": "C22548",
+        "uniqueId": "gge38",
+        "x": 320,
+        "y": 640
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "R4",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "RC0603FR-071KL",
+        "name": "={Value}",
+        "primitiveId": "0d933759e99389c3",
+        "rotation": 0,
+        "supplierId": "C22548",
+        "uniqueId": "gge40",
+        "x": 360,
+        "y": 560
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "R5",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "RC0603FR-071KL",
+        "name": "={Value}",
+        "primitiveId": "bd2200d9b6721e14",
+        "rotation": 0,
+        "supplierId": "C22548",
+        "uniqueId": "gge36",
+        "x": 360,
+        "y": 880
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "R6",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "RC0603FR-0710RL",
+        "name": "={Value}",
+        "primitiveId": "0a01c507fb125a33",
+        "rotation": 0,
+        "supplierId": "C109318",
+        "uniqueId": "gge16",
+        "x": 1720,
+        "y": 900
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "R7",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "RC0603FR-07100KL",
+        "name": "={Value}",
+        "primitiveId": "24d5cadfb56447cf",
+        "rotation": 0,
+        "supplierId": "C14675",
+        "uniqueId": "gge7",
+        "x": 1400,
+        "y": 1450
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "R8",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "RC0603FR-071KL",
+        "name": "={Value}",
+        "primitiveId": "f368271abf15e22c",
+        "rotation": 0,
+        "supplierId": "C22548",
+        "uniqueId": "gge13",
+        "x": 1450,
+        "y": 900
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "R9",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "RC0603FR-1010KL",
+        "name": "={Value}",
+        "primitiveId": "90c2039b1e4f143a",
+        "rotation": 0,
+        "supplierId": "C4004838",
+        "uniqueId": "gge24",
+        "x": 960,
+        "y": 620
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "R10",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "RC0603FR-07100KL",
+        "name": "={Value}",
+        "primitiveId": "57d4ae77f809b98a",
+        "rotation": 0,
+        "supplierId": "C14675",
+        "uniqueId": "gge26",
+        "x": 500,
+        "y": 880
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "R11",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "RC0603FR-071KL",
+        "name": "={Value}",
+        "primitiveId": "b6252f1b4eb993f1",
+        "rotation": 0,
+        "supplierId": "C22548",
+        "uniqueId": "gge32",
+        "x": 2380,
+        "y": 420
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "Rs1",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "HoYH1206-1W-50mR-1%",
+        "name": "={Value}",
+        "primitiveId": "a1b516a0b9e6d906",
+        "rotation": 0,
+        "supplierId": "C601088",
+        "uniqueId": "gge11",
+        "x": 2250,
+        "y": 1350
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "SW1",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "Buttontact-6x6mm",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "ece5af032975f8e5",
+        "rotation": 0,
+        "supplierId": "C9900004221",
+        "uniqueId": "gge25",
+        "x": 700,
+        "y": 619.9925
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "U1",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "STM32F103C8T6",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "93000b0aab73b40e",
+        "rotation": 0,
+        "supplierId": "C8734",
+        "uniqueId": "gge20",
+        "x": 1350,
+        "y": 480.98900000000003
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "U2",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "ME6211C33M5G-N",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "ef0ca845facd1a08",
+        "rotation": 0,
+        "supplierId": "C82942",
+        "uniqueId": "gge17",
+        "x": 436.8643,
+        "y": 744.3585
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "U3",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "INA180A2IDBVR",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "b9e5769ad0cf2974",
+        "rotation": 0,
+        "supplierId": "C192764",
+        "uniqueId": "gge29",
+        "x": 2106.8643,
+        "y": 584.3585
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "Y1",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "CS16M008000RD1",
+        "name": "={Value}",
+        "primitiveId": "b0259f1274345a0a",
+        "rotation": 0,
+        "supplierId": "C271661",
+        "uniqueId": "gge21",
+        "x": 949.9969999999998,
+        "y": 230
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C10",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "C1608X7R103KGTS",
+        "name": "={Value}",
+        "primitiveId": "b27741f0d63fc2c3",
+        "rotation": 0,
+        "supplierId": "C718540",
+        "uniqueId": "gge33",
+        "x": 2539.998,
+        "y": 559.9985
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "C11",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "C0603C102K1RAC7867",
+        "name": "={Value}",
+        "primitiveId": "a7afbc5f786894ca",
+        "rotation": 0,
+        "supplierId": "C141067",
+        "uniqueId": "gge46",
+        "x": 259.0440001640002,
+        "y": -424.2253999999973
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "F1",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "0466003.NR",
+        "name": "={Manufacturer Part}",
+        "primitiveId": "4aaf66b540eff65a",
+        "rotation": 0,
+        "supplierId": "C99555",
+        "uniqueId": "gge44",
+        "x": 87.31899999999996,
+        "y": -247.8663999999992
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "L1",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "FSA1365-101MT",
+        "name": "={Value}",
+        "primitiveId": "992da688a4ff0239",
+        "rotation": 0,
+        "supplierId": "C41384377",
+        "uniqueId": "gge5",
+        "x": 1150,
+        "y": 1600
+      },
+      {
+        "addIntoBom": true,
+        "availability": {
+          "bbox": "not-requested",
+          "pads": "not-requested"
+        },
+        "captureErrors": {},
+        "designator": "R12",
+        "layer": 1,
+        "locked": false,
+        "manufacturerId": "HoLTT0603-1/10W-10K-1%",
+        "name": "={Value}",
+        "primitiveId": "c4a7b9657914d6ba",
+        "rotation": 0,
+        "supplierId": "C2904526",
+        "uniqueId": "gge45",
+        "x": 395.9850002050126,
+        "y": -342.5753999999994
+      }
+    ],
+    "count": 44,
+    "coverage": {
+      "bbox": {
+        "available": 0,
+        "notRequested": 44,
+        "requested": false,
+        "unavailable": 0
+      },
+      "pads": {
+        "available": 0,
+        "failed": 0,
+        "geometryAvailable": 0,
+        "geometryUnavailable": 0,
+        "notRequested": 44,
+        "observed": 0,
+        "requested": false,
+        "serialized": 0,
+        "unavailable": 0
+      }
+    },
+    "incomplete": false,
+    "partial": false
+  },
+  "context": {
+    "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+    "projectName": "boost-cccv-psu",
+    "documentUuid": "b31183190bec91b8",
+    "documentType": "pcb",
+    "tabId": "b31183190bec91b8@35d238ebf1a643c5b3bafc39cbf5699f",
+    "pageVisibility": "hidden"
+  },
+  "mutationContext": {
+    "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+    "projectName": "boost-cccv-psu",
+    "documentUuid": "b31183190bec91b8",
+    "documentType": "pcb",
+    "tabId": "b31183190bec91b8@35d238ebf1a643c5b3bafc39cbf5699f",
+    "pageVisibility": "hidden"
+  },
+  "mutationContextAvailable": true,
+  "staleRisk": "PCB was mutated by pcb.import_changes since the last reload — pcb.components.list (and DRC) may read stale engine state; authoritative workflows should save, run `easyeda doc reload`, then read back; if refresh fails, treat the data as unavailable",
+  "seq": 118,
+  "seqAbandoned": 0
+}

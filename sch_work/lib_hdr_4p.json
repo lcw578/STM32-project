@@ -1,0 +1,50 @@
+[
+ {
+  "description": "",
+  "footprintName": "HDR-TH_4P-P2.54-H-M-W11.0",
+  "lcsc": "C9900003188",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "HEADER_1*4P_XH2.54_卧式",
+  "name": "HEADER_1*4P_XH2.54_卧式",
+  "score": 9,
+  "symbolName": "HEADER_1*4P_XH2.54_卧式",
+  "uuid": "f5821945060449cca2aa58122a43e630"
+ },
+ {
+  "description": "",
+  "footprintName": "CONN-TH_4P-P5.00_HEADER45.08-4P",
+  "lcsc": "C9900007553",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "Header45.08-4P",
+  "name": "Header45.08-4P",
+  "score": 6,
+  "symbolName": "HEADER45.08-4P",
+  "uuid": "112f370f783e4f918c8475794fb0e25d"
+ },
+ {
+  "description": "",
+  "footprintName": "CONN-TH_6P-P2.50-V-M_HEADER-MALE",
+  "lcsc": "C9900007627",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "HEADER_MALE-XH_1X6P_2.54MM",
+  "name": "HEADER_MALE-XH_1X6P_2.54MM",
+  "score": 6,
+  "symbolName": "HEADER_MALE-XH_1X6P_2.54MM",
+  "uuid": "3d79b1575e1f4ba082581a8f1fa2e9da"
+ },
+ {
+  "description": "",
+  "footprintName": "COMM-SMD_4P-P2.50_SHOUHAN_2.54-4PWT",
+  "lcsc": "C9900019920",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "2.54-4PWT卧贴",
+  "name": "2.54-4PWT卧贴",
+  "score": 6,
+  "symbolName": "2.54-4PWT卧贴",
+  "uuid": "ce3a5e58871b41cea8216c6b3ccc15d4"
+ }
+]

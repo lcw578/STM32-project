@@ -1,0 +1,15 @@
+[
+ {
+  "description": "电阻类型:厚膜电阻;阻值:1kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;",
+  "footprintName": "R0603",
+  "lcsc": "C22548",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "YAGEO(国巨)",
+  "manufacturerId": "RC0603FR-071KL",
+  "name": "RC0603FR-071KL",
+  "score": 3,
+  "symbolName": "RC0603FR-071KL",
+  "uuid": "3a88329dfeba4ae2b7e97c1498192bee",
+  "value": "1kΩ"
+ }
+]

@@ -1,0 +1,74 @@
+[
+ {
+  "description": "",
+  "footprintName": "CAP-SMD_BD8.0-L8.3-W8.3-LS9.3-FD-1",
+  "lcsc": "C9900017672",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "220uF/25V-SMT",
+  "name": "220uF/25V-SMT",
+  "score": 6,
+  "symbolName": "220UF/25V-SMT",
+  "uuid": "0ded4bf46f9a4b5189624aabed0a5759"
+ },
+ {
+  "description": "",
+  "footprintName": "CAP-TH_BD6.3-P2.50-D0.5-FD",
+  "lcsc": "C9900018463",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "220uF±20%25V 6.3*11 2.5mm",
+  "name": "220uF±20%25V 6.3*11 2.5mm",
+  "score": 6,
+  "symbolName": "220UF±20%25V 6.3*11 2.5MM",
+  "uuid": "ff88f350be2a49c29aee6100205dc50b"
+ },
+ {
+  "description": "",
+  "footprintName": "CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD",
+  "lcsc": "C9900015980",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "ECS-6",
+  "name": "ECS-6",
+  "score": 0,
+  "symbolName": "ECS-6",
+  "uuid": "4ddc169dfec44b9c99bf3a128fadfaf3"
+ },
+ {
+  "description": "",
+  "footprintName": "CAP-SMD_BD8.1-L8.3-W8.3-LS9.3-FD",
+  "lcsc": "C9900016035",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "S8*10.5",
+  "name": "S8*10.5",
+  "score": 0,
+  "symbolName": "S8*10.5",
+  "uuid": "1e88e7d55c154a60869aba53003092c0"
+ },
+ {
+  "description": "正向压降(Vf):1.05V@17.5A;直流反向耐压(Vr):800V;整流电流:35A;正向浪涌电流(Ifsm):500A;",
+  "footprintName": "DIO-BG-TH_S35VB80",
+  "lcsc": "C781508",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "YANGJIE(扬杰)",
+  "manufacturerId": "S35VB80",
+  "name": "S35VB80",
+  "score": 0,
+  "symbolName": "S35VB80-A1-0000",
+  "uuid": "21d0ec69f3244058b4adca787b398193"
+ },
+ {
+  "description": "",
+  "footprintName": "CONN-SMD_BM10B-GEZK-TBT",
+  "lcsc": "C9900293172",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "BM10B-GEZK-TBT",
+  "name": "BM10B-GEZK-TBT",
+  "score": 0,
+  "symbolName": "BM10B-GEZK-TBT",
+  "uuid": "741ee18b80e94e68b9b8a7f61422ae4f"
+ }
+]

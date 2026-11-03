@@ -1,0 +1,26 @@
+[
+ {
+  "description": "CPU内核:ARM Cortex-M3;CPU最大主频:72MHz;CPU位数:32 Bit;",
+  "footprintName": "LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL",
+  "lcsc": "C8734",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "ST(意法半导体)",
+  "manufacturerId": "STM32F103C8T6",
+  "name": "STM32F103C8T6",
+  "score": 3,
+  "symbolName": "STM32F103C8T6",
+  "uuid": "accfc2f6010745268febab2459577079"
+ },
+ {
+  "description": "",
+  "footprintName": "CONN-TH_L53.3-W22.9_STM32F103C8T6-CARD",
+  "lcsc": "C9900077949",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "",
+  "manufacturerId": "STM32F103C8T6-Card",
+  "name": "STM32F103C8T6-Card",
+  "score": 3,
+  "symbolName": "STM32F103C8T6-CARD",
+  "uuid": "387f801cfddf4750bc070a71821799db"
+ }
+]

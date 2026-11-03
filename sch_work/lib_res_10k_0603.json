@@ -1,0 +1,28 @@
+[
+ {
+  "description": "电阻类型:薄膜电阻;阻值:10kΩ;精度:±0.5%;功率:125mW;最大工作电压:75V;温度系数:±25ppm/℃;",
+  "footprintName": "R0603",
+  "lcsc": "C2075315",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "VISHAY(威世)",
+  "manufacturerId": "TNPW060310K0DEEA",
+  "name": "TNPW060310K0DEEA",
+  "score": 6,
+  "symbolName": "TNPW060310K0DEEA",
+  "uuid": "1714038876904da0893019b25a4238b6",
+  "value": "10kΩ"
+ },
+ {
+  "description": "电阻类型:厚膜电阻;阻值:10kΩ;精度:±1%;功率:100mW;温度系数:±100ppm/℃;",
+  "footprintName": "R0603",
+  "lcsc": "C4004838",
+  "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+  "manufacturer": "YAGEO(国巨)",
+  "manufacturerId": "RC0603FR-1010KL",
+  "name": "RC0603FR-1010KL",
+  "score": 6,
+  "symbolName": "RC0603FR-1010KL",
+  "uuid": "689543164d9f451b8e7537c267dbeb02",
+  "value": "10kΩ"
+ }
+]

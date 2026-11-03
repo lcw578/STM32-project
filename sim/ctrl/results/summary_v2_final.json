@@ -1,0 +1,32 @@
+{
+ "S5": {
+  "cfg": "ref_ramp+clamp_track（修复对照）",
+  "cc_i_avg": 0.4983,
+  "cc_err_pct": -0.33,
+  "cc_vout": 9.966,
+  "cc_vout_expected": 9.9989868,
+  "state_toggles_in_cc": 0,
+  "recover_ms": 159.4,
+  "pass_cc": true,
+  "pass_no_osc": true
+ },
+ "S5_firmware_asis_deficit": {
+  "cfg": "ref_ramp+track（固件原样）",
+  "state_toggles_in_140ms": 0,
+  "vout_mean": 4.463,
+  "vout_min": 4.435,
+  "vout_max": 4.937,
+  "verdict": "欠额工况(CC负载0.55A>限流)输出塌落至二极管直通平台≈4.5V，限流在D≈0时不可执行（0.55A持续），电流环失去调节能力"
+ },
+ "S4_final": {
+  "kp_v": 0.06,
+  "ki_v": 50.0,
+  "tag": "final",
+  "unload_overshoot_mv": 300.3,
+  "unload_recover_ms": 157.5,
+  "load_undershoot_mv": 1969.3,
+  "load_recover_ms": 7.5,
+  "fault_during_unload": false,
+  "pass_step": false
+ }
+}
