@@ -38,12 +38,12 @@ static uint32_t blink_cnt;
 #define LIM_RELAX           0.2f      /* 临界点附近欠流放松速率（防抖振） */
 #define LIM_DEEP_RELAX      1.0f      /* 深度欠流（<0.8×i_set）全速放松，快速脱离钳位 */
 #define LIM_DEEP_THRESHOLD  0.8f
-#define UNLOAD_DROP_COUNTS  400       /* 单拍电流突降 >0.129A 判为卸载 */
+#define UNLOAD_DROP_COUNTS  800       /* 单拍电流突降 >0.129A 判为卸载（0.1Ω×G50 口径） */
 #define UNLOAD_HOLD_TICKS   10
 #define FAST_UNWIND_ERR     (-54.0f)  /* ≈ -0.2V */
 #define FAST_UNWIND_FACTOR  25.0f
-#define LOAD_FF             0.26f     /* 负载跃升前馈系数（S4 扫描：0.26 留 30% 裕度） */
-#define LOAD_FF_THRESHOLD   100       /* ≈0.032A，低于此视为噪声 */
+#define LOAD_FF             0.13f     /* 负载跃升前馈（counts 口径：0.1Ω 采样下 0.13 ≡ v2 0.05Ω@0.26） */
+#define LOAD_FF_THRESHOLD   200       /* ≈0.032A，低于此视为噪声 */
 #define FB_DUTY_THRESHOLD   500       /* 0.69×720 */
 #define FB_VOUT_THRESHOLD   2160      /* 8.0V / 0.0037042 */
 #define FB_CONFIRM_TICKS    50        /* 5ms */
@@ -104,7 +104,7 @@ static float limiter_step(void)
      * 下压，前馈再加占空比会把输出顶过 OVP。 */
     {
         int16_t di = (int16_t)((int32_t)g_iout - (int32_t)iout_prev);
-        if (di > LOAD_FF_THRESHOLD && g_iout <= (uint16_t)(g_cfg.i_set + 100))
+        if (di > LOAD_FF_THRESHOLD && g_iout <= (uint16_t)(g_cfg.i_set + 200))
             pi_v.integ = clampf(pi_v.integ + LOAD_FF * (float)di, 0.0f, (float)PWM_DUTY_MAX);
     }
 

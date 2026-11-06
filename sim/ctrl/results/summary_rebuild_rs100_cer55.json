@@ -1,0 +1,404 @@
+{
+ "meta": {
+  "date": "2026-11-05",
+  "purpose": "重建版平替器件复核：Rs1=0.1Ω + 全陶瓷输出(Ceff≈55µF) + DCR 0.17",
+  "firmware_constants": {
+   "ADC_IOUT_GAIN": 0.000161172,
+   "ADC_IOUT_DIV": 6204.5,
+   "ISET": 3102,
+   "OCP_HARD": "3723 (0.6A)",
+   "UNLOAD_DROP": 800.0
+  },
+  "cout_model": "5x22uF X5R25V @12V bias -> Ceff=55uF (bounds 45/66), esr=5mOhm"
+ },
+ "S1": [
+  {
+   "duty_counts": 420,
+   "v_sim": 11.222,
+   "v_theory_loss": 11.31,
+   "v_ideal": 12.0,
+   "dev_vs_loss_pct": 0.78,
+   "ripple_mv": 53.6,
+   "il_pk": 1.278,
+   "iout": 0.468
+  },
+  {
+   "duty_counts": 446,
+   "v_sim": 12.051,
+   "v_theory_loss": 12.392,
+   "v_ideal": 13.139,
+   "dev_vs_loss_pct": 2.75,
+   "ripple_mv": 60.6,
+   "il_pk": 1.464,
+   "iout": 0.502
+  }
+ ],
+ "S2_firmware_asis": {
+  "cfg": "duty_ramp+track（固件原样）",
+  "ovp_latch_at_ms": 38.8,
+  "verdict": "启动必然失败：PI 积分器 1.7ms 内饱和至 612，占空比被斜坡推高越过 OVP 阈值"
+ },
+ "S3_firmware_track_knee": {
+  "cfg": "ref_ramp+track（仅换软启动）",
+  "v_avg": 11.7627,
+  "err_pct": -1.93,
+  "verdict": "24Ω=CC/CV 临界点时取小+反算跟踪形成 2 拍极限环，占空比被钉死，稳态误差 -2.3%"
+ },
+ "S2": {
+  "cfg": "ref_ramp+clamp_track（修复对照）",
+  "v_overshoot_v": 0.15,
+  "inrush_il_pk": 1.627,
+  "ovp_false_trigger": false,
+  "settle_s": 0.2999,
+  "pass_ovp": true,
+  "pass_overshoot": true,
+  "pass_inrush": true
+ },
+ "S3": {
+  "v_avg": 11.9402,
+  "err_pct": -0.45,
+  "ripple_mv": 379.4,
+  "ripple_pct": 3.16,
+  "il_pk": 1.621,
+  "iout": 0.498,
+  "pass_err": true,
+  "pass_ripple": false
+ },
+ "S4_default": {
+  "kp_v": 0.05,
+  "ki_v": 150.0,
+  "tag": "default",
+  "unload_overshoot_mv": 223.9,
+  "unload_recover_ms": 350.0,
+  "load_undershoot_mv": 8008.6,
+  "load_recover_ms": 200.0,
+  "fault_during_unload": false,
+  "pass_step": false
+ },
+ "S5": {
+  "cfg": "ref_ramp+clamp_track（修复对照）",
+  "cc_i_avg": 0.4991,
+  "cc_err_pct": -0.17,
+  "cc_vout": 9.982,
+  "cc_vout_expected": 9.999120879120879,
+  "state_toggles_in_cc": 0,
+  "recover_ms": 159.7,
+  "pass_cc": true,
+  "pass_no_osc": true
+ },
+ "S5_firmware_asis_deficit": {
+  "cfg": "ref_ramp+track（固件原样）",
+  "state_toggles_in_140ms": 0,
+  "vout_mean": 4.457,
+  "vout_min": 4.456,
+  "vout_max": 4.457,
+  "verdict": "欠额工况(CC负载0.55A>限流)输出塌落至二极管直通平台≈4.5V，限流在D≈0时不可执行（0.55A持续），电流环失去调节能力"
+ },
+ "S6": {
+  "i_capdump_pk": 22.37,
+  "fault_latched": true,
+  "fault_at_ms": 155.0,
+  "ocp_delay_ms": 5.0,
+  "i_end": 20.682,
+  "state_end": "FAULT_OCP"
+ },
+ "S7": {
+  "inject_at_ms": 150,
+  "fault_at_ms": 150.2,
+  "latch_holds": true,
+  "state_end": "FAULT_OVP",
+  "duty_end": 0
+ },
+ "S10": {
+  "v_dev_max_mv": 33.1,
+  "duty_end": 0.622,
+  "duty_limit_ok": true,
+  "pass_sag": true
+ },
+ "B_Ceff45": {
+  "S1": [
+   {
+    "duty_counts": 420,
+    "v_sim": 11.222,
+    "v_theory_loss": 11.31,
+    "v_ideal": 12.0,
+    "dev_vs_loss_pct": 0.78,
+    "ripple_mv": 64.7,
+    "il_pk": 1.278,
+    "iout": 0.468
+   },
+   {
+    "duty_counts": 446,
+    "v_sim": 12.051,
+    "v_theory_loss": 12.392,
+    "v_ideal": 13.139,
+    "dev_vs_loss_pct": 2.75,
+    "ripple_mv": 73.2,
+    "il_pk": 1.464,
+    "iout": 0.502
+   }
+  ],
+  "S3": {
+   "v_avg": 11.9119,
+   "err_pct": -0.686,
+   "ripple_mv": 488.5,
+   "ripple_pct": 4.07,
+   "il_pk": 1.622,
+   "iout": 0.496,
+   "pass_err": true,
+   "pass_ripple": false
+  },
+  "S2": {
+   "cfg": "ref_ramp+clamp_track（修复对照）",
+   "v_overshoot_v": 0.189,
+   "inrush_il_pk": 1.615,
+   "ovp_false_trigger": false,
+   "settle_s": 0.2996,
+   "pass_ovp": true,
+   "pass_overshoot": true,
+   "pass_inrush": true
+  },
+  "S4": {
+   "kp_v": 0.06,
+   "ki_v": 50.0,
+   "tag": "rebuild_Ceff45",
+   "unload_overshoot_mv": 1324.8,
+   "unload_recover_ms": 350.0,
+   "load_undershoot_mv": 7984.1,
+   "load_recover_ms": 200.0,
+   "fault_during_unload": true,
+   "pass_step": false
+  }
+ },
+ "B_Ceff66": {
+  "S1": [
+   {
+    "duty_counts": 420,
+    "v_sim": 11.222,
+    "v_theory_loss": 11.31,
+    "v_ideal": 12.0,
+    "dev_vs_loss_pct": 0.78,
+    "ripple_mv": 45.2,
+    "il_pk": 1.278,
+    "iout": 0.468
+   },
+   {
+    "duty_counts": 446,
+    "v_sim": 12.051,
+    "v_theory_loss": 12.392,
+    "v_ideal": 13.139,
+    "dev_vs_loss_pct": 2.75,
+    "ripple_mv": 51.2,
+    "il_pk": 1.464,
+    "iout": 0.502
+   }
+  ],
+  "S3": {
+   "v_avg": 11.9382,
+   "err_pct": -0.467,
+   "ripple_mv": 475.4,
+   "ripple_pct": 3.96,
+   "il_pk": 1.644,
+   "iout": 0.497,
+   "pass_err": true,
+   "pass_ripple": false
+  },
+  "S2": {
+   "cfg": "ref_ramp+clamp_track（修复对照）",
+   "v_overshoot_v": 0.139,
+   "inrush_il_pk": 1.615,
+   "ovp_false_trigger": false,
+   "settle_s": 0.2964,
+   "pass_ovp": true,
+   "pass_overshoot": true,
+   "pass_inrush": true
+  },
+  "S4": {
+   "kp_v": 0.06,
+   "ki_v": 50.0,
+   "tag": "rebuild_Ceff66",
+   "unload_overshoot_mv": 841.9,
+   "unload_recover_ms": 350.0,
+   "load_undershoot_mv": 7987.9,
+   "load_recover_ms": 200.0,
+   "fault_during_unload": false,
+   "pass_step": false
+  }
+ },
+ "C_S8_grid": {
+  "kp": [
+   0.04,
+   0.05,
+   0.06,
+   0.08
+  ],
+  "ki": [
+   30,
+   40,
+   50,
+   65
+  ],
+  "results": [
+   [
+    {
+     "ok": true,
+     "fault": false,
+     "settle_ms": 12.2,
+     "knee_err_mv": 37.3,
+     "unload_over_mv": 846.0,
+     "reload_under_mv": 6807.0,
+     "reload_rec_ms": 16.6
+    },
+    {
+     "ok": true,
+     "fault": false,
+     "settle_ms": 7.0,
+     "knee_err_mv": 37.3,
+     "unload_over_mv": 838.4,
+     "reload_under_mv": 6781.0,
+     "reload_rec_ms": 12.6
+    },
+    {
+     "ok": true,
+     "fault": false,
+     "settle_ms": 4.2,
+     "knee_err_mv": 37.4,
+     "unload_over_mv": 869.3,
+     "reload_under_mv": 6736.6,
+     "reload_rec_ms": 10.2
+    },
+    {
+     "ok": true,
+     "fault": false,
+     "settle_ms": 2.9,
+     "knee_err_mv": 43.4,
+     "unload_over_mv": 870.3,
+     "reload_under_mv": 6686.4,
+     "reload_rec_ms": 8.0
+    }
+   ],
+   [
+    {
+     "ok": true,
+     "fault": false,
+     "settle_ms": 12.9,
+     "knee_err_mv": 37.3,
+     "unload_over_mv": 846.3,
+     "reload_under_mv": 6724.2,
+     "reload_rec_ms": 17.1
+    },
+    {
+     "ok": true,
+     "fault": false,
+     "settle_ms": 7.4,
+     "knee_err_mv": 37.3,
+     "unload_over_mv": 864.4,
+     "reload_under_mv": 6680.9,
+     "reload_rec_ms": 12.9
+    },
+    {
+     "ok": true,
+     "fault": false,
+     "settle_ms": 5.0,
+     "knee_err_mv": 37.3,
+     "unload_over_mv": 834.0,
+     "reload_under_mv": 6646.7,
+     "reload_rec_ms": 10.3
+    },
+    {
+     "ok": true,
+     "fault": false,
+     "settle_ms": 3.1,
+     "knee_err_mv": 43.4,
+     "unload_over_mv": 884.6,
+     "reload_under_mv": 6570.6,
+     "reload_rec_ms": 8.0
+    }
+   ],
+   [
+    {
+     "ok": true,
+     "fault": false,
+     "settle_ms": 13.5,
+     "knee_err_mv": 38.9,
+     "unload_over_mv": 829.9,
+     "reload_under_mv": 6615.6,
+     "reload_rec_ms": 17.5
+    },
+    {
+     "ok": true,
+     "fault": false,
+     "settle_ms": 8.3,
+     "knee_err_mv": 37.3,
+     "unload_over_mv": 828.3,
+     "reload_under_mv": 6564.0,
+     "reload_rec_ms": 13.0
+    },
+    {
+     "ok": true,
+     "fault": false,
+     "settle_ms": 5.4,
+     "knee_err_mv": 37.3,
+     "unload_over_mv": 892.0,
+     "reload_under_mv": 6510.7,
+     "reload_rec_ms": 10.8
+    },
+    {
+     "ok": true,
+     "fault": false,
+     "settle_ms": 2.9,
+     "knee_err_mv": 37.4,
+     "unload_over_mv": 886.5,
+     "reload_under_mv": 6426.0,
+     "reload_rec_ms": 8.7
+    }
+   ],
+   [
+    {
+     "ok": true,
+     "fault": false,
+     "settle_ms": 16.2,
+     "knee_err_mv": 38.9,
+     "unload_over_mv": 865.7,
+     "reload_under_mv": 6466.1,
+     "reload_rec_ms": 19.1
+    },
+    {
+     "ok": true,
+     "fault": false,
+     "settle_ms": 9.6,
+     "knee_err_mv": 38.9,
+     "unload_over_mv": 840.1,
+     "reload_under_mv": 6410.6,
+     "reload_rec_ms": 15.7
+    },
+    {
+     "ok": false,
+     "fault": false,
+     "settle_ms": 139.9,
+     "knee_err_mv": 166.4,
+     "unload_over_mv": 1000.0,
+     "reload_under_mv": 6367.8,
+     "reload_rec_ms": 120.0
+    },
+    {
+     "ok": false,
+     "fault": false,
+     "settle_ms": 140.0,
+     "knee_err_mv": 2094.4,
+     "unload_over_mv": 213.8,
+     "reload_under_mv": 6266.9,
+     "reload_rec_ms": 120.0
+    }
+   ]
+  ],
+  "note": "判据同 s8_sweep：无故障+膝点<120mV+建立<100ms+恢复<30ms"
+ },
+ "D_firmware_not_synced": {
+  "cmd": "CV 带载 0.5A@12V（负载要求 0.5A，固件限流环给定=旧常数 1551 counts）",
+  "actual_i_avg": 0.5,
+  "vout_avg": 4.915,
+  "verdict": "输出塌到 4.91V、电流 0.500A：固件按 0.05Ω 解释 0.1Ω 采样，读数×2 → 控制器认为 1.0A 超过 0.5A 限流 → 限幅器压占空比，正常工作点都无法维持 12V",
+  "evidence": "iload/vout 均为功率级真实值（模型侧），非控制器读数"
+ }
+}

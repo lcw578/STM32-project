@@ -1,0 +1,2 @@
+↻ easyeda daemon 已在后台启动（pid 10228，端口 60832，日志 C:\Users\33178\.easyeda-agent\daemon.log）
+fetch PCB pads: --doc guard: no EasyEDA connector is available

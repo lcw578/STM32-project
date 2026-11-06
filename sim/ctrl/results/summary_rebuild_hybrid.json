@@ -1,0 +1,118 @@
+{
+ "meta": "hybrid: 220uF electrolytic(80mOhm) + 5x22uF ceramic(55uF eff), Rs1=0.1Ohm synced",
+ "S1": [
+  {
+   "duty_counts": 420,
+   "v_sim": 11.218,
+   "v_theory_loss": 11.31,
+   "v_ideal": 12.0,
+   "dev_vs_loss_pct": 0.81,
+   "ripple_mv": 44.0,
+   "il_pk": 1.277,
+   "iout": 0.467
+  },
+  {
+   "duty_counts": 446,
+   "v_sim": 12.047,
+   "v_theory_loss": 12.392,
+   "v_ideal": 13.139,
+   "dev_vs_loss_pct": 2.78,
+   "ripple_mv": 50.0,
+   "il_pk": 1.464,
+   "iout": 0.502
+  }
+ ],
+ "S2_firmware_asis": {
+  "cfg": "duty_ramp+track（固件原样）",
+  "ovp_latch_at_ms": 39.1,
+  "verdict": "启动必然失败：PI 积分器 1.7ms 内饱和至 612，占空比被斜坡推高越过 OVP 阈值"
+ },
+ "S3_firmware_track_knee": {
+  "cfg": "ref_ramp+track（仅换软启动）",
+  "v_avg": 11.9325,
+  "err_pct": -0.514,
+  "verdict": "24Ω=CC/CV 临界点时取小+反算跟踪形成 2 拍极限环，占空比被钉死，稳态误差 -2.3%"
+ },
+ "S2": {
+  "cfg": "ref_ramp+clamp_track（修复对照）",
+  "v_overshoot_v": 0.064,
+  "inrush_il_pk": 1.707,
+  "ovp_false_trigger": false,
+  "settle_s": 0.0551,
+  "pass_ovp": true,
+  "pass_overshoot": true,
+  "pass_inrush": true
+ },
+ "S3": {
+  "v_avg": 12.0033,
+  "err_pct": 0.076,
+  "ripple_mv": 165.6,
+  "ripple_pct": 1.38,
+  "il_pk": 1.559,
+  "iout": 0.5,
+  "pass_err": true,
+  "pass_ripple": true
+ },
+ "S4_default": {
+  "kp_v": 0.05,
+  "ki_v": 150.0,
+  "tag": "default",
+  "unload_overshoot_mv": 267.4,
+  "unload_recover_ms": 350.0,
+  "load_undershoot_mv": 7736.3,
+  "load_recover_ms": 200.0,
+  "fault_during_unload": false,
+  "pass_step": false
+ },
+ "S5": {
+  "cfg": "ref_ramp+clamp_track（修复对照）",
+  "cc_i_avg": 0.4991,
+  "cc_err_pct": -0.18,
+  "cc_vout": 9.981,
+  "cc_vout_expected": 9.999120879120879,
+  "state_toggles_in_cc": 0,
+  "recover_ms": 10.7,
+  "pass_cc": true,
+  "pass_no_osc": true
+ },
+ "S5_firmware_asis_deficit": {
+  "cfg": "ref_ramp+track（固件原样）",
+  "state_toggles_in_140ms": 0,
+  "vout_mean": 4.456,
+  "vout_min": 4.456,
+  "vout_max": 4.457,
+  "verdict": "欠额工况(CC负载0.55A>限流)输出塌落至二极管直通平台≈4.5V，限流在D≈0时不可执行（0.55A持续），电流环失去调节能力"
+ },
+ "S6": {
+  "i_capdump_pk": 32.827,
+  "fault_latched": true,
+  "fault_at_ms": 155.0,
+  "ocp_delay_ms": 5.0,
+  "i_end": 20.682,
+  "state_end": "FAULT_OCP"
+ },
+ "S7": {
+  "inject_at_ms": 150,
+  "fault_at_ms": 150.2,
+  "latch_holds": true,
+  "state_end": "FAULT_OVP",
+  "duty_end": 0
+ },
+ "S10": {
+  "v_dev_max_mv": 19.1,
+  "duty_end": 0.624,
+  "duty_limit_ok": true,
+  "pass_sag": true
+ },
+ "S4_hybrid_r5": {
+  "kp_v": 0.06,
+  "ki_v": 50.0,
+  "tag": "hybrid_r5",
+  "unload_overshoot_mv": 241.8,
+  "unload_recover_ms": 350.0,
+  "load_undershoot_mv": 7739.4,
+  "load_recover_ms": 200.0,
+  "fault_during_unload": false,
+  "pass_step": false
+ }
+}

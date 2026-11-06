@@ -1,0 +1,137 @@
+{
+ "meta": {
+  "date": "2026-11-05 19:56",
+  "basis": "当前原理图快照: 位号重排版; Rs1=0.1Ω(固件已同步); F1=保险丝C41342; Cout=C10 220uF/50V电解 C49256813(ESR按0.3代表值) + C8/C9 2x22uF陶瓷(~22uF eff); Cin=C7 220uF/250V + C5/C6 2x22uF; 分压3k+33k/10k τ=88.3us"
+ },
+ "S1": [
+  {
+   "duty_counts": 420,
+   "v_sim": 11.215,
+   "v_theory_loss": 11.31,
+   "v_ideal": 12.0,
+   "dev_vs_loss_pct": 0.84,
+   "ripple_mv": 117.2,
+   "il_pk": 1.277,
+   "iout": 0.467
+  },
+  {
+   "duty_counts": 446,
+   "v_sim": 12.043,
+   "v_theory_loss": 12.392,
+   "v_ideal": 13.139,
+   "dev_vs_loss_pct": 2.81,
+   "ripple_mv": 132.7,
+   "il_pk": 1.463,
+   "iout": 0.502
+  }
+ ],
+ "S2_firmware_asis": {
+  "cfg": "duty_ramp+track（固件原样）",
+  "ovp_latch_at_ms": 39.1,
+  "verdict": "启动必然失败：PI 积分器 1.7ms 内饱和至 612，占空比被斜坡推高越过 OVP 阈值"
+ },
+ "S3_firmware_track_knee": {
+  "cfg": "ref_ramp+track（仅换软启动）",
+  "v_avg": 11.9513,
+  "err_pct": -0.358,
+  "verdict": "24Ω=CC/CV 临界点时取小+反算跟踪形成 2 拍极限环，占空比被钉死，稳态误差 -2.3%"
+ },
+ "S2": {
+  "cfg": "ref_ramp+clamp_track（修复对照）",
+  "v_overshoot_v": 0.049,
+  "inrush_il_pk": 1.597,
+  "ovp_false_trigger": false,
+  "settle_s": 0.0545,
+  "pass_ovp": true,
+  "pass_overshoot": true,
+  "pass_inrush": true
+ },
+ "S3": {
+  "v_avg": 12.0032,
+  "err_pct": 0.075,
+  "ripple_mv": 217.7,
+  "ripple_pct": 1.81,
+  "il_pk": 1.529,
+  "iout": 0.5,
+  "pass_err": true,
+  "pass_ripple": true
+ },
+ "S4_default": {
+  "kp_v": 0.05,
+  "ki_v": 150.0,
+  "tag": "default",
+  "unload_overshoot_mv": 287.1,
+  "unload_recover_ms": 181.1,
+  "load_undershoot_mv": 1283.3,
+  "load_recover_ms": 31.1,
+  "fault_during_unload": false,
+  "pass_step": false
+ },
+ "S5": {
+  "cfg": "ref_ramp+clamp_track（修复对照）",
+  "cc_i_avg": 0.499,
+  "cc_err_pct": -0.18,
+  "cc_vout": 9.981,
+  "cc_vout_expected": 9.9989868,
+  "state_toggles_in_cc": 0,
+  "recover_ms": 10.8,
+  "pass_cc": true,
+  "pass_no_osc": true
+ },
+ "S5_firmware_asis_deficit": {
+  "cfg": "ref_ramp+track（固件原样）",
+  "state_toggles_in_140ms": 0,
+  "vout_mean": 4.457,
+  "vout_min": 4.456,
+  "vout_max": 4.456,
+  "verdict": "欠额工况(CC负载0.55A>限流)输出塌落至二极管直通平台≈4.5V，限流在D≈0时不可执行（0.55A持续），电流环失去调节能力"
+ },
+ "S6": {
+  "i_capdump_pk": 22.669,
+  "fault_latched": true,
+  "fault_at_ms": 155.0,
+  "ocp_delay_ms": 5.0,
+  "i_end": 20.682,
+  "state_end": "FAULT_OCP"
+ },
+ "S7": {
+  "inject_at_ms": 150,
+  "fault_at_ms": 150.2,
+  "latch_holds": true,
+  "state_end": "FAULT_OVP",
+  "duty_end": 0
+ },
+ "S10": {
+  "v_dev_max_mv": 20.0,
+  "duty_end": 0.622,
+  "duty_limit_ok": true,
+  "pass_sag": true
+ },
+ "S4_r5": {
+  "kp_v": 0.06,
+  "ki_v": 50.0,
+  "tag": "r5",
+  "unload_overshoot_mv": 296.2,
+  "unload_recover_ms": 156.4,
+  "load_undershoot_mv": 1090.0,
+  "load_recover_ms": 6.4,
+  "fault_during_unload": false,
+  "pass_step": false
+ },
+ "ESR_esr015": {
+  "s3_err_pct": 0.026,
+  "ripple_mv": 203.0,
+  "ripple_pct": 1.69,
+  "s4_over_mv": 323.0,
+  "s4_under_mv": 1166.7,
+  "fault": false
+ },
+ "ESR_esr05": {
+  "s3_err_pct": 0.025,
+  "ripple_mv": 214.3,
+  "ripple_pct": 1.79,
+  "s4_over_mv": 320.5,
+  "s4_under_mv": 1078.4,
+  "fault": false
+ }
+}

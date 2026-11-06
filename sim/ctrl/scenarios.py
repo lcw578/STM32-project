@@ -35,10 +35,10 @@ def asis_cfg():
 
 
 def fixed_cfg():
-    """修复对照最终配置（= 固件 v2）：ref_ramp 软启动 + limiter 架构 + S8 推荐参数
-    + F7 负载跃升前馈 0.26（与 control.c 的 LOAD_FF 一致）"""
+    """修复对照最终配置（= 固件 v2 重建版口径）：ref_ramp 软启动 + limiter 架构 + S8 推荐参数
+    + F7 负载跃升前馈 0.13（0.1Ω×G50 counts 口径，物理量与 v2 的 0.26@0.05Ω 等价）"""
     return ControlCfg(softstart_mode='ref_ramp', loop_arch='limiter',
-                      kp_v=0.06, ki_v=50.0, load_ff=0.26)
+                      kp_v=0.06, ki_v=50.0, load_ff=0.13)
 
 
 # ---------------- 指标提取 ----------------

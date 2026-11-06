@@ -1,0 +1,42 @@
+{
+ "S4_cer55_ff0.13": {
+  "load_ff": 0.13,
+  "cap": "cer55",
+  "unload_over_mv": 439.3,
+  "unload_rec_ms": 350.0,
+  "load_under_mv": 2225.6,
+  "load_rec_ms": 200.0,
+  "fault": false,
+  "ok": false
+ },
+ "S4_cer55_ff0.2": {
+  "load_ff": 0.2,
+  "cap": "cer55",
+  "unload_over_mv": 439.3,
+  "unload_rec_ms": 350.0,
+  "load_under_mv": 7998.9,
+  "load_rec_ms": 200.0,
+  "fault": false,
+  "ok": false
+ },
+ "S4_hybrid_ff0.13": {
+  "load_ff": 0.13,
+  "cap": "hybrid",
+  "unload_over_mv": 241.8,
+  "unload_rec_ms": 156.7,
+  "load_under_mv": 1108.9,
+  "load_rec_ms": 6.7,
+  "fault": false,
+  "ok": false
+ },
+ "S4_hybrid_ff0.2": {
+  "load_ff": 0.2,
+  "cap": "hybrid",
+  "unload_over_mv": 241.8,
+  "unload_rec_ms": 350.0,
+  "load_under_mv": 7739.4,
+  "load_rec_ms": 200.0,
+  "fault": false,
+  "ok": false
+ }
+}

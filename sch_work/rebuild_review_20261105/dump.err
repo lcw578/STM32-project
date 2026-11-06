@@ -1,0 +1,3 @@
+✅ 50 component(s), outline=bbox → pcb_dump.json
+⚠️  outline polygon area is <50% of its bbox (likely an inner cutout, not the board edge) — demoted to the AABB
+⚠️  board outline is an AABB approximation (connector reported outline format implausible-polygon-area) — edge distances on a non-rectangular board are approximate

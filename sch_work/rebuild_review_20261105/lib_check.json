@@ -1,0 +1,59 @@
+{
+  "id": "req_107",
+  "type": "response",
+  "version": "v1",
+  "windowId": "fc7806d6-7718-44cf-8fd4-26e35451da7e",
+  "createdAt": "2026-11-05T11:10:51.7174028Z",
+  "ok": true,
+  "result": {
+    "components": [
+      {
+        "description": "",
+        "lcsc": "C9900018463",
+        "libraryUuid": "0c217a2a48034fc1a67df210e1685f56",
+        "manufacturer": "",
+        "manufacturerId": "220uF±20%25V 6.3*11 2.5mm",
+        "name": "220uF±20%25V 6.3*11 2.5mm",
+        "symbolName": "",
+        "uuid": "2991c03b70334c5a98baffe11cba1fe3"
+      },
+      {
+        "description": "",
+        "lcsc": "C9900018463",
+        "libraryUuid": "a2cfe900575144849f04d954c182fba3",
+        "manufacturer": "",
+        "manufacturerId": "220uF±20%25V 6.3*11 2.5mm",
+        "name": "220uF±20%25V 6.3*11 2.5mm",
+        "symbolName": "",
+        "uuid": "5e4b9b6afd824a93827985a405ae940d"
+      }
+    ],
+    "count": 2,
+    "notFound": [
+      "C41342"
+    ],
+    "requested": [
+      "C41342",
+      "C9900018463"
+    ]
+  },
+  "context": {
+    "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+    "projectName": "boost-cccv-psu",
+    "documentUuid": "bab845ad837927a6",
+    "documentType": "schematic",
+    "tabId": "bab845ad837927a6@35d238ebf1a643c5b3bafc39cbf5699f",
+    "pageVisibility": "visible"
+  },
+  "mutationContext": {
+    "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+    "projectName": "boost-cccv-psu",
+    "documentUuid": "bab845ad837927a6",
+    "documentType": "schematic",
+    "tabId": "bab845ad837927a6@35d238ebf1a643c5b3bafc39cbf5699f",
+    "pageVisibility": "visible"
+  },
+  "mutationContextAvailable": true,
+  "seq": 89,
+  "seqAbandoned": 0
+}

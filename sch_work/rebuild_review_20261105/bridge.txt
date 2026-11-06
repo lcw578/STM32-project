@@ -1,0 +1,46 @@
+sch bridge-check: 22 problem tree(s) — 0 wire-bridge(s) (real short), 0 orphan-stub(s) (dangling stub), 22 orphan-flag(s) (flag on no wire), 0 orphan-tree(s) (tree touching no pin) across 49 wire tree(s)
+  WARN   orphan-flag        ORPHAN_FLAG  nets=[VIN_5V]  pins=[U2:3]
+          flags: 2ae6aee57230a9e3
+  WARN   orphan-flag        ORPHAN_FLAG  nets=[3V3]  pins=[U2:2]
+          flags: d584354515ce852a
+  WARN   orphan-flag        ORPHAN_FLAG  nets=[3V3]  pins=[J3:1]
+          flags: ba464e2e4659bc84
+  WARN   orphan-flag        ORPHAN_FLAG  nets=[VLOAD]  pins=[Rs1:2]
+          flags: a040b1850bc37fd9
+  WARN   orphan-flag        ORPHAN_FLAG  nets=[PWM]  pins=[R8:1]
+          flags: 8232cf549a8104bd
+  WARN   orphan-flag        ORPHAN_FLAG  nets=[3V3]  pins=[R9:1]
+          flags: 7211c1b9da3e915a
+  WARN   orphan-flag        ORPHAN_FLAG  nets=[ISENSE]  pins=[U3:1]
+          flags: 79773a784ead7163
+  WARN   orphan-flag        ORPHAN_FLAG  nets=[VLOAD]  pins=[U3:4]
+          flags: 03c49b25e3075d53
+  WARN   orphan-flag        ORPHAN_FLAG  nets=[3V3]  pins=[U3:5]
+          flags: ee1769764e5168ee
+  WARN   orphan-flag        ORPHAN_FLAG  nets=[VSENSE]  pins=[R11:2]
+          flags: 90f99198e1c80097
+  WARN   orphan-flag        ORPHAN_FLAG  nets=[UART_TX]  pins=[J4:1]
+          flags: 34ace6badadfe820
+  WARN   orphan-flag        ORPHAN_FLAG  nets=[3V3]  pins=[U1:24]
+          flags: 8456f80b2ef65b13
+  WARN   orphan-flag        ORPHAN_FLAG  nets=[3V3]  pins=[U1:36]
+          flags: 76e3bc37905c2e6e
+  WARN   orphan-flag        ORPHAN_FLAG  nets=[3V3]  pins=[U1:48]
+          flags: 90cff4d2217efd3b
+  WARN   orphan-flag        ORPHAN_FLAG  nets=[3V3]  pins=[U1:9]
+          flags: d7dafab30ea86d2e
+  WARN   orphan-flag        ORPHAN_FLAG  nets=[GND]  pins=[R5:2]
+          flags: 69a6095a051164b9
+  WARN   orphan-flag        ORPHAN_FLAG  nets=[GND]  pins=[R3:2]
+          flags: bb36576f8ebf4176
+  WARN   orphan-flag        ORPHAN_FLAG  nets=[GND]  pins=[R4:2]
+          flags: a25b48ab2cd69673
+  WARN   orphan-flag        ORPHAN_FLAG  nets=[GND]  pins=[R10:2]
+          flags: 87d38f809e49bb2c
+  WARN   orphan-flag        ORPHAN_FLAG  nets=[GND]  pins=[J2:2]
+          flags: 968f780604d27a4c
+  WARN   orphan-flag        ORPHAN_FLAG  nets=[GND]  pins=[J1:2]
+          flags: 757c6bfd6f065126
+  WARN   orphan-flag        ORPHAN_FLAG  nets=[GND]  pins=[U2:1]
+          flags: 49c868f863cb1faf
+→ orphan-flag (孤儿标志): a netflag/netport sits on NO wire — delete it (sch prim-delete --ids <flagId>) before a new wire inherits its stray net name

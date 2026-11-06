@@ -1,0 +1,323 @@
+{
+  "availability": {
+    "components": "available",
+    "copper": "available",
+    "layers": "available",
+    "outline": "available",
+    "routedLines": "available",
+    "rules": "available",
+    "silk": "available"
+  },
+  "bytes": 281521,
+  "capture": {
+    "windowId": "fc7806d6-7718-44cf-8fd4-26e35451da7e",
+    "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+    "projectName": "boost-cccv-psu",
+    "documentUuid": "82412217a37d1b69",
+    "documentType": "pcb",
+    "tabId": "82412217a37d1b69@35d238ebf1a643c5b3bafc39cbf5699f",
+    "startedAt": "2026-11-05T10:21:24.4290321Z",
+    "completedAt": "2026-11-05T10:21:25.1262535Z",
+    "consistency": "sequential-response-boundaries",
+    "identityVerified": true,
+    "requests": [
+      {
+        "action": "pcb.components.list",
+        "requestId": "req_24",
+        "windowId": "fc7806d6-7718-44cf-8fd4-26e35451da7e",
+        "startedAt": "2026-11-05T10:21:24.4290321Z",
+        "completedAt": "2026-11-05T10:21:24.6116683Z",
+        "responseCreatedAt": "2026-11-05T10:21:24.5975025Z",
+        "resultSha256": "7f78ebf88a036ebcc9815dba5e1e5573747d72444e081a0dfbb1a0055995c8aa",
+        "context": {
+          "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+          "projectName": "boost-cccv-psu",
+          "documentUuid": "82412217a37d1b69",
+          "documentType": "pcb",
+          "tabId": "82412217a37d1b69@35d238ebf1a643c5b3bafc39cbf5699f"
+        },
+        "sequence": {
+          "Known": true,
+          "Seq": 23,
+          "SeqAbandoned": 0,
+          "Unordered": false,
+          "AbandonedIDs": null
+        },
+        "status": "available"
+      },
+      {
+        "action": "pcb.outline.get",
+        "requestId": "req_25",
+        "windowId": "fc7806d6-7718-44cf-8fd4-26e35451da7e",
+        "startedAt": "2026-11-05T10:21:24.6138116Z",
+        "completedAt": "2026-11-05T10:21:24.6470897Z",
+        "responseCreatedAt": "2026-11-05T10:21:24.6443855Z",
+        "resultSha256": "8d50209930faf5630983305c1b1cffd384927afb065019ae77472c818f42ab5d",
+        "context": {
+          "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+          "projectName": "boost-cccv-psu",
+          "documentUuid": "82412217a37d1b69",
+          "documentType": "pcb",
+          "tabId": "82412217a37d1b69@35d238ebf1a643c5b3bafc39cbf5699f"
+        },
+        "sequence": {
+          "Known": true,
+          "Seq": 24,
+          "SeqAbandoned": 0,
+          "Unordered": false,
+          "AbandonedIDs": null
+        },
+        "status": "available"
+      },
+      {
+        "action": "pcb.line.list",
+        "requestId": "req_26",
+        "windowId": "fc7806d6-7718-44cf-8fd4-26e35451da7e",
+        "startedAt": "2026-11-05T10:21:24.6470897Z",
+        "completedAt": "2026-11-05T10:21:24.6715521Z",
+        "responseCreatedAt": "2026-11-05T10:21:24.668551Z",
+        "resultSha256": "8cdb97971754c5554605189ce1a4798c4ac820eff2a4b7fca6b40db7584c7cc7",
+        "context": {
+          "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+          "projectName": "boost-cccv-psu",
+          "documentUuid": "82412217a37d1b69",
+          "documentType": "pcb",
+          "tabId": "82412217a37d1b69@35d238ebf1a643c5b3bafc39cbf5699f"
+        },
+        "sequence": {
+          "Known": true,
+          "Seq": 25,
+          "SeqAbandoned": 0,
+          "Unordered": false,
+          "AbandonedIDs": null
+        },
+        "status": "available"
+      },
+      {
+        "action": "pcb.silk.list",
+        "requestId": "req_27",
+        "windowId": "fc7806d6-7718-44cf-8fd4-26e35451da7e",
+        "startedAt": "2026-11-05T10:21:24.6721719Z",
+        "completedAt": "2026-11-05T10:21:24.8143787Z",
+        "responseCreatedAt": "2026-11-05T10:21:24.8051255Z",
+        "resultSha256": "533ca84590e5c4cdb3454f19db0761a7fb21b2dd0deb7f0744843db96d8c00cd",
+        "context": {
+          "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+          "projectName": "boost-cccv-psu",
+          "documentUuid": "82412217a37d1b69",
+          "documentType": "pcb",
+          "tabId": "82412217a37d1b69@35d238ebf1a643c5b3bafc39cbf5699f"
+        },
+        "sequence": {
+          "Known": true,
+          "Seq": 26,
+          "SeqAbandoned": 0,
+          "Unordered": false,
+          "AbandonedIDs": null
+        },
+        "status": "available"
+      },
+      {
+        "action": "pcb.drc.rules",
+        "requestId": "req_28",
+        "windowId": "fc7806d6-7718-44cf-8fd4-26e35451da7e",
+        "startedAt": "2026-11-05T10:21:24.8157948Z",
+        "completedAt": "2026-11-05T10:21:24.8470992Z",
+        "responseCreatedAt": "2026-11-05T10:21:24.841784Z",
+        "resultSha256": "dbc085c8494d4e445af9d260128a36f285aa8cd789150774ccb5d6eb7946c02f",
+        "context": {
+          "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+          "projectName": "boost-cccv-psu",
+          "documentUuid": "82412217a37d1b69",
+          "documentType": "pcb",
+          "tabId": "82412217a37d1b69@35d238ebf1a643c5b3bafc39cbf5699f"
+        },
+        "sequence": {
+          "Known": true,
+          "Seq": 27,
+          "SeqAbandoned": 0,
+          "Unordered": false,
+          "AbandonedIDs": null
+        },
+        "status": "available"
+      },
+      {
+        "action": "pcb.layers.list",
+        "requestId": "req_29",
+        "windowId": "fc7806d6-7718-44cf-8fd4-26e35451da7e",
+        "startedAt": "2026-11-05T10:21:24.8470992Z",
+        "completedAt": "2026-11-05T10:21:25.0126435Z",
+        "responseCreatedAt": "2026-11-05T10:21:25.0047028Z",
+        "resultSha256": "82788987d9e99a55276ecff8271586968a7ce280231693d701c7a748c4ccc9a1",
+        "context": {
+          "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+          "projectName": "boost-cccv-psu",
+          "documentUuid": "82412217a37d1b69",
+          "documentType": "pcb",
+          "tabId": "82412217a37d1b69@35d238ebf1a643c5b3bafc39cbf5699f"
+        },
+        "sequence": {
+          "Known": true,
+          "Seq": 28,
+          "SeqAbandoned": 0,
+          "Unordered": false,
+          "AbandonedIDs": null
+        },
+        "status": "available"
+      },
+      {
+        "action": "pcb.line.list",
+        "requestId": "req_30",
+        "windowId": "fc7806d6-7718-44cf-8fd4-26e35451da7e",
+        "startedAt": "2026-11-05T10:21:25.0138702Z",
+        "completedAt": "2026-11-05T10:21:25.0320276Z",
+        "responseCreatedAt": "2026-11-05T10:21:25.0294666Z",
+        "resultSha256": "8cdb97971754c5554605189ce1a4798c4ac820eff2a4b7fca6b40db7584c7cc7",
+        "context": {
+          "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+          "projectName": "boost-cccv-psu",
+          "documentUuid": "82412217a37d1b69",
+          "documentType": "pcb",
+          "tabId": "82412217a37d1b69@35d238ebf1a643c5b3bafc39cbf5699f"
+        },
+        "sequence": {
+          "Known": true,
+          "Seq": 29,
+          "SeqAbandoned": 0,
+          "Unordered": false,
+          "AbandonedIDs": null
+        },
+        "status": "available"
+      },
+      {
+        "action": "pcb.via.list",
+        "requestId": "req_31",
+        "windowId": "fc7806d6-7718-44cf-8fd4-26e35451da7e",
+        "startedAt": "2026-11-05T10:21:25.0320276Z",
+        "completedAt": "2026-11-05T10:21:25.0529536Z",
+        "responseCreatedAt": "2026-11-05T10:21:25.05039Z",
+        "resultSha256": "5a2a3ea9f6ad81d1cce4c5e33227f053417d6e339b6c286e640b596ee0c4714a",
+        "context": {
+          "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+          "projectName": "boost-cccv-psu",
+          "documentUuid": "82412217a37d1b69",
+          "documentType": "pcb",
+          "tabId": "82412217a37d1b69@35d238ebf1a643c5b3bafc39cbf5699f"
+        },
+        "sequence": {
+          "Known": true,
+          "Seq": 30,
+          "SeqAbandoned": 0,
+          "Unordered": false,
+          "AbandonedIDs": null
+        },
+        "status": "available"
+      },
+      {
+        "action": "pcb.pour.list",
+        "requestId": "req_32",
+        "windowId": "fc7806d6-7718-44cf-8fd4-26e35451da7e",
+        "startedAt": "2026-11-05T10:21:25.0529536Z",
+        "completedAt": "2026-11-05T10:21:25.068733Z",
+        "responseCreatedAt": "2026-11-05T10:21:25.0670232Z",
+        "resultSha256": "450c1cb71382370ba8aaffcab65e3f244b157175ee7fdae5ee286b048694be4d",
+        "context": {
+          "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+          "projectName": "boost-cccv-psu",
+          "documentUuid": "82412217a37d1b69",
+          "documentType": "pcb",
+          "tabId": "82412217a37d1b69@35d238ebf1a643c5b3bafc39cbf5699f"
+        },
+        "sequence": {
+          "Known": true,
+          "Seq": 31,
+          "SeqAbandoned": 0,
+          "Unordered": false,
+          "AbandonedIDs": null
+        },
+        "status": "available"
+      },
+      {
+        "action": "pcb.poured.list",
+        "requestId": "req_33",
+        "windowId": "fc7806d6-7718-44cf-8fd4-26e35451da7e",
+        "startedAt": "2026-11-05T10:21:25.068733Z",
+        "completedAt": "2026-11-05T10:21:25.0852743Z",
+        "responseCreatedAt": "2026-11-05T10:21:25.0832975Z",
+        "resultSha256": "99bf61aee1b2bb697d7f52221cb28c641915e092d295d3aa1bbf1a59ba48b4fe",
+        "context": {
+          "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+          "projectName": "boost-cccv-psu",
+          "documentUuid": "82412217a37d1b69",
+          "documentType": "pcb",
+          "tabId": "82412217a37d1b69@35d238ebf1a643c5b3bafc39cbf5699f"
+        },
+        "sequence": {
+          "Known": true,
+          "Seq": 32,
+          "SeqAbandoned": 0,
+          "Unordered": false,
+          "AbandonedIDs": null
+        },
+        "status": "available"
+      },
+      {
+        "action": "pcb.region.list",
+        "requestId": "req_34",
+        "windowId": "fc7806d6-7718-44cf-8fd4-26e35451da7e",
+        "startedAt": "2026-11-05T10:21:25.0852743Z",
+        "completedAt": "2026-11-05T10:21:25.1022604Z",
+        "responseCreatedAt": "2026-11-05T10:21:25.1003599Z",
+        "resultSha256": "f858a9032a00adb1e2dfffb8d72dc83cfa3c090279c9dbf7324ce67aa2452a78",
+        "context": {
+          "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+          "projectName": "boost-cccv-psu",
+          "documentUuid": "82412217a37d1b69",
+          "documentType": "pcb",
+          "tabId": "82412217a37d1b69@35d238ebf1a643c5b3bafc39cbf5699f"
+        },
+        "sequence": {
+          "Known": true,
+          "Seq": 33,
+          "SeqAbandoned": 0,
+          "Unordered": false,
+          "AbandonedIDs": null
+        },
+        "status": "available"
+      },
+      {
+        "action": "pcb.fill.list",
+        "requestId": "req_35",
+        "windowId": "fc7806d6-7718-44cf-8fd4-26e35451da7e",
+        "startedAt": "2026-11-05T10:21:25.1022604Z",
+        "completedAt": "2026-11-05T10:21:25.1262535Z",
+        "responseCreatedAt": "2026-11-05T10:21:25.1250822Z",
+        "resultSha256": "2fbf6c65415cb62d6fd0f7b3f47d7edabf4f43a15a4f949407803c82b831a8bd",
+        "context": {
+          "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+          "projectName": "boost-cccv-psu",
+          "documentUuid": "82412217a37d1b69",
+          "documentType": "pcb",
+          "tabId": "82412217a37d1b69@35d238ebf1a643c5b3bafc39cbf5699f"
+        },
+        "sequence": {
+          "Known": true,
+          "Seq": 34,
+          "SeqAbandoned": 0,
+          "Unordered": false,
+          "AbandonedIDs": null
+        },
+        "status": "available"
+      }
+    ]
+  },
+  "capturedAt": "2026-11-05T10:21:24.4290321Z",
+  "kind": "pcb-dump-file",
+  "partial": [
+    "outline polygon area is \u003c50% of its bbox (likely an inner cutout, not the board edge) — demoted to the AABB",
+    "board outline is an AABB approximation (connector reported outline format implausible-polygon-area) — edge distances on a non-rectangular board are approximate"
+  ],
+  "sha256": "dd68c4896a200c5061c7e815ed6b44b92d80b43bf2f7a9947f0c9ae524ae71d9",
+  "snapshot": "pcb_dump.json",
+  "version": 1
+}

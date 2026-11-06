@@ -1,0 +1,14 @@
+{
+  "id": "req_101",
+  "type": "response",
+  "version": "v1",
+  "windowId": "fc7806d6-7718-44cf-8fd4-26e35451da7e",
+  "createdAt": "2026-11-05T10:25:49.0016308Z",
+  "ok": false,
+  "error": {
+    "code": "PRECONDITION_REFUSED",
+    "message": "The EasyEDA tab is hidden, so the canvas is not repainted and a capture would be stale (nothing was captured). Bring the EasyEDA window to the front and retry, or render from fresh readback (no tracks/pours): `easyeda pcb dump --include-copper --out board.json \u0026\u0026 easyeda pcb layout render --actual --board board.json --out board.svg`. Schematic pages export in the background with `easyeda sch export-image`."
+  },
+  "seq": 85,
+  "seqAbandoned": 0
+}

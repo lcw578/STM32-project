@@ -23,19 +23,19 @@ SS_STEPS      = 500          # 软启动 50ms
 # 过压超过 0.2V 时积分器以 8 倍 ki_v 速率快泄（S8/S4 实验确定的解法）
 FAST_UNWIND_ERR_COUNTS = -54.0   # ≈ -0.2V
 FAST_UNWIND_FACTOR     = 25.0
-UNLOAD_DROP_COUNTS     = 400.0   # 单拍电流突降 >0.129A 判定为卸载（电子负载硬阶跃特征）
+UNLOAD_DROP_COUNTS     = 800.0   # 单拍电流突降 >0.129A 判定为卸载（0.1Ω×G50 counts 口径）
 
 ADC_VOUT_GAIN = 0.0037042    # counts -> V
-ADC_IOUT_GAIN = 0.00032234   # counts -> A
+ADC_IOUT_GAIN = 0.00016117   # counts -> A（0.1Ω × G50 = 5 V/A，重建版 Rs1）
 ADC_VOUT_DIV  = 269.96       # counts/V
-ADC_IOUT_DIV  = 3102.3       # counts/A
+ADC_IOUT_DIV  = 6204.5       # counts/A
 
 OVP_COUNTS       = 3562      # 13.2V，立即锁存
-OCP_HARD_COUNTS  = 2482      # 0.8A，持续 50 拍（5ms）锁存
-OCP_SOFT_COUNTS  = 2172      # 0.7A（固件定义但未引用，仅存档）
+OCP_HARD_COUNTS  = 3723      # 0.6A，持续 50 拍（5ms）锁存（0.1Ω 采样下 0.8A 超 ADC 量程）
+OCP_SOFT_COUNTS  = 3412      # 0.55A（固件定义但未引用，仅存档）
 
 VSET_DEFAULT_COUNTS = 3238   # 12.0V
-ISET_DEFAULT_COUNTS = 1551   # 0.5A
+ISET_DEFAULT_COUNTS = 3102   # 0.5A
 
 ADC_FULL_SCALE = 4095        # 12bit
 ADC_VREF       = 3.30
@@ -122,10 +122,10 @@ class ControlCfg:
     # 卸载快斩下限（占 PWM_DUTY_MAX 的比例）：0 = 原行为（积分器可被清零，
     # 重载时从 0 重建 → 5.9V 跌落）；>0 时快斩不会把积分器压到该下限以下
     unload_floor: float = 0.0
-    # 负载跃升前馈：单拍电流上升超过 100 counts 时，按 load_ff × Δiout 直接给
+    # 负载跃升前馈：单拍电流上升超过 200 counts 时，按 load_ff × Δiout 直接给
     # 积分器加一笔占空比，抵消 10kHz 环路来不及建占空比造成的跌落
     load_ff: float = 0.0
-    load_ff_threshold: int = 100
+    load_ff_threshold: int = 200
 
 
 class Controller:
@@ -279,7 +279,7 @@ class Controller:
         # 门控：只在电流未超过限流点（i_set+100）时生效——负载把电流推过限流点时
         # 该由限幅器下压，前馈再加占空比会把输出顶过 OVP。
         di = self.iout - self._iout_prev
-        if c.load_ff > 0.0 and di > c.load_ff_threshold and self.iout <= c.i_set + 100:
+        if c.load_ff > 0.0 and di > c.load_ff_threshold and self.iout <= c.i_set + 200:
             self.pi_v.integ = min(self.pi_v.integ + c.load_ff * di, float(PWM_DUTY_MAX))
         err_v = float(c.v_set - self.vout)
         out_v = c.kp_v * err_v + self.pi_v.integ

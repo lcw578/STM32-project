@@ -2,10 +2,12 @@
 """
 plant_boost.py —— Boost 功率级被控对象（两档模型）
 
-参数出处：《01_系统设计方案.md》§5 + sch_work/devices_selected.json 实际选型
-  Vin=5V, L=100µH(IHA203BA, DCR≤80mΩ), Q1=AO3400A(Rds≈30mΩ@Vgs=5V, 图腾柱驱动),
-  D1=B340A(Vf≈0.45V@0.5A), Cout=220µF/25V(ESR≤80mΩ)+10µF X7R,
-  Vout 采样 36k/10k 分压 + 1k/100nF RC(fc=1.6kHz), Isense=50mΩ×INA180A2(G=50)
+参数出处：《01_系统设计方案.md》§5 + 重建版原理图（2026-11-05 19:47 快照，sch_work/rebuild_review_20261105/）
+  Vin=5V, L=100µH(FSA1365-101MT, DCR=170mΩ), Q1=AO3400A(Rds≈30mΩ@Vgs=5V, 图腾柱驱动),
+  D1=SS34(Vf≈0.45V@0.5A), Cout=220µF/250V 电解 C49309214(ESR 未实测, 按 0.3Ω 代表值, 边界 0.15/0.5)
+  + 2×22µF X5R 陶瓷(12V 偏压下 ≈22µF),
+  Vout 采样 3k+33k/10k 分压(=10/46) + [1k+(36k‖10k)]×10nF RC(τ=88.3µs),
+  Isense=100mΩ(1206W4F100LT5E)×INA180A2(G=50) = 5 V/A
 
 模型：
   AverageModel  CCM 状态空间平均 + DCM 钳位，100µs ÷ 10 子步 —— 长场景、参数扫描
@@ -21,21 +23,21 @@ plant_boost.py —— Boost 功率级被控对象（两档模型）
 from dataclasses import dataclass, field, replace
 from ctrl import (PWM_PERIOD, PWM_DUTY_MAX, CTRL_TS, volts_to_counts)
 
-DIVIDER_GAIN = 10.0 / 46.0        # 36k/10k 分压
-INA_GAIN     = 0.05 * 50.0        # 50mΩ × 50V/V
-RC_TAU       = 1e3 * 100e-9       # 1kΩ × 100nF = 100µs
+DIVIDER_GAIN = 10.0 / 46.0        # (R13 3k+R1 33k)/R2 10k 分压
+INA_GAIN     = 0.1 * 50.0         # 100mΩ × 50V/V（重建版 Rs1）
+RC_TAU       = 8.83e3 * 10e-9     # [1k+(36k‖10k)] × 10nF = 88.3µs
 
 
 @dataclass
 class BoostParams:
     vin: float = 5.0
     L: float = 100e-6
-    dcr: float = 0.08        # IHA203BA DCR（规格 ≤80mΩ）
+    dcr: float = 0.17        # FSA1365-101MT DCR
     rds: float = 0.030       # AO3400A @Vgs≈5V
-    vf: float = 0.45         # B340A @0.5A
-    cout: float = 220e-6
-    esr: float = 0.08
-    cout_cer: float = 10e-6
+    vf: float = 0.45         # SS34 @0.5A
+    cout: float = 220e-6     # C49309214 220µF/250V 电解（D16×30 直插）
+    esr: float = 0.3         # 250V 高压电解典型 ESR（未实测；0.15~0.5 边界均已仿真通过）
+    cout_cer: float = 22e-6  # 2×22µF X5R 1206 25V @12V 偏压 derating 后
     esr_cer: float = 0.005
 
 

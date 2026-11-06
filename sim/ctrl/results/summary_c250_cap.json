@@ -1,0 +1,30 @@
+{
+ "esr015": {
+  "S3": {
+   "v_avg": 12.0031,
+   "err_pct": 0.026,
+   "ripple_mv": 203.0,
+   "ripple_pct": 1.69,
+   "il_pk": 1.526
+  },
+  "S4": {
+   "over_mv": 323.0,
+   "under_mv": 1166.7,
+   "fault": false
+  }
+ },
+ "esr05": {
+  "S3": {
+   "v_avg": 12.003,
+   "err_pct": 0.025,
+   "ripple_mv": 214.3,
+   "ripple_pct": 1.79,
+   "il_pk": 1.525
+  },
+  "S4": {
+   "over_mv": 320.5,
+   "under_mv": 1078.4,
+   "fault": false
+  }
+ }
+}

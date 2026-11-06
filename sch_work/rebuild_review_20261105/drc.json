@@ -1,0 +1,31 @@
+{
+  "id": "req_36",
+  "type": "response",
+  "version": "v1",
+  "windowId": "fc7806d6-7718-44cf-8fd4-26e35451da7e",
+  "createdAt": "2026-11-05T10:22:36.4085527Z",
+  "ok": true,
+  "result": {
+    "passed": true,
+    "violations": []
+  },
+  "context": {
+    "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+    "projectName": "boost-cccv-psu",
+    "documentUuid": "82412217a37d1b69",
+    "documentType": "pcb",
+    "tabId": "82412217a37d1b69@35d238ebf1a643c5b3bafc39cbf5699f",
+    "pageVisibility": "hidden"
+  },
+  "mutationContext": {
+    "projectUuid": "35d238ebf1a643c5b3bafc39cbf5699f",
+    "projectName": "boost-cccv-psu",
+    "documentUuid": "82412217a37d1b69",
+    "documentType": "pcb",
+    "tabId": "82412217a37d1b69@35d238ebf1a643c5b3bafc39cbf5699f",
+    "pageVisibility": "hidden"
+  },
+  "mutationContextAvailable": true,
+  "seq": 35,
+  "seqAbandoned": 0
+}
