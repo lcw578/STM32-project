@@ -93,6 +93,7 @@ def bullet(text):
 def caption(text):
     par = doc.add_paragraph()
     par.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    par.paragraph_format.keep_together = True
     par.paragraph_format.space_before = Pt(3)
     par.paragraph_format.space_after = Pt(8)
     r = par.add_run(text)
@@ -176,6 +177,8 @@ def figure_img(cap, path, width_cm=None, height_cm=None):
     par = doc.add_paragraph()
     par.alignment = WD_ALIGN_PARAGRAPH.CENTER
     par.paragraph_format.space_before = Pt(4)
+    par.paragraph_format.keep_with_next = True      # 图片与题注不分页
+    par.paragraph_format.keep_together = True
     run = par.add_run()
     if width_cm:
         run.add_picture(path, width=Cm(width_cm))
@@ -614,7 +617,7 @@ h1("第六章 系统调试与测试")
 h2("6.1 测试环境与方法")
 p("测试使用直流稳压电源（5 V/2 A）供电，负载采用 10 只 1 kΩ/0.25 W 电阻并联（约 100 Ω，"
   "12 V 下 0.12 A，每只功耗 0.144 W 在安全范围内）；示波器（10× 探头、短地弹簧、20 MHz 带宽限制）"
-  "测纹波与开关波形；数字万用表测输出电压；串口终端（115200 8N1）与固件交互并读取状态。")
+  "测输出纹波；数字万用表测输出电压；串口终端（115200 8N1）与固件交互并读取状态。")
 table(["项目", "设备 / 设置", "说明"],
       [["输入电源", "DC 5.0 V，限流 2 A", "J1 端子"],
        ["负载", "10×1 kΩ 并联 ≈ 100 Ω", "轻载点 0.12 A"],
@@ -659,13 +662,14 @@ table(["指标", "要求", "实测", "判定"],
       widths=[4.0, 5.2, 6.4, 2.8], cap="表 6-3  课程指标实测判定")
 
 h2("6.5 波形与实物")
-p("纹波波形在满载（0.51 A）与轻载（0.12 A）两种工况下测量：波形为 100 kHz 周期纹波叠加开关边沿尖峰，"
+p("纹波波形在带载 0.51 A 与轻载 0.12 A 两种工况下测量：波形为 100 kHz 周期纹波叠加开关边沿尖峰，"
   "峰峰值分别为 21.25 mV（0.46%）与 58.00 mV（0.48%），远优于 5% 指标；"
-  "开关波形为 0~12.5 V 方波，周期 9.98 µs（100.2 kHz），与设计值一致。")
+  "由纹波周期 9.98 µs 可反推开关频率 100.2 kHz，与设计值 100 kHz 一致。")
+p("受实验室测试条件限制，开关节点（SW）波形与软启动过程波形未单独采集："
+  "软启动行为通过串口状态机（STANDBY→START→CV）与输出电压平滑建立（无过冲、不触发 OVP）间接确认，"
+  "相关定量结论引用仿真结果（过冲 49 mV）。")
 figure_img("图 6-2  输出纹波波形（示波器实测，6.6 µs/div；图中读数按 1:1 探头比显示，折算 10× 约 139 mV）", "img/scope_ripple.jpg", width_cm=14.0)
-figure("图 6-3  开关节点（SW）波形", "（插入示波器截图：DC 耦合、5 V/div、5 µs/div）")
-figure("图 6-4  软启动波形（on 后 0→12 V）", "（插入示波器截图：单次触发，20 ms/div）", height_cm=5)
-figure_img("图 6-5  实物与测试接线（首板，J3 接 ST-Link、J4 接 USB-TTL）", "img/photo_setup.jpg", height_cm=9.5)
+figure_img("图 6-3  实物与测试接线（首板，J3 接 ST-Link、J4 接 USB-TTL）", "img/photo_setup.jpg", height_cm=9.5)
 
 h2("6.6 仿真与实测对照")
 table(["指标", "仿真（满载 0.5 A）", "实测（轻载 0.12 A）", "结论"],
