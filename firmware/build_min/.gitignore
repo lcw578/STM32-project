@@ -1,0 +1,7 @@
+# 构建产物不入库（保留 build.sh 与源文件）
+obj/
+fw.hex
+fw.elf
+fw.bin
+fw.map
+*.log
