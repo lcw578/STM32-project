@@ -171,6 +171,18 @@ def figure(cap, hint, height_cm=6.5):
     set_font(r2, "宋体", "Times New Roman", 8.5, False, (0x99, 0x99, 0x99))
     caption(cap)
 
+def figure_img(cap, path, width_cm=None, height_cm=None):
+    """插入真实图片（按宽度或高度等比缩放），带题注"""
+    par = doc.add_paragraph()
+    par.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    par.paragraph_format.space_before = Pt(4)
+    run = par.add_run()
+    if width_cm:
+        run.add_picture(path, width=Cm(width_cm))
+    else:
+        run.add_picture(path, height=Cm(height_cm))
+    caption(cap)
+
 # 页眉页脚
 def add_header_footer():
     header = sec.header
@@ -393,6 +405,10 @@ table(["场景", "仿真结果", "指标判定"],
        ["S10 输入 4.75 V", "输出偏差 20 mV", "✅"]],
       widths=[4.2, 9.4, 3.4], cap="表 2-4  仿真验证结果汇总（详见 03 号报告 §12）")
 
+figure_img("图 2-1  仿真波形：软启动与稳态（S2/S3）", "img/S2_S3_softstart_steady.png", width_cm=12.5)
+figure_img("图 2-2  仿真波形：0.5 A 负载阶跃（S4）", "img/S4_load_step.png", width_cm=12.5)
+figure_img("图 2-3  仿真波形：OVP 注入锁存（S7）", "img/S7_ovp.png", width_cm=12.5)
+
 # ======================= 第三章 =======================
 h1("第三章 原理图设计智能体")
 
@@ -461,7 +477,7 @@ table(["v3 位号", "功能", "v2 位号", "v3 位号", "功能", "v2 位号"],
        ["R1", "PWM 基极 1k", "R8", "R13", "BOOT0 下拉 100k", "R10"]],
       widths=[2.9, 4.3, 4.3, 2.9, 4.3, 4.3], cap="表 3-3  位号对照（节选，完整版见 08 §2.4）")
 
-figure("图 3-1  完整原理图", "（插入嘉立创 EDA 原理图整页截图）", height_cm=10)
+figure_img("图 3-1  完整原理图（嘉立创 EDA）", "img/schematic.png", width_cm=15.0)
 figure("图 3-2  采样链电路（电压分压 + 电流 INA180）", "（插入原理图采样部分局部截图）")
 
 # ======================= 第四章 =======================
@@ -512,8 +528,8 @@ table(["检查项", "结果", "处理"],
        ["去耦距离", "部分 > 5 mm", "下一版优化"]],
       widths=[5.2, 7.2, 4.4], cap="表 4-2  DRC 与 DFM 结果")
 
-figure("图 4-1  PCB 布局图（顶层）", "（插入 EDA 顶层视图截图，标注功率区/控制区/输出区）", height_cm=7)
-figure("图 4-2  PCB 布线图（底层铺铜）", "（插入底层 GND 铺铜截图）", height_cm=7)
+figure_img("图 4-1  PCB 顶层视图（布局与功率主干）", "img/pcb_top.png", width_cm=15.0)
+figure_img("图 4-2  PCB 底层视图（GND 铺铜与过孔）", "img/pcb_bottom.png", width_cm=15.0)
 figure("图 4-3  PCB 三维视图", "（插入 3D 渲染图）", height_cm=7)
 
 # ======================= 第五章 =======================
@@ -624,7 +640,7 @@ table(["实验", "工况", "Vin", "Vout", "Iout", "占空比", "复核"],
        ["OVP", "空载", "5.5 V", "灌 14 V 锁存，撤压 5.284 V", "—", "—", "通过"],
        ["恒流", "9.0 Ω", "—", "4.589 V", "0.510 A", "0%", "+2.0%"],
        ["恒流", "19.7 Ω", "—", "9.94 V", "0.504 A", "51.53%", "+0.8%"],
-       ["恒流", "20.7 Ω", "—", "10.31 V", "0.499 A", "81.00%*", "−0.2%"],
+       ["恒流", "20.5 Ω", "—", "10.23 V", "0.499 A", "81.06%*", "−0.2%"],
        ["纹波", "9.0 Ω", "—", "4.589 V", "0.51 A", "21.25 mV（0.46%）", "✅"],
        ["纹波", "100 Ω", "—", "11.75 V", "0.120 A", "58.00 mV（0.48%）", "100.2 kHz"],
        ["效率", "100 Ω", "4.998 V", "11.7541 V", "0.120 A", "1.859 W", "η=75.9%"]],
@@ -646,10 +662,10 @@ h2("6.5 波形与实物")
 p("纹波波形在满载（0.51 A）与轻载（0.12 A）两种工况下测量：波形为 100 kHz 周期纹波叠加开关边沿尖峰，"
   "峰峰值分别为 21.25 mV（0.46%）与 58.00 mV（0.48%），远优于 5% 指标；"
   "开关波形为 0~12.5 V 方波，周期 9.98 µs（100.2 kHz），与设计值一致。")
-figure("图 6-2  输出纹波波形（100 Ω 负载）", "（插入示波器截图：AC 耦合、20 MHz 限带、100 mV/div、10 µs/div）")
+figure_img("图 6-2  输出纹波波形（示波器实测，6.6 µs/div；图中读数按 1:1 探头比显示，折算 10× 约 139 mV）", "img/scope_ripple.jpg", width_cm=14.0)
 figure("图 6-3  开关节点（SW）波形", "（插入示波器截图：DC 耦合、5 V/div、5 µs/div）")
 figure("图 6-4  软启动波形（on 后 0→12 V）", "（插入示波器截图：单次触发，20 ms/div）", height_cm=5)
-figure("图 6-5  实物照片（首板）", "（插入整板照片 + 测试接线照片）", height_cm=6)
+figure_img("图 6-5  实物与测试接线（首板，J3 接 ST-Link、J4 接 USB-TTL）", "img/photo_setup.jpg", height_cm=9.5)
 
 h2("6.6 仿真与实测对照")
 table(["指标", "仿真（满载 0.5 A）", "实测（轻载 0.12 A）", "结论"],
@@ -748,6 +764,11 @@ table(["命令", "作用", "返回示例"],
        ["clear", "清除故障", "fault cleared"],
        ["ovp", "OVP 注入测试", "OVP test: expect FAULT_OVP; then sv 12.0 + clear"]],
       widths=[2.6, 4.4, 9.0], cap="表 C-1  串口命令速查")
+
+h2("附录 D  原始实验记录（照片存档）")
+p("下图为 2026 年 11 月 24 日首板实测的原始手写记录，扫描件与第六章整理后的数据表一一对应（含稳压、输入调整率、OVP、恒流各负载点、纹波峰峰值与效率计算）。")
+figure_img("图 D-1  实测原始记录（第一页）", "img/note1.jpg", width_cm=12.5)
+figure_img("图 D-2  实测原始记录（第二页）", "img/note2.jpg", width_cm=12.5)
 
 doc.save(OUT)
 print("saved:", OUT)
