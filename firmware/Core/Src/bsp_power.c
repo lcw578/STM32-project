@@ -1,5 +1,6 @@
 #include "bsp_power.h"
 #include "control.h"
+#include "adc.h"      /* extern ADC_HandleTypeDef hadc1（bsp_adc_start 使用） */
 
 volatile uint16_t adc_raw[2] = {0, 0};
 

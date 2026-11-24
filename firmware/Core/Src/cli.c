@@ -37,11 +37,16 @@ void cli_println(const char *s)
 void cli_printf_status(void)
 {
     char buf[96];
-    /* 开环模式下 g_vout/g_iout 由 control_10k 持续刷新，可直接读数 */
-    snprintf(buf, sizeof(buf), "state=%s duty=%u Vout=%.2fV Iout=%.3fA raw=[%u,%u]\r\n",
-             control_state_name(), g_duty,
-             (float)g_vout * ADC_VOUT_GAIN, (float)g_iout * ADC_IOUT_GAIN,
-             g_vout, g_iout);
+    /* 定点整数显示（不依赖浮点 printf，跨工具链一致）
+     * ADC_VOUT_GAIN=0.0037042 V/count -> mV = counts×37042/10000
+     * ADC_IOUT_GAIN=0.00016117 A/count -> uA = counts×16117/100 */
+    uint32_t mv = (uint32_t)g_vout * 37042u / 10000u;
+    uint32_t ua = (uint32_t)g_iout * 16117u / 100u;
+    snprintf(buf, sizeof(buf), "state=%s duty=%u Vout=%u.%03uV Iout=%u.%03uA raw=[%u,%u]\r\n",
+             control_state_name(), (unsigned)g_duty,
+             (unsigned)(mv / 1000u), (unsigned)(mv % 1000u),
+             (unsigned)(ua / 1000000u), (unsigned)((ua / 1000u) % 1000u),
+             (unsigned)g_vout, (unsigned)g_iout);
     cli_print(buf);
 }
 
@@ -88,7 +93,10 @@ static void exec(char *l)
         g_cfg.v_set = (uint16_t)(v * ADC_VOUT_DIV);
         g_cfg.open_loop = 0;
         __enable_irq();
-        snprintf(buf, sizeof(buf), "v_set=%.2fV (%u counts)\r\n", v, g_cfg.v_set);
+        snprintf(buf, sizeof(buf), "v_set=%u.%03uV (%u counts)\r\n",
+                 (unsigned)((uint32_t)g_cfg.v_set * 37042u / 10000u / 1000u),
+                 (unsigned)((uint32_t)g_cfg.v_set * 37042u / 10000u % 1000u),
+                 (unsigned)g_cfg.v_set);
         cli_print(buf);
     } else if (l[0] == 's' && l[1] == 'i' && l[2] == ' ') {
         float a = (float)atof(l + 3);
@@ -98,7 +106,10 @@ static void exec(char *l)
         g_cfg.i_set = (uint16_t)(a * ADC_IOUT_DIV);
         g_cfg.open_loop = 0;
         __enable_irq();
-        snprintf(buf, sizeof(buf), "i_set=%.2fA (%u counts)\r\n", a, g_cfg.i_set);
+        snprintf(buf, sizeof(buf), "i_set=%u.%03uA (%u counts)\r\n",
+                 (unsigned)((uint32_t)g_cfg.i_set * 16117u / 100u / 1000000u),
+                 (unsigned)((uint32_t)g_cfg.i_set * 16117u / 100u / 1000u % 1000u),
+                 (unsigned)g_cfg.i_set);
         cli_print(buf);
     } else if (l[0] == 'd' && l[1] == ' ') {
         int d = atoi(l + 2);
